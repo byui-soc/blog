@@ -103,4 +103,14 @@ p {
     #newsfeed {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    .flipcard {
+      width: 600px;
+      height: 400px;
+    }
+
+    img {
+      width: 600px;
+      height: 400px;
+    }
 }
