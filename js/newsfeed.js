@@ -150,12 +150,12 @@ function createNav(array, id) {
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
-            menu += `<img src="./img/${element.img}" alt="${element.title}" style="width:300px; height:200px;">`;
+            menu += `<img src="./img/${element.img}" alt="${element.title}">`;
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
-            menu += `<h6><a href="${element.url}">${element.title}</a></h6>`;
-            menu += `<p>Article Date: ${element.date} Accessed: ${element.accessed}</p>`;
-            menu += `<p>"${element.desc}"</p>`;
+            menu += `<h4><a href="${element.url}">${element.title}</a></h4>`;
+            menu += `<p>Article Date: ${element.date}<br>Accessed: ${element.accessed}</p>`;
+            menu += `<p class="desc">"${element.desc}"</p>`;
             menu += `</div> </div> </div> `;
       });
       menu += "</div>";
