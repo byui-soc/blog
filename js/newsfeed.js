@@ -1,5 +1,5 @@
 // Menu Functions
-import { isElement, writeById, createLink, getFilename, urlExists, getBase, createLMNT, appendNestLMNT, appendLMNT } from './js/utilities.js';
+import { isElement, writeById, createLink, getFilename, urlExists, getBase, createLMNT, appendNestLMNT, appendLMNT } from './utilities.js';
 
 const newsFeed202202spring = [
     {
@@ -138,7 +138,7 @@ function createNav(array, id) {
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
-            menu += `<img src="./images/${element.img}" alt="${element.title}" style="width:300px; height:200px;">`;
+            menu += `<img src="./img/${element.img}" alt="${element.title}" style="width:300px; height:200px;">`;
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
             menu += `<h6><a href="${element.url}">${element.title}</a></h6>`;
@@ -151,5 +151,4 @@ function createNav(array, id) {
       return;
     }
 }
-
 createNav(newsFeed202202spring,'newsfeed');
