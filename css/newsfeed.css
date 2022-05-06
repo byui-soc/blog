@@ -4,7 +4,7 @@ body {
   background: black;
 }
 
-#newsfeed {
+#newsfeed-container {
   display: grid;
   gap: 2%;
   grid-template-columns: 1fr;
@@ -84,7 +84,7 @@ p {
 
 @media screen and (min-width: 768px) {
 
-    #newsfeed {
+    #newsfeed-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -92,7 +92,7 @@ p {
 
 @media screen and (min-width: 992px) {
 
-    #newsfeed {
+    #newsfeed-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -100,7 +100,7 @@ p {
 
 @media screen and (min-width: 1300px) {
 
-    #newsfeed {
+    #newsfeed-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
