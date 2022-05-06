@@ -22,6 +22,7 @@ h1 {
 h4 {
   font-family: 'Roboto Slab', sans-serif;
   font-size: .9rem;
+  padding: 2%;
 }
 
 a {
@@ -48,7 +49,7 @@ ul li {
 
 p {
   font-size: 0.8rem;
-  padding: 0;
+  padding: 2%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -63,7 +64,7 @@ p {
 
 .flipcard-inner {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
