@@ -6,7 +6,6 @@ body {
 
 #newsfeed-container {
   display: grid;
-  gap: 2%;
   grid-template-columns: 1fr;
   background: black;
   color: hotpink;
@@ -33,6 +32,7 @@ img {
   border-radius: 10px;
   padding: 0;
   margin: 0;
+  max-width: 100%;
   width: 300px;
   height: 300px;
   object-fit: contain;
@@ -40,11 +40,6 @@ img {
 
 a:visited {
   color: lightcoral;
-}
-
-ul li {
-  list-style-type: none;
-  padding: 0;
 }
 
 p {
@@ -55,11 +50,12 @@ p {
 
 .flipcard {
   background: black;
+  max-width: 100%;
   width: 300px;
   height: 300px;
   border-radius: 10px;
   perspective: 1000px;
-  margin: 3% auto;
+  margin: 2% auto;
 }
 
 .flipcard-inner {
@@ -95,8 +91,8 @@ p {
 .flipcard-back {
   background-color: #444;
   color: white;
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
   padding: 2%;
   transform: rotateY(180deg);
 }
@@ -121,15 +117,5 @@ p {
 
     #newsfeed-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    .flipcard {
-      width: 600px;
-      height: 400px;
-    }
-
-    img {
-      width: 600px;
-      height: 400px;
     }
 }
