@@ -1,7 +1,7 @@
 // Menu Functions
 import { isElement, writeById, createLink, getFilename, urlExists, getBase, createLMNT, appendNestLMNT, appendLMNT } from './utilities.js';
 
-const newsFeed202202spring = [
+const newsFeed202203spring = [
     {
         "url": "https://threatpost.com/dns-bug-millions-routers-iot-risk/179478/",
         "title": "Unpatched DNS Bug Puts Millions of Routers, IoT Devices at Risk",
@@ -124,6 +124,19 @@ const newsFeed202202spring = [
     }
 ];
 
+const newsFeed202204spring = [
+    {
+        "url": "xxxx",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "04",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "img": "xxxx"
+    }
+];
+
 function createNav(array, id) {
     // create link list container element
     if (isElement(id)) {
@@ -162,4 +175,5 @@ function createNav(array, id) {
       return;
     }
 }
-createNav(newsFeed202202spring,'newsfeed');
+createNav(newsFeed202203spring,'newsfeed03');
+createNav(newsFeed202204spring,'newsfeed04');
