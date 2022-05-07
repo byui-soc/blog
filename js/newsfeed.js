@@ -80,7 +80,7 @@ const newsFeed202202spring = [
         "sort": "2022-05-06",
         "date": "06 May 2022",
         "accessed": "06 May 2022",
-        "img": "xxxx"
+        "img": "1461122387heroku-logo.webp"
     },
     {
         "url": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
