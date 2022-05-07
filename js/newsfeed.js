@@ -45,73 +45,72 @@ const newsFeed202202spring = [
     {
         "url": "https://www.cnbc.com/video/2022/05/04/cybersecurity-firm-cybereason-uncovers-chinese-espionage-campaign.html",
         "title": "Cybersecurity firm Cybereason uncovers Chinese espionage campaign",
-        "desc": "Video: A top cybersecurity company is pulling back the curtain on a hacking campaign aimed at stealing American intellectual property. CNBC’s Eamon Javers joins ‘Squawk Box’ with the details.",
+        "desc": "Video: A top cybersecurity company is pulling back the curtain on a hacking campaign aimed at stealing American intellectual property. CNBC’s Eamon Javers joins ‘Squawk Box’ with the details. Image by <a href='https://unsplash.com/@laughayette'>Marten Newhall on Unsplash.com</a>",
         "week": "03",
         "sort": "2022-05-04",
         "date": "04 May 2022",
-        "accessed": "05 May 2022",
-        "img": "xxxx"
+        "accessed": "06 May 2022",
+        "img": "marten-newhall-uAFjFsMS3YY-unsplash.jpg"
     },
     {
-        "url": "xxxxx",
-        "title": "xxxxx",
-        "desc": "xxxxx",
+        "url": "https://www.zdnet.com/article/a-security-researcher-told-me-my-passwords-and-more-how-15-years-of-digital-footprints-left-me-exposed/",
+        "title": "A security researcher easily found my passwords and more:",
+        "desc": "How my digital footprints left me surprisingly over-exposed...as I discovered, old information can come back to haunt you. I'm careful with what I sign-up to, what I post, and who can see it. I make sure that my passwords are complex enough so they can't be guessed, plus whenever possible, I use multi-factor authentication to protect my accounts. These are all habits I've developed during the past 10 years or so. Author: <a href='https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet/'>Danny Palmer</a>",
         "week": "03",
         "sort": "2022-05-02",
         "date": "02 May 2022",
-        "accessed": "05 May 2022",
-        "img": "xxxx"
+        "accessed": "06 May 2022",
+        "img": "dp-zdnet-headshot-feb-20201.webp"
     },
     {
-        "url": "xxxxx",
-        "title": "xxxxx",
-        "desc": "xxxxx",
-        "desc": "xxxxx",
+        "url": "https://threatpost.com/container_threats_cloud_defend/179452/",
+        "title": "Deep Dive: Protecting Against Container Threats in the Cloud",
+        "desc": "Akamai security researcher Larry Cashdollar recently set up a simple Docker container honeypot, just to see what kind of notice it might attract from the wider web’s cadre of cyberattackers. The results were head-turning: The honeypot was used for four different criminal campaigns in the span of 24 hours. Author: <a href='link'>name</a>",
         "week": "03",
         "sort": "2022-05-02",
         "date": "02 May 2022",
-        "accessed": "05 May 2022",
+        "accessed": "06 May 2022",
+        "img": "AdobeStock_50048132.jpeg"
+    },
+    {
+        "url": "https://www.securityweek.com/heroku-shares-details-recent-github-attack",
+        "title": "Heroku Shares Details on Recent GitHub Attack",
+        "desc": "Platform-as-a-service company Heroku this week shared additional details on an April cyberattack that resulted in unauthorized access to multiple customers’ GitHub repositories. Author: <a href='https://www.securityweek.com/authors/ionut-arghire'>Ionut Arghire</a>",
+        "week": "03",
+        "sort": "2022-05-06",
+        "date": "06 May 2022",
+        "accessed": "06 May 2022",
         "img": "xxxx"
     },
     {
-        "url": "xxxxx",
-        "title": "xxxxx",
-        "desc": "xxxxx",
+        "url": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
+        "title": "BOBBY TABLES",
+        "desc": "...learn to sanitize database inputs",
         "week": "03",
         "sort": "2022-05-02",
-        "date": "02 May 2022",
+        "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "img": "xxxx"
+        "img": "BobbyTables.png"
     },
     {
-        "url": "xxxxx",
-        "title": "xxxxx",
-        "desc": "xxxxx",
+        "url": "https://tryhackme.com/room/owasptop10",
+        "title": "OWASP Top 10",
+        "desc": "Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most critical web security risks.",
         "week": "03",
-        "sort": "2022-05-02",
-        "date": "02 May 2022",
+        "sort": "2022-05-05",
+        "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "img": "xxxx"
+        "img": "sP6d0iZ.png"
     },
     {
-        "url": "xxxxx",
-        "title": "xxxxx",
-        "desc": "xxxxx",
+        "url": "https://tryhackme.com/room/sqlinjectionlm",
+        "title": "SQL Injection",
+        "desc": "Learn how to detect and exploit SQL Injection vulnerabilities",
         "week": "03",
-        "sort": "2022-05-02",
-        "date": "02 May 2022",
+        "sort": "2022-05-05",
+        "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "img": "xxxx"
-    },
-    {
-        "url": "xxxxx",
-        "title": "xxxxx",
-        "desc": "xxxxx",
-        "week": "03",
-        "sort": "2022-05-02",
-        "date": "02 May 2022",
-        "accessed": "05 May 2022",
-        "img": "xxxx"
+        "img": "03376575e888fd097280c51469c29fbc.png"
     },
     {
         "url": "https://threatmap.checkpoint.com/",
@@ -119,9 +118,9 @@ const newsFeed202202spring = [
         "desc": "Shows cyber attacks around the world in real time",
         "date": "02 May 2022",
         "week": "03",
-        "sort": "2022-05-02",
-        "accessed": "05 May 2022",
-        "img": "xxxx"
+        "sort": "2022-05-06",
+        "accessed": "06 May 2022",
+        "img": "live-attacks.png"
     }
 ];
 
@@ -154,7 +153,7 @@ function createNav(array, id) {
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
             menu += `<h4><a href="${element.url}">${element.title}</a></h4>`;
-            menu += `<p>Article Date: ${element.date}<br>Accessed: ${element.accessed}</p>`;
+            menu += `<p>Article Date: ${element.date}, Accessed: ${element.accessed}</p>`;
             menu += `<p class="desc">"${element.desc}"</p>`;
             menu += `</div> </div> </div> `;
       });
