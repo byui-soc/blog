@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   color: chartreuse;
   text-align: center;
   font-family: 'Roboto Slab', sans-serif;
-  padding: 4%;
+  padding: 0 4%;
 }
 
 h1 {
@@ -31,6 +31,14 @@ h4 {
 
 a {
   color: chartreuse;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:visited {
+  color: cyan;
 }
 
 img {
