@@ -10,6 +10,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-02",
         "date": "02 May 2022",
         "accessed": "05 May 2022",
+        "author": "<a href='https://threatpost.com/author/elizabethmontalbano/'>Elizabeth Montalbano</a>",
         "img": "DNS-Attack.jpg"
     },
     {
@@ -20,6 +21,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-02",
         "date": "05/02/2022",
         "accessed": "05 May 2022",
+        "author": "<a href='https://threatpost.com/author/aamirlakhani/'>InfoSec Insider, Aamir Lakhani</a>",
         "img": "Work-from-Home-WFH.jpg"
     },
     {
@@ -30,6 +32,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-02",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
+        "author": "<a href='https://www.cnet.com/profiles/clifford.colby/'>Clifford Colby</a>, <a href='https://www.cnet.com/profiles/rae.hodge/'>Rae Hodge</a>",
         "img": "olieman-eth-q7h8LVeUgFU-unsplash.jpg"
     },
     {
@@ -40,6 +43,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-02",
         "date": "04 May 2022",
         "accessed": "05 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "rob-sarmiento-MZnuRv1ZASk-unsplash.jpg"
     },
     {
@@ -50,16 +54,18 @@ const newsFeed202203spring = [
         "sort": "2022-05-04",
         "date": "04 May 2022",
         "accessed": "06 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "marten-newhall-uAFjFsMS3YY-unsplash.jpg"
     },
     {
         "url": "https://www.zdnet.com/article/a-security-researcher-told-me-my-passwords-and-more-how-15-years-of-digital-footprints-left-me-exposed/",
         "title": "A security researcher easily found my passwords and more:",
-        "desc": "How my digital footprints left me surprisingly over-exposed...as I discovered, old information can come back to haunt you. I'm careful with what I sign-up to, what I post, and who can see it. I make sure that my passwords are complex enough so they can't be guessed, plus whenever possible, I use multi-factor authentication to protect my accounts. These are all habits I've developed during the past 10 years or so. Author: <a href='https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet/'>Danny Palmer</a>",
+        "desc": "How my digital footprints left me surprisingly over-exposed...as I discovered, old information can come back to haunt you. I'm careful with what I sign-up to, what I post, and who can see it. I make sure that my passwords are complex enough so they can't be guessed, plus whenever possible, I use multi-factor authentication to protect my accounts. These are all habits I've developed during the past 10 years or so.",
         "week": "03",
         "sort": "2022-05-02",
         "date": "02 May 2022",
         "accessed": "06 May 2022",
+        "author": "<a href='https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet/'>Danny Palmer</a>",
         "img": "dp-zdnet-headshot-feb-20201.webp"
     },
     {
@@ -70,6 +76,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-02",
         "date": "02 May 2022",
         "accessed": "06 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "AdobeStock_50048132.jpeg"
     },
     {
@@ -80,6 +87,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-06",
         "date": "06 May 2022",
         "accessed": "06 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "1461122387heroku-logo.webp"
     },
     {
@@ -90,6 +98,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-02",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "BobbyTables.png"
     },
     {
@@ -100,6 +109,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-05",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "sP6d0iZ.png"
     },
     {
@@ -110,6 +120,7 @@ const newsFeed202203spring = [
         "sort": "2022-05-05",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "03376575e888fd097280c51469c29fbc.png"
     },
     {
@@ -120,6 +131,7 @@ const newsFeed202203spring = [
         "week": "03",
         "sort": "2022-05-06",
         "accessed": "06 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "live-attacks.png"
     }
 ];
@@ -133,6 +145,18 @@ const newsFeed202204spring = [
         "sort": "2022-05-09",
         "date": "09 May 2022",
         "accessed": "09 May 2022",
+        "author": "<a href=''>xxxx</a>",
+        "img": "xxxx"
+    },
+    {
+        "url": "xxxx",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "04",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "<a href=''>xxxx</a>",
         "img": "xxxx"
     }
 ];
@@ -156,8 +180,14 @@ function createNav(array, id) {
       });
       // create link list element
       let menu = '<div id="newsfeed-container">';
+
       // get list of files to create links for each menu entry
       array.forEach((element) => {
+          if (element.author == "<a href=''>xxxx</a>") {
+            var author = "";
+          } else {
+            var author = `<br>Author(s): ${element.author}`;
+          }
             // TODO: save as variable for adding to index.html page as parameter? (${element.tech})
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
@@ -166,7 +196,7 @@ function createNav(array, id) {
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
             menu += `<h4><a href="${element.url}">${element.title}</a></h4>`;
-            menu += `<p>Article Date: ${element.date}, Accessed: ${element.accessed}</p>`;
+            menu += `<p>Article Date: ${element.date}${author}</p>`;
             menu += `<p class="desc">"${element.desc}"</p>`;
             menu += `</div> </div> </div> `;
       });
@@ -175,8 +205,9 @@ function createNav(array, id) {
       return;
     }
 }
+
 createNav(newsFeed202203spring,'newsfeed03');
-//createNav(newsFeed202204spring,'newsfeed04');
+createNav(newsFeed202204spring,'newsfeed04');
 //createNav(newsFeed202205spring,'newsfeed05');
 //createNav(newsFeed202206spring,'newsfeed06');
 //createNav(newsFeed202207spring,'newsfeed07');
