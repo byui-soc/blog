@@ -34,11 +34,17 @@ function createNav(array, id) {
           } else {
             var author = `<br>Author(s): ${element.author}`;
           }
+          if ((typeof(element.imgcred) !== "undefined") && (element.imgcred !== "") && (element.imgcred !== "Image credit: <a href=' link '>  </a> on Unsplash.com.")) {
+            var imgcred = "";
+          } else {
+            var imgcred = `<br>${element.imgcred}`;
+          }
             // TODO: save as variable for adding to index.html page as parameter? (${element.tech})
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
             menu += `<img src="./img/${element.img}" alt="${element.title}">`;
+            menu += `<p class='desc'>${imgcred}</p>`;
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
             menu += `<h4><a href="${element.url}">${element.title}</a></h4>`;

@@ -68,7 +68,7 @@ export const newsFeed03 = [
     {
         "url": "https://threatpost.com/container_threats_cloud_defend/179452/",
         "title": "Deep Dive: Protecting Against Container Threats in the Cloud",
-        "desc": "Akamai security researcher Larry Cashdollar recently set up a simple Docker container honeypot, just to see what kind of notice it might attract from the wider web’s cadre of cyberattackers. The results were head-turning: The honeypot was used for four different criminal campaigns in the span of 24 hours. Author: <a href='link'>name</a>",
+        "desc": "Akamai security researcher Larry Cashdollar recently set up a simple Docker container honeypot, just to see what kind of notice it might attract from the wider web’s cadre of cyberattackers. The results were head-turning: The honeypot was used for four different criminal campaigns in the span of 24 hours.",
         "week": "03",
         "sort": "2022-05-02",
         "date": "02 May 2022",
@@ -135,30 +135,46 @@ export const newsFeed03 = [
 
 export const newsFeed04 = [
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://www.securityweek.com/africa-grapples-way-forward-cybercrime",
+        "title": "Africa Grapples With Way Forward on Cybercrime",
+        "desc": "Major attacks on the internet itself are very rare in Africa, the most spectacular being a brief takedown of the web across the West African state of Liberia in 2016. Instead, say experts, fraud and theft are flourishing, inflicting an estimated economic cost of $4 billion a year.  ",
         "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
+        "sort": "2022-05-11",
+        "date": "11 May 2022",
         "accessed": "09 May 2022",
         "author": "<a href=''>xxxx</a>",
-        "img": "xxxx"
+        "imgcred": "Image credit: <a href='https://unsplash.com/@damianpatkowski'>Damian Patkowski</a> on Unsplash.com.",
+        "img": "damian-patkowski-T-LfvX-7IVg-unsplash.jpg"
     },
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-schneider-electric-address-43-vulnerabilities",
+        "title": "ICS Patch Tuesday: Siemens, Schneider Electric Address 43 Vulnerabilities",
+        "desc": "One of these bugs is critical and it allows an unauthenticated attacker to execute arbitrary code or launch a denial-of-service (DoS) attack. The five high-severity vulnerabilities covered by the advisory can lead to DoS attacks, code execution, traffic capturing and interfering with device functionality, cross-site scripting (XSS) attacks, or access to a device's management interface. ",
         "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "<a href=''>xxxx</a>",
-        "img": "xxxx"
+        "sort": "2022-05-11",
+        "date": "11 May 2022",
+        "accessed": "11 May 2022",
+        "author": "<a href='https://www.securityweek.com/authors/eduard-kovacs'>Eduard Kovacs</a>",
+        "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
+        "img": "eduard_kovacs.jpg"
     }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "04",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
+    //     "img": "xxxx"
+    // }
 ];
 
 export const newsFeed05 = [
+    // 
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -168,8 +184,10 @@ export const newsFeed05 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
-    // },
+    // }
+    // ,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -179,6 +197,7 @@ export const newsFeed05 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
     // }
 ];
@@ -195,8 +214,10 @@ export const newsFeed06 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
-    // },
+    // }
+    // ,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -206,6 +227,7 @@ export const newsFeed06 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
     // }
 ];
@@ -220,8 +242,10 @@ export const newsFeed07 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
-    // },
+    // }
+    // ,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -231,6 +255,7 @@ export const newsFeed07 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
     // }
 ];
@@ -246,8 +271,10 @@ export const newsFeed08 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
-    // },
+    // }
+    // ,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -257,156 +284,31 @@ export const newsFeed08 = [
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
     //     "author": "<a href=''>xxxx</a>",
+    //     "imgcred": " Image credit: <a href=' link '>  </a> on Unsplash.com.",
     //     "img": "xxxx"
     // }
 ];
 
 export const newsFeed09 = [
-    // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // },
-        // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // }
+    
 ];
 
 export const newsFeed10 = [
-    // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // },
-        // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // }
+    
 ];
 
 export const newsFeed11 = [
-    // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // },
-        // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // }
+    
 ];
 
 export const newsFeed12 = [
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "img": "xxxx"
-    // },
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "img": "xxxx"
-    // }
+    
 ];
 
 export const newsFeed13 = [
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "img": "xxxx"
-    // },
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "img": "xxxx"
-    // }
+    
 ];
 
 export const newsFeed14 = [
-    // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // },
-        // {
-        //     "url": "xxxx",
-        //     "title": "xxxx",
-        //     "desc": "xxxx",
-        //     "week": "04",
-        //     "sort": "2022-05-09",
-        //     "date": "09 May 2022",
-        //     "accessed": "09 May 2022",
-        //     "author": "<a href=''>xxxx</a>",
-        //     "img": "xxxx"
-        // }
+    
 ];
