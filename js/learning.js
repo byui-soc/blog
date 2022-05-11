@@ -8,17 +8,17 @@ export const learning = [
         "date": "24 July 2018",
         "accessed": "xxxxxx",
         "author": "<a href='https://medium.com/@johnsyvineela?source=post_page-----1976d817976--------------------------------'>Johnsy Vineela</a>",
-        "img": "https://miro.medium.com/max/1400/0*PpB92zhBD-XR-ZqH.jpg"
+        "img": "PpB92zhBD-XR-ZqH.jpg"
     },
     {
         "url": "https://tryhackme.com/room/netsecchallenge",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "Try Hack Me: Net Sec Challenge",
+        "desc": "Practice the skills you have learned in the Network Security module.",
         "week": "04",
         "sort": "2022-05-03",
         "date": "03 May 2022",
         "accessed": "xxxxxx",
         "author": "<a href=''>xxxx</a>",
-        "img": "https://assets.tryhackme.com/room-banners/netsecmodule.png"
+        "img": "netsecmodule.png"
     }
 ];
