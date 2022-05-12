@@ -8,7 +8,7 @@ export const learning = [
         "date": "24 July 2018",
         "accessed": "xxxxxx",
         "author": "<a href='https://medium.com/@johnsyvineela?source=post_page-----1976d817976--------------------------------'>Johnsy Vineela</a>",
-        "imgcred": "Image credit: <a href=' link '>  </a> on Unsplash.com.",
+        "imgcred": "<a href=' link '> name </a>",
         "img": "PpB92zhBD-XR-ZqH.jpg"
     },
     {
@@ -20,6 +20,7 @@ export const learning = [
         "date": "03 May 2022",
         "accessed": "xxxxxx",
         "author": "<a href=''>xxxx</a>",
+        "imgcred": "<a href=' link '> name </a>",
         "img": "netsecmodule.png"
     }
 ];
