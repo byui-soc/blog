@@ -217,7 +217,7 @@ export const newsFeed04 = [
     }
     ,
     {
-        "url": "",
+        "url": "https://dojo.pwn.college/",
         "title": "Week 04 <br> Reverse Engineering",
         "desc": "CSA Meeting on Thursday, 12 May 2022 (New Time) 7PM MST  Zoom and STC Building - Room 295.<br>Like to know how stuff works?<br>(No Experience Required)<br><br><a href='https://join.slack.com/t/byui-csa/shared_invite/zt-18n7zkddd-0tWQKKEf2WWKdkwCaRaLBA'>Join our Slack team for zoom link</a>",
         "week": "04",
