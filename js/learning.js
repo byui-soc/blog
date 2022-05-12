@@ -7,8 +7,11 @@ export const learning = [
         "sort": "2022-05-11",
         "date": "24 July 2018",
         "accessed": "xxxxxx",
-        "author": "<a href='https://medium.com/@johnsyvineela?source=post_page-----1976d817976--------------------------------'>Johnsy Vineela</a>",
-        "imgcred": "<a href=' link '> name </a>",
+        "author": "Johnsy Vineela",
+        "authlink": "https://medium.com/@johnsyvineela?source=post_page-----1976d817976--------------------------------",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
         "img": "PpB92zhBD-XR-ZqH.jpg"
     },
     {
@@ -19,8 +22,40 @@ export const learning = [
         "sort": "2022-05-03",
         "date": "03 May 2022",
         "accessed": "xxxxxx",
-        "author": "<a href=''>xxxx</a>",
-        "imgcred": "<a href=' link '> name </a>",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
         "img": "netsecmodule.png"
     }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "xxxx",
+    //     "sort": "2022-05-11",
+    //     "date": "11 May 2022",
+    //     "accessed": "xxxx",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "xxxx",
+    //     "sort": "2022-05-11",
+    //     "date": "11 May 2022",
+    //     "accessed": "xxxx",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "img": "xxxx"
+    // }
 ];

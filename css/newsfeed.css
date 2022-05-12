@@ -15,7 +15,8 @@ h1, h2, h3, h4, h5, h6 {
   color: chartreuse;
   text-align: center;
   font-family: 'Roboto Slab', sans-serif;
-  padding: 0 4%;
+  margin: 0;
+  padding: 4%;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 h5 {
@@ -45,7 +46,10 @@ h5 {
 }
 
 a {
+  padding: 1%;
+  margin: 0;
   color: chartreuse;
+  text-decoration: none;
 }
 
 a:visited {
@@ -54,6 +58,7 @@ a:visited {
 
 a:hover {
   color: hotpink;
+  text-decoration: underline;
 }
 
 img {
@@ -68,7 +73,8 @@ img {
 
 .desc {
   font-size: 0.7rem;
-  padding: 2%;
+  padding: 0 2%;
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -131,6 +137,10 @@ img {
 @media screen and (min-width: 690px) {
     #newsfeed-container {
       grid-template-columns: 1fr 1fr;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      padding: 2%;
     }
 }
 

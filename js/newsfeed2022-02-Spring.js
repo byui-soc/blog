@@ -33,28 +33,30 @@ function createNav(array, id) {
             var author = "";
           } else {
             var author = `<br>Author(s): <a href='${element.authlink}'>${element.author}</a>`;
-            if (!author2) {
-              var author2 = "xxxx";
-            } else {
-              var author = `, <a href='${element.authlink2}'>${element.author2}</a>`;
+            if (element.author2) {
+              author += `, <a href='${element.authlink2}'>${element.author2}</a>`;
             }
           }
-          if ( (typeof(element.imgcred) !== "undefined") && (element.imgcred !== "xxxx") ) {
+          if ( (typeof(element.imgcred) === "undefined") || (element.imgcred === "xxxx") ) {
             var imgcred = "";
           } else {
-            var imgcred = `Flipside image credit: <a href=''>${element.imgcred}</a>`;
+            var imgcred = `Flipside image credit: <a href='${element.imgcredlink}'>${element.imgcred}</a>`;
           }
             // TODO: save as variable for adding to index.html page as parameter? (${element.tech})
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
-            menu += `<img src="./img/${element.img}" alt="${element.title}">`;
+            menu += `<img src="./img/${element.img}" alt="Image for ${element.title}">`;
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
             menu += `<h4><a href="${element.url}">${element.title}</a></h4>`;
-            menu += `<p class='desc'>Article Date: ${element.date}${author}</p>`;
-            menu += `<p class="desc">${element.desc}</p>`;
-            menu += `<p class='desc'>${imgcred}</p>`;
+            menu += `<p class='desc date'>Article Date: ${element.date}${author}</p>`;
+            if (imgcred !== "") {
+              console.log(imgcred);
+              console.log(element.title);
+              menu += `<p class='desc imgcred'>${imgcred}</p>`;
+            }
+            menu += `<p class="desc descrip">${element.desc}</p>`;
             menu += `</div> </div> </div> `;
       });
       menu += "</div>";
