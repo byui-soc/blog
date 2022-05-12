@@ -29,15 +29,20 @@ function createNav(array, id) {
 
       // get list of files to create links for each menu entry
       array.forEach((element) => {
-          if (element.author == "<a href=''>xxxx</a>") {
+          if (element.author == "xxxx") {
             var author = "";
           } else {
-            var author = `<br>Author(s): ${element.author}`;
+            var author = `<br>Author(s): <a href='${element.authlink}'>${element.author}</a>`;
+            if (!author2) {
+              var author2 = "xxxx";
+            } else {
+              var author = `, <a href='${element.authlink2}'>${element.author2}</a>`;
+            }
           }
-          if ((typeof(element.imgcred) !== "undefined") && (element.imgcred !== "") && (element.imgcred.search("link") !== -1)) {
+          if ( (typeof(element.imgcred) !== "undefined") && (element.imgcred !== "xxxx") ) {
             var imgcred = "";
           } else {
-            var imgcred = `<br>Flipside image credit: ${element.imgcred}`;
+            var imgcred = `Flipside image credit: <a href=''>${element.imgcred}</a>`;
           }
             // TODO: save as variable for adding to index.html page as parameter? (${element.tech})
             menu += `<div class="flipcard">`;

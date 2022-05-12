@@ -83,6 +83,7 @@ img {
   border-radius: 10px;
   perspective: 1000px;
   margin: 2% auto;
+  padding: 0;
 }
 
 .flipcard-inner {

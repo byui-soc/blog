@@ -7,7 +7,10 @@ export const newsFeed03 = [
         "sort": "2022-05-02",
         "date": "02 May 2022",
         "accessed": "05 May 2022",
-        "author": "<a href='https://threatpost.com/author/elizabethmontalbano/'>Elizabeth Montalbano</a>",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano",
+        "imgcred": "",
+        "imgcredlink": "",
         "img": "DNS-Attack.jpg"
     },
     {
@@ -18,40 +21,55 @@ export const newsFeed03 = [
         "sort": "2022-05-02",
         "date": "05/02/2022",
         "accessed": "05 May 2022",
-        "author": "<a href='https://threatpost.com/author/aamirlakhani/'>InfoSec Insider, Aamir Lakhani</a>",
+        "author": "InfoSec Insider, Aamir Lakhani",
+        "authlink": "https://threatpost.com/author/aamirlakhani",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "Work-from-Home-WFH.jpg"
     },
     {
         "url": "https://www.cnet.com/tech/services-and-software/best-password-manager/",
         "title": "Best Password Manager to Use for 2022",
-        "desc": "A password manager is essentially an encrypted digital vault that stores secure password login information you use to access apps and accounts on your mobile device, websites and other services. Image by <a href='https://unsplash.com/@moneyphotos'>olieman.eth on Unsplash.com</a>",
+        "desc": "A password manager is essentially an encrypted digital vault that stores secure password login information you use to access apps and accounts on your mobile device, websites and other services.",
         "week": "03",
         "sort": "2022-05-02",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "author": "<a href='https://www.cnet.com/profiles/clifford.colby/'>Clifford Colby</a>, <a href='https://www.cnet.com/profiles/rae.hodge/'>Rae Hodge</a>",
+        "author2": "Rae Hodge",
+        "authlink2": "https://www.cnet.com/profiles/rae.hodge/",
+        "author": "Clifford Colby",
+        "authlink": "https://www.cnet.com/profiles/clifford.colby",
+
+        "imgcred": "olieman.eth on Unsplash.com",
+        "imgcredlink": "https://unsplash.com/@moneyphotos",
         "img": "olieman-eth-q7h8LVeUgFU-unsplash.jpg"
     },
     {
         "url": "https://threatpost.com/the-future-of-executive-protection-is-digital/179469/",
         "title": "The Future of Executive Protection is Digital",
-        "desc": "...it’s no longer enough to surround executives with physical guardrails and James Bond-like security detail. Companies spend millions to protect executives’ physical security and their digital lives at work, but they won’t truly be safe unless they are protected in their personal digital lives, as well. Image by <a href='https://unsplash.com/@robsarm'>Rob Sarmiento on Unsplash.com</a>",
+        "desc": "...it’s no longer enough to surround executives with physical guardrails and James Bond-like security detail. Companies spend millions to protect executives’ physical security and their digital lives at work, but they won’t truly be safe unless they are protected in their personal digital lives, as well. Image by https://unsplash.com/@robsarm Rob Sarmiento on Unsplash.com",
         "week": "03",
         "sort": "2022-05-02",
         "date": "04 May 2022",
         "accessed": "05 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "rob-sarmiento-MZnuRv1ZASk-unsplash.jpg"
     },
     {
         "url": "https://www.cnbc.com/video/2022/05/04/cybersecurity-firm-cybereason-uncovers-chinese-espionage-campaign.html",
         "title": "Cybersecurity firm Cybereason uncovers Chinese espionage campaign",
-        "desc": "Video: A top cybersecurity company is pulling back the curtain on a hacking campaign aimed at stealing American intellectual property. CNBC’s Eamon Javers joins ‘Squawk Box’ with the details. Image by <a href='https://unsplash.com/@laughayette'>Marten Newhall on Unsplash.com</a>",
+        "desc": "Video: A top cybersecurity company is pulling back the curtain on a hacking campaign aimed at stealing American intellectual property. CNBC’s Eamon Javers joins ‘Squawk Box’ with the details. Image by https://unsplash.com/@laughayette Marten Newhall on Unsplash.com",
         "week": "03",
         "sort": "2022-05-04",
         "date": "04 May 2022",
         "accessed": "06 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "marten-newhall-uAFjFsMS3YY-unsplash.jpg"
     },
     {
@@ -62,7 +80,10 @@ export const newsFeed03 = [
         "sort": "2022-05-02",
         "date": "02 May 2022",
         "accessed": "06 May 2022",
-        "author": "<a href='https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet/'>Danny Palmer</a>",
+        "author": "Danny Palmer",
+        "authlink": "https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "dp-zdnet-headshot-feb-20201.webp"
     },
     {
@@ -73,18 +94,24 @@ export const newsFeed03 = [
         "sort": "2022-05-02",
         "date": "02 May 2022",
         "accessed": "06 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "AdobeStock_50048132.jpeg"
     },
     {
         "url": "https://www.securityweek.com/heroku-shares-details-recent-github-attack",
         "title": "Heroku Shares Details on Recent GitHub Attack",
-        "desc": "Platform-as-a-service company Heroku this week shared additional details on an April cyberattack that resulted in unauthorized access to multiple customers’ GitHub repositories. Author: <a href='https://www.securityweek.com/authors/ionut-arghire'>Ionut Arghire</a>",
+        "desc": "Platform-as-a-service company Heroku this week shared additional details on an April cyberattack that resulted in unauthorized access to multiple customers’ GitHub repositories. Author: https://www.securityweek.com/authors/ionut-arghire Ionut Arghire",
         "week": "03",
         "sort": "2022-05-06",
         "date": "06 May 2022",
         "accessed": "06 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "1461122387heroku-logo.webp"
     },
     {
@@ -95,7 +122,10 @@ export const newsFeed03 = [
         "sort": "2022-05-02",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "BobbyTables.png"
     },
     {
@@ -106,7 +136,10 @@ export const newsFeed03 = [
         "sort": "2022-05-05",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "sP6d0iZ.png"
     },
     {
@@ -117,7 +150,10 @@ export const newsFeed03 = [
         "sort": "2022-05-05",
         "date": "05 May 2022",
         "accessed": "05 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "03376575e888fd097280c51469c29fbc.png"
     },
     {
@@ -128,7 +164,10 @@ export const newsFeed03 = [
         "week": "03",
         "sort": "2022-05-06",
         "accessed": "06 May 2022",
-        "author": "<a href=''>xxxx</a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "live-attacks.png"
     }
 ];
@@ -137,13 +176,15 @@ export const newsFeed04 = [
     {
         "url": "https://www.securityweek.com/africa-grapples-way-forward-cybercrime",
         "title": "Africa Grapples With Way Forward on Cybercrime",
-        "desc": "Major attacks on the internet itself are very rare in Africa, the most spectacular being a brief takedown of the web across the West African state of Liberia in 2016. Instead, say experts, fraud and theft are flourishing, inflicting an estimated economic cost of $4 billion a year.  ",
+        "desc": "Major attacks on the internet itself are very rare in Africa, the most spectacular being a brief takedown of the web across the West African state of Liberia in 2016. Instead...fraud and theft are flourishing, inflicting an estimated economic cost of $4 billion a year.  ",
         "week": "04",
         "sort": "2022-05-11",
         "date": "11 May 2022",
         "accessed": "09 May 2022",
-        "author": "<a href=''>xxxx</a>",
-        "imgcred": "Image credit: <a href='https://unsplash.com/@damianpatkowski'>Damian Patkowski</a> on Unsplash.com.",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "Damian Patkowski on Unsplash.com.",
+        "imgcredlink": "https://unsplash.com/@damianpatkowski",
         "img": "damian-patkowski-T-LfvX-7IVg-unsplash.jpg"
     },
     {
@@ -154,34 +195,40 @@ export const newsFeed04 = [
         "sort": "2022-05-11",
         "date": "11 May 2022",
         "accessed": "11 May 2022",
-        "author": "<a href='https://www.securityweek.com/authors/eduard-kovacs'>Eduard Kovacs</a>",
-        "imgcred":  "<a href=' link '> name </a>",
+        "author": "https://www.securityweek.com/authors/eduard-kovacs Eduard Kovacs",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "eduard_kovacs.jpg"
     }
     ,
     {
         "url": "https://www.securityweek.com/sites/default/files/images/BIG-IP-destroy-command.png",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "Critical Vulnerability Exploited to 'Destroy' BIG-IP Appliances",
+        "desc": "Researcher Germán Fernández, one of the first to report seeing massive exploitation of the vulnerability, said that, as of Tuesday, more than 300 BIG-IP appliances had web shells installed by malicious actors. He advised users to scan their systems even if they’ve deployed the available patches as they may have been compromised before the fixes were installed.",
         "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "<a href=''>xxxx</a>",
-        "imgcred": "<a href=' link '> name </a>",
-        "img": "xxxx"
+        "sort": "2022-05-11",
+        "date": "11 May 2022",
+        "accessed": "11 May 2022",
+        "author": "https://www.securityweek.com/authors/eduard-kovacs Eduard Kovacs",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "BIG-IP-destroy-command.png"
     }
     ,
     {
-        "url": "xxxx",
-        "title": "Reverse Engineering",
-        "desc": "CSA Meeting on Thursday, 12 May 2022 (New Time) 7PM MST  Zoom and STC Building - Room 295. Like to know how stuff works? (No Experience Required)",
+        "url": "",
+        "title": "Week 04 <br> Reverse Engineering",
+        "desc": "CSA Meeting on Thursday, 12 May 2022 (New Time) 7PM MST  Zoom and STC Building - Room 295.<br><br> Like to know how stuff works?<br> <br>(No Experience Required)<br><br> https://join.slack.com/t/byui-csa/shared_invite/zt-18n7zkddd-0tWQKKEf2WWKdkwCaRaLBA Join our Slack team for zoom link",
         "week": "04",
         "sort": "2022-05-09",
         "date": "09 May 2022",
         "accessed": "12 May 2022",
-        "author": "<a href=''>xxxx</a>",
-        "imgcred":  "<a href=' link '> name </a>",
+        "author": " xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
         "img": "2022-Spring-04-IG-RevEng.png"
     }
     // ,
@@ -193,8 +240,10 @@ export const newsFeed04 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -206,8 +255,10 @@ export const newsFeed04 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -219,8 +270,10 @@ export const newsFeed04 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -232,8 +285,10 @@ export const newsFeed04 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -245,8 +300,10 @@ export const newsFeed04 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -258,73 +315,10 @@ export const newsFeed04 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "04",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
 ];
@@ -338,8 +332,10 @@ export const newsFeed05 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -351,8 +347,10 @@ export const newsFeed05 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
 ];
@@ -366,8 +364,10 @@ export const newsFeed06 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -379,8 +379,10 @@ export const newsFeed06 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
 ];
@@ -394,8 +396,10 @@ export const newsFeed07 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -407,8 +411,10 @@ export const newsFeed07 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
 ];
@@ -423,8 +429,10 @@ export const newsFeed08 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
     // ,
@@ -436,32 +444,28 @@ export const newsFeed08 = [
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
     //     "accessed": "09 May 2022",
-    //     "author": "<a href=''>xxxx</a>",
-    //     "imgcred":  "<a href=' link '> name </a>",
+    //     "author": " xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
     //     "img": "xxxx"
     // }
 ];
 
 export const newsFeed09 = [
-    
 ];
 
 export const newsFeed10 = [
-    
 ];
 
 export const newsFeed11 = [
-    
 ];
 
 export const newsFeed12 = [
-    
 ];
 
 export const newsFeed13 = [
-    
 ];
 
 export const newsFeed14 = [
-    
 ];
