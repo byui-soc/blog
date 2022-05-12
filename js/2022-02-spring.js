@@ -74,7 +74,7 @@ export const newsFeed03 = [
     {
         "url": "https://www.zdnet.com/article/a-security-researcher-told-me-my-passwords-and-more-how-15-years-of-digital-footprints-left-me-exposed/",
         "title": "A security researcher easily found my passwords and more:",
-        "desc": "How my digital footprints left me surprisingly over-exposed...as I discovered, old information can come back to haunt you. I'm careful with what I sign-up to, what I post, and who can see it. I make sure that my passwords are complex enough so they can't be guessed, plus whenever possible, I use multi-factor authentication to protect my accounts. These are all habits I've developed during the past 10 years or so.",
+        "desc": "How my digital footprints left me surprisingly over-exposed...as I discovered, old information can come back to haunt you. I'm careful with what I sign-up to, what I post, and who can see it. I make sure that my passwords are complex enough so they can't be guessed, plus whenever possible, I use multi-factor authentication to protect my accounts.",
         "week": "03",
         "sort": "2022-05-02",
         "date": "02 May 2022",
