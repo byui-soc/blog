@@ -57,8 +57,22 @@ a:visited {
 }
 
 a:hover {
-  color: hotpink;
   text-decoration: underline;
+  color: hotpink;
+}
+
+.btn {
+  border-radius: 50px;
+  background: darkblue;
+  border: 3px solid cyan;
+  color: cyan;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  border: 3px solid hotpink;
+  color: hotpink;
+  text-decoration: none;
 }
 
 img {
@@ -109,7 +123,8 @@ img {
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid white;
+  border: 1
+  px solid chartreuse;
   border-radius: 10px;
   min-width: 100%;
 }
