@@ -219,7 +219,7 @@ export const newsFeed04 = [
     {
         "url": "https://dojo.pwn.college/",
         "title": "Week 04 <br> Reverse Engineering",
-        "desc": "CSA Meeting on Thursday, 12 May 2022 (New Time) 7PM MST  Zoom and STC Building - Room 295.<br>Like to know how stuff works?<br>(No Experience Required)<br><br><a href='https://join.slack.com/t/byui-csa/shared_invite/zt-18n7zkddd-0tWQKKEf2WWKdkwCaRaLBA'>Join our Slack team for zoom link</a>",
+        "desc": "CSA Meeting on Thursday, 12 May 2022 (New Time) 7PM MST  Zoom and STC Building - Room 295.<br>Like to know how stuff works?<br>(No Experience Required)<br><br><a href=''></a>",
         "week": "04",
         "sort": "2022-05-09",
         "date": "09 May 2022",
@@ -277,14 +277,29 @@ export const newsFeed04 = [
     }
     ,
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://www.infosecurity-magazine.com/news/government-initiative-rapid/",
+        "title": "Government Initiative Promises Rapid Blocking of Scam Sites",
+        "desc": "“Cyber-criminals continuously seek to deploy devious methods to trick us into sharing personal or financial details and it’s vital we stay ahead of them,” argued NCSC deputy director for economy and society, Sarah Lyons. “This landmark partnership with internet service providers means that scams can be blocked from ever reaching our screens and reinforces the UK’s armor in protecting the public from online harms.”",
         "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "xxxx",
+        "sort": "2022-05-12",
+        "date": "12 May 2022",
+        "accessed": "12 May 2022",
+        "author": "Phil Muncaster",
+        "authlink": "https://www.infosecurity-magazine.com/profile/phil-muncaster/",
+        "imgcred": "Ming Jun Tan",
+        "imgcredlink": "https://unsplash.com/@mingjuntan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+        "img": "ming-jun-tan-o6ICDlt5_2k-unsplash.jpg"
+    }
+    ,
+    {
+        "url": "https://dojo.pwn.college/challenges/reversing",
+        "title": "Reverse Engineering",
+        "desc": "The Reverse Engineering Process <br> Every step in the reverse-engineering process is imperfect and relies on some amount of human help. Typically, a reverser uses several reverse engineering tools to build up a mental model of the target software.",
+        "week": "04",
+        "sort": "2022-05-12",
+        "date": "12 May 2022",
+        "accessed": "12 May 2022",
+        "author": "Yan Shoshitaishvili, Arizona State University",
         "authlink": "xxxx",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
@@ -292,33 +307,33 @@ export const newsFeed04 = [
     }
     ,
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://threatpost.com/malware-discord-webhooks/179605/",
+        "title": "Malware Builder Leverages Discord Webhooks",
+        "desc": "On April 23rd, 2022, a Discord user with the handle “Portu” began advertising a new password-stealing malware builder. Malware builders are programs which so-called script kiddie hackers can craft their own executables on top of. Script kiddie is cybersecurity parlance for a novice hacker who uses a preexisting code to slightly modify it for their own nefarious purposes.",
         "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
+        "sort": "2022-05-12",
+        "date": "12 May 2022",
+        "accessed": "12 May 2022",
+        "author": "Nate Nelson",
+        "authlink": "https://threatpost.com/author/natenelson/",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx"
+        "img": "discord.jpg"
     }
     ,
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://www.securityweek.com/chrome-101-update-patches-high-severity-vulnerabilities",
+        "title": "Chrome 101 Update Patches High-Severity Vulnerabilities",
+        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-2022-1633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
         "week": "04",
         "sort": "2022-05-09",
         "date": "09 May 2022",
         "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx"
+        "author": "Ionut Arghire",
+        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
+        "imgcred": "By Google - Chrome version 100 what&#039;s new, Public Domain",
+        "imgcredlink": " https://commons.wikimedia.org/w/index.php?curid=114993646",
+        "img": "Google_Chrome_icon_(February_2022).svg.png"
     }
 ];
 
