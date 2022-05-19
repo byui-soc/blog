@@ -67,7 +67,7 @@ function createNav(array, id) {
 
 createNav(newsFeed03,'newsfeed03');
 createNav(newsFeed04,'newsfeed04');
-//createNav(newsFeed202205spring,'newsfeed05');
+createNav(newsFeed05,'newsfeed05');
 //createNav(newsFeed202206spring,'newsfeed06');
 //createNav(newsFeed202207spring,'newsfeed07');
 //createNav(newsFeed202208spring,'newsfeed08');
