@@ -46,17 +46,17 @@ function createNav(array, id) {
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
-            menu += `<img src="./img/${element.img}" alt="Image for ${element.title}">`;
+            menu += `<div><h4 class="overlay">${element.title}</h4>`;
+            menu += `<img src="./img/${element.img}" alt="Image for ${element.title}"></div>`;
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
-            menu += `<h4><a href="${element.url}">${element.title}</a></h4>`;
             menu += `<p class='desc date'>Article Date: ${element.date}${author}</p>`;
             if (imgcred !== "") {
               console.log(imgcred);
               console.log(element.title);
               menu += `<p class='desc imgcred'>${imgcred}</p>`;
             }
-            menu += `<p class="desc descrip">${element.desc}</p>`;
+            menu += `<p class="desc descrip">${element.desc}<a href="${element.url}">Go to webpage</a></p>`;
             menu += `</div> </div> </div> `;
       });
       menu += "</div>";

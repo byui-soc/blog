@@ -2,6 +2,7 @@
 
 body {
   background: black;
+  background-image: url("img/markus-spiske-70Rir5vB96U-unsplash.jpg");
 }
 
 #newsfeed-container {
@@ -61,28 +62,25 @@ a:hover {
   color: hotpink;
 }
 
-.btn {
+p.center {
+  align-content: center;
+  text-align: center;
+}
+
+a.btn {
+  align-items: center;
   border-radius: 50px;
   background: darkblue;
   border: 3px solid cyan;
   color: cyan;
-  font-size: 1rem;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: .85rem;
 }
 
 .btn:hover {
   border: 3px solid hotpink;
   color: hotpink;
   text-decoration: none;
-}
-
-img {
-  border-radius: 10px;
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
-  width: 300px;
-  height: 300px;
-  object-fit: contain;
 }
 
 .desc {
@@ -122,15 +120,38 @@ img {
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1
-  px solid chartreuse;
   border-radius: 10px;
-  min-width: 100%;
+  width: 300px;
+  height: 300px;
 }
 
 .flipcard-front {
   background: #444;
+  max-height: 300px;
+  margin: auto;
+}
+
+.flipcard-front div.overlay {
+  position: absolute;
+  top: 2%;
+  color: chartreuse;
+  font-size: 1rem;
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+img {
   border-radius: 10px;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  max-height: 240px;
+  padding: 0;
+  margin: 0 auto;
+  object-fit: cover;
+  z-index: 10;
 }
 
 .flipcard-back p {
@@ -141,14 +162,12 @@ img {
 .flipcard-back {
   background-color: #444;
   color: white;
-  min-width: 300px;
-  max-width: 100%;
-  height: 300px;
-  max-height: 100%;
   transform: rotateY(180deg);
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 690px) {
+
     #newsfeed-container {
       grid-template-columns: 1fr 1fr;
     }
@@ -159,12 +178,14 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+
   #newsfeed-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1250px) {
+
   #newsfeed-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

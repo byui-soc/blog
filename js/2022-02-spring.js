@@ -356,7 +356,7 @@ export const newsFeed05 = [
     {
         "url": "https://cdn2.assets-servd.host/gifted-zorilla/production/files/CISO-Guide-to-Phishing.pdf",
         "title": "CISO Guideto Phishing - How to Stop 77% of All Advanced Attacks",
-        "desc": "Today we worked with Broken Access Control. Phishing is how hackers steal your identity, accomplish breaking the access control and steal your data. Phishing attacks use social engineering—a predatory blend of identity deception, manipulation of trust, and deadline pressure—to push email recipients to take actions they wouldn’t do if a stranger made the request. Spear phishing criminals research and target specific employees within an organization, often in payroll and accounting. Named for the biggest “phish,” whaling attacks impersonate the target the company’s CEO or another executive.",
+        "desc": "Phishing is how hackers steal your identity, accomplish breaking the access control and steal your data. Phishing attacks use social engineering—a predatory blend of identity deception, manipulation of trust, and deadline pressure—to push email recipients to take actions they wouldn’t do if a stranger made the request. Spear phishing criminals research and target specific employees within an organization, often in payroll and accounting. Named for the biggest “phish,” whaling attacks impersonate the target the company’s CEO or another executive.",
         "week": "05",
         "sort": "2022-05-18",
         "date": "18 May 2022",
@@ -397,11 +397,41 @@ export const newsFeed05 = [
         "imgcredlink": "https://unsplash.com/@tinahartung",
         "img": "tina-hartung-IwLY-pLic_U-unsplash.jpg"
     }
+    ,
+    {
+        "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/interactive-phishing-using-chatbot-like-web-applications-to-harvest-information/",
+        "title": "Interactive Phishing: Using Chatbot-like Web Applications to Harvest Information",
+        "desc": "Recently, we have encountered an interesting phishing website containing an interactive component in it: a chatbot. Unlike a lot of phishing websites, this one establishes a conversation first, and bit-by-bit guides the victim to the actual phishing pages. Although the phishing method is quite unique, it still uses email as the delivery channel. A deeper inspection of the email header shows that the “From” header is missing the email address component, which is a red flag already.",
+        "week": "05",
+        "sort": "2022-05-19",
+        "date": "19 May 2022",
+        "accessed": "19 May 2022",
+        "author": "Adrian Perez",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "e36b4dab42f03909c3a842730fb677dd2493b9a7.png"
+    }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://azureforeducation.microsoft.com/devtools",
     //     "title": "xxxx",
-    //     "desc": "xxxx",
+    //     "desc": "Hey y'all! If any of you want a Microsoft Windows key, the school gives us two free keys. Click software from list on the left side, then search windows, and you should find download links. Click it and it opens a side panel where you can get the key from.",
+    //     "week": "05",
+    //     "sort": "2022-05-19",
+    //     "date": "19 May 2022",
+    //     "accessed": "19 May 2022",
+    //     "author": "Shared by Riley",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://tryhackme.com/room/nmap01",
+    //     "title": "TryHackMe | Nmap Live Host Discovery",
+    //     "desc": "Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan.When we want to target a network, we want to find an efficient tool to help us handle repetitive tasks and answer the following questions: Which systems are up? What services are running on these systems?",
     //     "week": "05",
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
@@ -410,43 +440,13 @@ export const newsFeed05 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "a6b64823d42120e106cb7e89ceaa4817.png"
     // }
     // ,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
+    //     "url": "https://github.com/paupino/rust-decimal/issues/514",
+    //     "title": "Possibly malicious package "rustdecimal" #514",
+    //     "desc": "Github issue: 'Hi. I found this package: https://docs.rs/rustdecimal/latest/rustdecimal/. It seems this is clone of your package created for malicious purposes' 'I assume the malicious code is related to the curl Easy with obfuscated urls, correct?' 'In essence, it looks like it's downloading a binary masked as a "readme" file and then depending on the OS, making it executable and running it.' ",
     //     "week": "05",
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",

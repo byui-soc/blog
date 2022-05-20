@@ -32,7 +32,7 @@ export const learning = [
     {
         "url": "https://www.bugcrowd.com/hackers/",
         "title": "LEARN, HACK, EARN",
-        "desc": "Welcome to Bugcrowd, the Home for Hackers and Security Researchers <br>  <a href'https://bugcrowd.com/user/sign_up'>Sign up for bugcrowd</a>",
+        "desc": "Welcome to Bugcrowd, the Home for Hackers and Security Researchers <br>  <a href='https://bugcrowd.com/user/sign_up'>Sign up for bugcrowd</a>",
         "week": "04",
         "sort": "2022-05-11",
         "date": "11 May 2022",
