@@ -367,36 +367,36 @@ export const newsFeed05 = [
         "imgcredlink": "xxxx",
         "img": "mike-britton.jpg"
     }
-    // ,
-    // {
-    //     "url": "https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack",
-    //     "title": "SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-18",
-    //     "date": "18 May 2022",
-    //     "accessed": "18 May 2022",
-    //     "author": "Eduard Kovacs",
-    //     "authlink": "https://www.securityweek.com/authors/eduard-kovacs",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://www.securityweek.com/vulnerable-maritime-supply-chain-threat-global-economy",
+        "title": "The Vulnerable Maritime Supply Chain - a Threat to the Global Economy",
+        "desc": "Professor Kevin Jones, the executive dean of science and technology at Plymouth university (UK), comments. “Closing down one maritime supply route can cause a knock-on log jam that affects the world economy at the rate of billions of dollars every day”",
+        "week": "05",
+        "sort": "2022-05-18",
+        "date": "18 May 2022",
+        "accessed": "18 May 2022",
+        "author": "Kevin Townsend",
+        "authlink": "https://www.securityweek.com/authors/kevin-townsend",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "Maritime-cybersecurity-threats.jpg"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/cyberattacks-and-misinformation-activity-against-ukraine-continues-say-security-researchers/",
+        "title": "Cyberattacks and misinformation activity against Ukraine continues say security researchers",
+        "desc": "Malware and fake news continues, Concerted information operations have proliferated, ranging from cyber-enabled information operations, including those that coincided with disruptive and destructive cyber threat activity, to campaigns leveraging coordinated and inauthentic networks of accounts to promote fabricated content and desired narratives across various social media platforms, websites, and forums... says Mandiant.",
+        "week": "05",
+        "sort": "2022-05-19",
+        "date": "19 May 2022",
+        "accessed": "19 May 2022",
+        "author": "Charlie Osborne",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/charlie-osborne/",
+        "imgcred": "Tina Hartung",
+        "imgcredlink": "https://unsplash.com/@tinahartung",
+        "img": "tina-hartung-IwLY-pLic_U-unsplash.jpg"
+    }
     // ,
     // {
     //     "url": "xxxx",
