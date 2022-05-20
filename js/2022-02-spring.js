@@ -339,19 +339,184 @@ export const newsFeed04 = [
 
 export const newsFeed05 = [
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://threatpost.com/apts-overwhelmingly-share-known-vulnerabilities-rather-than-attack-o-days/179657/",
+        "title": "APTs Overwhelmingly Share Known Vulnerabilities Rather Than Attack O-Days",
+        "desc": "One belief the research debunked is that all APTs are highly sophisticated and prefer attacking zero-day flaws rather than ones that have already been patched. “Contrary to common belief, most APT campaigns employed publicly known vulnerabilities,” they wrote in the report.",
         "week": "05",
         "sort": "2022-05-09",
-        "date": "09 May 2022",
+        "date": "18 May 2022",
+        "accessed": "18 May 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "laptop-coder.jpg"
+    }
+    ,
+    {
+        "url": "https://cdn2.assets-servd.host/gifted-zorilla/production/files/CISO-Guide-to-Phishing.pdf",
+        "title": "CISO Guideto Phishing - How to Stop 77% of All Advanced Attacks",
+        "desc": "Today we worked with Broken Access Control. Phishing is how hackers steal your identity, accomplish breaking the access control and steal your data. Phishing attacks use social engineering—a predatory blend of identity deception, manipulation of trust, and deadline pressure—to push email recipients to take actions they wouldn’t do if a stranger made the request. Spear phishing criminals research and target specific employees within an organization, often in payroll and accounting. Named for the biggest “phish,” whaling attacks impersonate the target the company’s CEO or another executive.",
+        "week": "05",
+        "sort": "2022-05-18",
+        "date": "18 May 2022",
         "accessed": "09 May 2022",
-        "author": "xxxx",
+        "author": "Mike Britton, CISO, Abnormal Security",
         "authlink": "xxxx",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx"
+        "img": "mike-britton.jpg"
     }
+    // ,
+    // {
+    //     "url": "https://www.securityweek.com/satcom-cybersecurity-alert-issued-authorities-probe-possible-russian-attack",
+    //     "title": "SATCOM Cybersecurity Alert Issued as Authorities Probe Possible Russian Attack",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-18",
+    //     "date": "18 May 2022",
+    //     "accessed": "18 May 2022",
+    //     "author": "Eduard Kovacs",
+    //     "authlink": "https://www.securityweek.com/authors/eduard-kovacs",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "05",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+    // }
     // ,
     // {
     //     "url": "xxxx",
