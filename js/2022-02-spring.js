@@ -412,66 +412,66 @@ export const newsFeed05 = [
         "imgcredlink": "xxxx",
         "img": "e36b4dab42f03909c3a842730fb677dd2493b9a7.png"
     }
-    // ,
-    // {
-    //     "url": "https://azureforeducation.microsoft.com/devtools",
-    //     "title": "xxxx",
-    //     "desc": "Hey y'all! If any of you want a Microsoft Windows key, the school gives us two free keys. Click software from list on the left side, then search windows, and you should find download links. Click it and it opens a side panel where you can get the key from.",
-    //     "week": "05",
-    //     "sort": "2022-05-19",
-    //     "date": "19 May 2022",
-    //     "accessed": "19 May 2022",
-    //     "author": "Shared by Riley",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://tryhackme.com/room/nmap01",
-    //     "title": "TryHackMe | Nmap Live Host Discovery",
-    //     "desc": "Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan.When we want to target a network, we want to find an efficient tool to help us handle repetitive tasks and answer the following questions: Which systems are up? What services are running on these systems?",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "a6b64823d42120e106cb7e89ceaa4817.png"
-    // }
-    // ,
-    // {
-    //     "url": "https://github.com/paupino/rust-decimal/issues/514",
-    //     "title": "Possibly malicious package "rustdecimal" #514",
-    //     "desc": "Github issue: 'Hi. I found this package: https://docs.rs/rustdecimal/latest/rustdecimal/. It seems this is clone of your package created for malicious purposes' 'I assume the malicious code is related to the curl Easy with obfuscated urls, correct?' 'In essence, it looks like it's downloading a binary masked as a "readme" file and then depending on the OS, making it executable and running it.' ",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://azureforeducation.microsoft.com/devtools",
+        "title": "xxxx",
+        "desc": "Hey y'all! If any of you want a Microsoft Windows key, the school gives us two free keys. Click software from list on the left side, then search windows, and you should find download links. Click it and it opens a side panel where you can get the key from.",
+        "week": "05",
+        "sort": "2022-05-19",
+        "date": "19 May 2022",
+        "accessed": "19 May 2022",
+        "author": "Shared by Riley",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx"
+    }
+    ,
+    {
+        "url": "https://tryhackme.com/room/nmap01",
+        "title": "TryHackMe | Nmap Live Host Discovery",
+        "desc": "Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan.When we want to target a network, we want to find an efficient tool to help us handle repetitive tasks and answer the following questions: Which systems are up? What services are running on these systems?",
+        "week": "05",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "a6b64823d42120e106cb7e89ceaa4817.png"
+    }
+    ,
+    {
+        "url": "https://github.com/paupino/rust-decimal/issues/514",
+        "title": "Possibly malicious package 'rustdecimal' #514",
+        "desc": "Github issue: 'Hi. I found this package: https://docs.rs/rustdecimal/latest/rustdecimal/. It seems this is clone of your package created for malicious purposes' 'I assume the malicious code is related to the curl Easy with obfuscated urls, correct?' 'In essence, it looks like it's downloading a binary masked as a 'readme' file and then depending on the OS, making it executable and running it.' ",
+        "week": "05",
+        "sort": "2022-05-19",
+        "date": "02 May 2022",
+        "accessed": "19 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "859494.png"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/microsoft-this-botnet-is-growing-fast-and-hunting-for-servers-with-weak-passwords/",
+        "title": "This botnet is growing fast and hunting for servers with weak passwords",
+        "desc": "'Its evasion capabilities include obfuscating the malware's activities, evading rule-based detection mechanisms and hash-based malicious file lookup, as well as using anti-forensic techniques to break process tree-based analysis. We observed in recent campaigns that XorDdos hides malicious activities from analysis by overwriting sensitive files with a null byte. It also includes various persistence mechanisms to support different Linux distributions,' Microsoft notes. ",
+        "week": "05",
+        "sort": "2022-05-20",
+        "date": "20 May 2022",
+        "accessed": "20 May 2022",
+        "author": "Liam Tung",
+        "authlink": "https://www.zdnet.com/meet-the-team/eu/liam-tung/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "liam-tung.webp"
+    }
     // ,
     // {
     //     "url": "xxxx",

@@ -74,7 +74,7 @@ a.btn {
   border: 3px solid cyan;
   color: cyan;
   font-family: 'Roboto Slab', sans-serif;
-  font-size: .85rem;
+  font-size: medium;
 }
 
 .btn:hover {
