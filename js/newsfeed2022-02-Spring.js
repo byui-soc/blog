@@ -6,6 +6,49 @@ import { learning } from "./learning.js";
 // Menu Functions
 import { isElement, writeById, createLink, getFilename, urlExists, getBase, createLMNT, appendNestLMNT, appendLMNT } from './utilities.js';
 
+export const glossaryList = [{"cardlist" : newsFeed03}, {"cardlist":newsFeed04}, { "cardlist":newsFeed05}, {"cardlist":newsFeed06}, { "cardlist" : learning}];
+
+// function createGlossaryList(arrayList) {
+//     let glossaryList = [];
+//     let glossaryItem = new Object();
+//     arrayList.forEach((el) => {
+//         el.cardlist.forEach((card) => {
+//             if (card.term !== "xxxx") {
+//                 // console.log("card.term: " + card.term);
+//                 glossaryItem.term = card.term;
+//                 glossaryItem.termdef = card.termdef;
+//                 glossaryList.push(glossaryItem);
+//                 console.log("glossaryList: ", glossaryList);
+//             }
+//         })
+//         return glossaryList;
+//     });
+// }
+// var glossary = createGlossaryList(glossaryList);
+// console.log("glossary: ", glossary);
+
+function createGlossary(arrayList, id) {
+    console.log("arrayList: ", arrayList);
+    if (isElement(id)) {
+      const container = document.getElementById(id);
+      let div = `<div id="glossary">`;
+      arrayList.forEach((card) => {
+              //cardlist.forEach((card) => {
+                  if (card.term !== "xxxx") {
+                      console.log("card.term: " + card.term);
+                      div += `<p class="desc">`;
+                      div += `<h6 class="overlay">${card.term}: ${card.termdef}</h6>`;
+                      div += `</p>`;
+                  }
+              //})
+          });
+          div += "</div>";
+          container.innerHTML = div;
+          return;
+    }
+}
+createGlossary(glossaryList, "glossary");
+
 
 function createNav(array, id) {
     // create link list container element
@@ -58,7 +101,7 @@ function createNav(array, id) {
             }
             menu += `<p class="desc descrip">${element.desc}<a href="${element.url}">Go to webpage</a></p>`;
             menu += `</div> </div> </div> `;
-      });
+      })
       menu += "</div>";
       container.innerHTML = menu;
       return;
@@ -68,7 +111,7 @@ function createNav(array, id) {
 createNav(newsFeed03,'newsfeed03');
 createNav(newsFeed04,'newsfeed04');
 createNav(newsFeed05,'newsfeed05');
-//createNav(newsFeed202206spring,'newsfeed06');
+createNav(newsFeed202206spring,'newsfeed06');
 //createNav(newsFeed202207spring,'newsfeed07');
 //createNav(newsFeed202208spring,'newsfeed08');
 //createNav(newsFeed202209spring,'newsfeed09');

@@ -12,7 +12,9 @@ export const learning = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
-        "img": "PpB92zhBD-XR-ZqH.jpg"
+        "img": "PpB92zhBD-XR-ZqH.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
     },
     {
         "url": "https://tryhackme.com/room/netsecchallenge",
@@ -26,7 +28,9 @@ export const learning = [
         "authlink": "xxxx",
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
-        "img": "netsecmodule.png"
+        "img": "netsecmodule.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
     }
     ,
     {
@@ -41,8 +45,28 @@ export const learning = [
         "authlink": "xxxx",
         "imgcredlink": "James Wainscoat on Unsplash.com",
         "imgcred": "https://unsplash.com/@tumbao1949",
-        "img": "james-wainscoat-GGewLGcQD-I-unsplash.jpg"
+        "img": "james-wainscoat-GGewLGcQD-I-unsplash.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
     }
+    ,
+    {
+        "url": "https://azureforeducation.microsoft.com/devtools",
+        "title": "xxxx",
+        "desc": "Hey y'all! If any of you want a Microsoft Windows key, the school gives us two free keys. Click software from list on the left side, then search windows, and you should find download links. Click it and it opens a side panel where you can get the key from.",
+        "week": "05",
+        "sort": "2022-05-19",
+        "date": "19 May 2022",
+        "accessed": "19 May 2022",
+        "author": "Shared by Riley",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    
     // ,
     // {
     //     "url": "xxxx",
@@ -56,7 +80,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -71,7 +97,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -86,7 +114,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -101,7 +131,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -116,7 +148,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -131,7 +165,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -146,7 +182,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -161,7 +199,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -176,7 +216,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -191,7 +233,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -206,7 +250,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -221,7 +267,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -236,7 +284,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -251,7 +301,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -266,7 +318,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -281,7 +335,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -296,7 +352,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -311,7 +369,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -326,7 +386,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -341,7 +403,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -356,7 +420,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -371,7 +437,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -386,7 +454,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -401,7 +471,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -416,7 +488,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -431,7 +505,9 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
     // ,
     // {
@@ -446,6 +522,8 @@ export const learning = [
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
     // }
 ];

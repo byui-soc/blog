@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Handlee&family=Hubballi&family=Nunito:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
 
 body {
-  background: black;
+  background: #222b2f;
   background-image: url("img/markus-spiske-70Rir5vB96U-unsplash.jpg");
+  font-family: Monaco, "Bitstream Vera Sans Mono", Consolas, "Lucida Console", monospace;
 }
 
 #newsfeed-container {
   display: grid;
   grid-template-columns: 1fr;
-  background: black;
-  color: hotpink;
+  background: #222b2f;
+  color: #caa851;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: chartreuse;
+h1, h2, h3, h4, h5, h6, .title {
+  color: #caa851;
   text-align: center;
   font-family: 'Roboto Slab', sans-serif;
   margin: 0;
@@ -50,36 +51,38 @@ a {
   padding: 1%;
   margin: 0;
   color: chartreuse;
-  text-decoration: none;
 }
 
 a:visited {
-  color: cyan;
+  color: #caa851;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: hotpink;
+  color: #caa851;
 }
 
-p.center {
+.center {
   align-content: center;
   text-align: center;
 }
 
 a.btn {
   align-items: center;
+  text-decoration: none;
   border-radius: 50px;
-  background: darkblue;
-  border: 3px solid cyan;
-  color: cyan;
+  background: #006EB6;
+  border: 3px solid #eaeaea;
+  color: #eaeaea;
+  padding: 2%;
+  font-weight: bold;
   font-family: 'Roboto Slab', sans-serif;
   font-size: medium;
 }
 
 .btn:hover {
-  border: 3px solid hotpink;
-  color: hotpink;
+  border: 3px solid #006EB6;
+  color: #006EB6;
+  background: #eaeaea;
   text-decoration: none;
 }
 
@@ -94,7 +97,7 @@ a.btn {
 }
 
 .flipcard {
-  background: black;
+  background: #222b2f;
   width: 300px;
   height: 300px;
   border-radius: 10px;
@@ -126,7 +129,7 @@ a.btn {
 }
 
 .flipcard-front {
-  background: #444;
+  background: black;
   max-height: 300px;
   margin: auto;
 }
@@ -160,8 +163,8 @@ img {
 }
 
 .flipcard-back {
-  background-color: #444;
-  color: white;
+  background-color: black;
+  color: #eaeaea;
   transform: rotateY(180deg);
   border-radius: 10px;
 }
