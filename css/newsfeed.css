@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Handlee&family=Hubballi&family=Nunito:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Handlee&family=Hubballi&family=Nunito:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap'); */
 
 body {
   background: #222b2f;
-  background-image: url("img/markus-spiske-70Rir5vB96U-unsplash.jpg");
   font-family: Monaco, "Bitstream Vera Sans Mono", Consolas, "Lucida Console", monospace;
 }
 
@@ -89,6 +88,8 @@ a.btn {
 .desc {
   padding: 0 2%;
   margin: 0;
+  color: #eaeaea;
+  font-size: .8rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

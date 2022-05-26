@@ -8,46 +8,52 @@ import { isElement, writeById, createLink, getFilename, urlExists, getBase, crea
 
 export const glossaryList = [{"cardlist" : newsFeed03}, {"cardlist":newsFeed04}, { "cardlist":newsFeed05}, {"cardlist":newsFeed06}, { "cardlist" : learning}];
 
-// function createGlossaryList(arrayList) {
-//     let glossaryList = [];
-//     let glossaryItem = new Object();
-//     arrayList.forEach((el) => {
-//         el.cardlist.forEach((card) => {
-//             if (card.term !== "xxxx") {
-//                 // console.log("card.term: " + card.term);
-//                 glossaryItem.term = card.term;
-//                 glossaryItem.termdef = card.termdef;
-//                 glossaryList.push(glossaryItem);
-//                 console.log("glossaryList: ", glossaryList);
-//             }
-//         })
-//         return glossaryList;
-//     });
-// }
-// var glossary = createGlossaryList(glossaryList);
-// console.log("glossary: ", glossary);
-
-function createGlossary(arrayList, id) {
-    console.log("arrayList: ", arrayList);
+function createGlossaryList(arrayList, id) {
     if (isElement(id)) {
-      const container = document.getElementById(id);
-      let div = `<div id="glossary">`;
-      arrayList.forEach((card) => {
-              //cardlist.forEach((card) => {
-                  if (card.term !== "xxxx") {
-                      console.log("card.term: " + card.term);
-                      div += `<p class="desc">`;
-                      div += `<h6 class="overlay">${card.term}: ${card.termdef}</h6>`;
-                      div += `</p>`;
-                  }
-              //})
-          });
-          div += "</div>";
-          container.innerHTML = div;
-          return;
+        const container = document.getElementById(id);
+        let div = `<div id="glossary">`;
+        let termList = [];
+        arrayList.forEach((el) => {
+            el.cardlist.forEach((card) => {
+                if (card.term !== "xxxx") {
+                    //console.log("card.term: " + card.term + " card.termdef: " + card.termdef);
+                    termList.push(`${card.term}: ${card.termdef}`);
+                }
+            });
+        });
+        termList.sort();
+        termList.forEach((term) => {
+            div += `<p class="desc">${term}</p><br>`;
+        });
+        div += "</div>";
+        container.innerHTML = div;
+        return;
     }
 }
-createGlossary(glossaryList, "glossary");
+createGlossaryList(glossaryList, "container");
+// console.log("glossary: ", glossary);
+
+// function createGlossary(arrayList, id) {
+//     console.log("arrayList: ", arrayList);
+//     if (isElement(id)) {
+//       const container = document.getElementById(id);
+//       let div = `<div id="glossary">`;
+//       arrayList.forEach((card) => {
+//               cardlist.forEach((card) => {
+//                   if (card.term !== "xxxx") {
+//                       console.log("card.term: " + card.term);
+//                       div += `<p class="desc">`;
+//                       div += `<h6 class="overlay">${card.term}: ${card.termdef}</h6>`;
+//                       div += `</p>`;
+//                   }
+//               })
+//           });
+//           div += "</div>";
+//           container.innerHTML = div;
+//           return;
+//     }
+// }
+// createGlossary(glossaryList, "glossary");
 
 
 function createNav(array, id) {
@@ -95,8 +101,8 @@ function createNav(array, id) {
             menu += `<div class="flipcard-back">`;
             menu += `<p class='desc date'>Article Date: ${element.date}${author}</p>`;
             if (imgcred !== "") {
-              console.log(imgcred);
-              console.log(element.title);
+              //console.log(imgcred);
+              //console.log(element.title);
               menu += `<p class='desc imgcred'>${imgcred}</p>`;
             }
             menu += `<p class="desc descrip">${element.desc}<a href="${element.url}">Go to webpage</a></p>`;
@@ -111,7 +117,7 @@ function createNav(array, id) {
 createNav(newsFeed03,'newsfeed03');
 createNav(newsFeed04,'newsfeed04');
 createNav(newsFeed05,'newsfeed05');
-createNav(newsFeed202206spring,'newsfeed06');
+createNav(newsFeed06,'newsfeed06');
 //createNav(newsFeed202207spring,'newsfeed07');
 //createNav(newsFeed202208spring,'newsfeed08');
 //createNav(newsFeed202209spring,'newsfeed09');

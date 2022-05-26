@@ -329,7 +329,7 @@ export const newsFeed04 = [
         "imgcredlink": "xxxx",
         "img": "GettyImages-1330150838.webp",
         "term": "Typosquatting",
-        "termdef": "is a common tool associated with Nobelium and has been used by the group in other campaigns, including recent attacks against Ukrainian targets."
+        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a> which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
     }
     ,
     {

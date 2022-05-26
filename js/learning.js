@@ -29,8 +29,8 @@ export const learning = [
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
         "img": "netsecmodule.png",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "Nmap",
+        "termdef": "<a href='https://nmap.org/'>(Network Mapper)</a> is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime."
     }
     ,
     {
