@@ -26,9 +26,9 @@ export const newsFeed03 = [
         "accessed": "09 May 2022",
         "author": "xxxx",
         "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "imgcred": "itpro.com",
+        "imgcredlink": "https://www.itpro.com/malware/34381/what-is-notpetya",
+        "img": "notpetya.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -272,11 +272,11 @@ export const newsFeed04 = [
         "sort": "2022-05-26",
         "date": "26 April 2022",
         "accessed": "26 April 2022",
-        "author": "Security Week News",
-        "authlink": "https://www.securityweek.com/authors/securityweek-news",
+        "author": "xxxx",
+        "authlink": "xxxx",
         "imgcred": "xxxx",
-        "imgcredlink": "https://www.itpro.com/malware/34381/what-is-notpetya",
-        "img": "notpetya.webp",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -394,7 +394,7 @@ export const newsFeed04 = [
         "author": "Ionut Arghire",
         "authlink": "https://www.securityweek.com/authors/ionut-arghire",
         "imgcred": "By Google - Chrome version 100 what&#039;s new, Public Domain",
-        "imgcredlink": " https://commons.wikimedia.org/w/index.php?curid=114993646",
+        "imgcredlink": "https://commons.wikimedia.org/w/index.php?curid=114993646",
         "img": "Google_Chrome_icon_(February_2022).svg.png",
         "term": "xxxx",
         "termdef": "xxxx"
