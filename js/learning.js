@@ -13,8 +13,8 @@ export const learning = [
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
         "img": "PpB92zhBD-XR-ZqH.jpg",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "Jupyter Notebook",
+        "termdef": "The Jupyter Notebook is the original web application for creating and sharing computational documents. It offers a simple, streamlined, document-centric experience."
     },
     {
         "url": "https://tryhackme.com/room/netsecchallenge",
@@ -46,8 +46,8 @@ export const learning = [
         "imgcredlink": "James Wainscoat on Unsplash.com",
         "imgcred": "https://unsplash.com/@tumbao1949",
         "img": "james-wainscoat-GGewLGcQD-I-unsplash.jpg",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "Bug Bounty Hunter",
+        "termdef": "Bug bounty hunters are highly-skilled hackers who detect security vulnerabilities and they are one of the most sought after professions in Japan today. The struggles to cope with rising threat of cyberattacks, along with huge costs that can incur to recuperate the losses are driving organisations to strengthen their  cyber security."
     }
     ,
     {
@@ -62,19 +62,86 @@ export const learning = [
         "authlink": "xxxx",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
+        "img": "Azure.png",
+        "term": "Azure",
+        "termdef": "The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions to life—to solve today’s challenges and create the future. Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice."
+    }
+    ,
+    {
+        "url": "https://tryhackme.com/room/xssgi",
+        "title": "Cross-site Scripting (XSS)",
+        "desc": "Learn how to detect and exploit XSS vulnerabilities, giving you control of other visitor's browsers.",
+        "week": "06",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "Presented by Dax",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "2022-spring-06-ig-owasp-xss.png",
+        "term": "XSS",
+        "termdef": "Cross-Site Scripting (XSS) is a type of injection attack in which malicious scripts are injected into otherwise benign and trusted web pages. An attacker can exploit a vulnerability in an application to steal or modify legitimate data."
+    }
+    ,
+    {
+        "url": "https://www.base64decode.org/",
+        "title": "Base64 Decoder",
+        "desc": "Do you have to deal with Base64 format? Then this site is perfect for you! Use our super handy online tool to encode or decode your data.",
+        "week": "06",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
         "img": "xxxx",
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    
+    ,
+    {
+        "url": "https://xsshunter.com/",
+        "title": "What is XSS Hunter?",
+        "desc": "XSS Hunter allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS. The service works by hosting specialized XSS probes which, upon firing, scan the page and send information about the vulnerable page to the XSS Hunter service.",
+        "week": "06",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "automatic_page_recon.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://tryhackme.com/room/owaspjuiceshop",
     //     "title": "xxxx",
     //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-11",
-    //     "date": "11 May 2022",
+    //     "week": "06",
+    //     "sort": "2022-05-26",
+    //     "date": "26 May 2022",
+    //     "accessed": "26 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://tryhackme.com/room/burpsuitebasics",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "xxxx",
+    //     "sort": "2022-05-26",
+    //     "date": "26 May 2022",
     //     "accessed": "xxxx",
     //     "author": "xxxx",
     //     "authlink": "xxxx",
@@ -86,24 +153,7 @@ export const learning = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-11",
-    //     "date": "11 May 2022",
-    //     "accessed": "xxxx",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
+    //     "url": "https://tryhackme.com/room/burpsuiterepeater",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "xxxx",
@@ -120,7 +170,7 @@ export const learning = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://tryhackme.com/room/introtonetworking",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "xxxx",
@@ -137,7 +187,7 @@ export const learning = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://tryhackme.com/hacktivities",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "xxxx",
@@ -152,74 +202,23 @@ export const learning = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-05-11",
-    //     "date": "11 May 2022",
-    //     "accessed": "xxxx",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-05-11",
-    //     "date": "11 May 2022",
-    //     "accessed": "xxxx",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-05-11",
-    //     "date": "11 May 2022",
-    //     "accessed": "xxxx",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-05-11",
-    //     "date": "11 May 2022",
-    //     "accessed": "xxxx",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://tryhackme.com/path-action/beginner/join",
+        "title": "Try Hack Me Complete Beginner Path",
+        "desc": "This path will be looking at the following areas: Basic Linux - Get familiar with the linux command line, Web Application Security - Learn web application security concepts through the OWASP Top 10, Network Security - Using essential tools like NMAP to enumerate infrastructure, Scripting Challenges - Using Python and Bash to carry out different tasks, Privilege Escalation",
+        "week": "xxxx",
+        "sort": "2022-05-11",
+        "date": "11 May 2022",
+        "accessed": "xxxx",
+        "author": "xxxx",
+        "authlink": "https://tryhackme.com",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "deploy_access_hack_arrow.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
     //     "url": "xxxx",

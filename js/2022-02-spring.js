@@ -19,18 +19,18 @@ export const newsFeed03 = [
     {
         "url": "https://www.securityweek.com/us-offers-10-million-reward-russian-intelligence-officers-behind-notpetya-cyberattacks",
         "title": "US Offers $10 Million Reward for Russian Intelligence Officers Behind NotPetya Cyberattacks",
-        "desc": "The U.S. Department of State is offering a reward of up to $10 million for information on the attackers behind the June 2017 “NotPetya” cyberattacks that had a massive impact on companies globally. Specifically, the U.S. Government is “seeking information on six officers of the Main Intelligence Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU)” for their role in the attacks that impacted U.S. critical infrastructure.",
+        "desc": "The U.S. Department of State is offering a reward of up to $10 million for information on the attackers behind the June 2017 “NotPetya” cyberattacks... Specifically, the U.S. Government is “seeking information on six officers of the Main Intelligence Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU)” for their role in the attacks that impacted U.S. critical infrastructure.",
         "week": "03",
         "sort": "2022-04-09",
         "date": "09 May 2022",
         "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
+        "author": "Petya and NotPetya, Wikipedia",
+        "authlink": "https://en.wikipedia.org/wiki/Petya_and_NotPetya",
         "imgcred": "itpro.com",
         "imgcredlink": "https://www.itpro.com/malware/34381/what-is-notpetya",
         "img": "notpetya.webp",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "NotPetya",
+        "termdef": "Petya is a family of encrypting malware that was first discovered in 2016. In June 2017, a new variant of Petya was used for a global cyberattack, primarily targeting Ukraine. The new variant propagates via the EternalBlue exploit, which is generally believed to have been developed by the U.S. National Security Agency (NSA), and was used earlier in the year by the WannaCry ransomware."
     }
     ,
     {
@@ -101,7 +101,7 @@ export const newsFeed03 = [
     },
     {
         "url": "https://www.zdnet.com/article/a-security-researcher-told-me-my-passwords-and-more-how-15-years-of-digital-footprints-left-me-exposed/",
-        "title": "A security researcher easily found my passwords and more:",
+        "title": "A security researcher easily found my passwords and more",
         "desc": "How my digital footprints left me surprisingly over-exposed...as I discovered, old information can come back to haunt you. I'm careful with what I sign-up to, what I post, and who can see it. I make sure that my passwords are complex enough so they can't be guessed, plus whenever possible, I use multi-factor authentication to protect my accounts.",
         "week": "03",
         "sort": "2022-05-02",
@@ -656,40 +656,40 @@ export const newsFeed05 = [
         "term": "living-off-the-land binary (LOLBin)",
         "termdef": "Binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity."
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "05",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://threatpost.com/doj-says-doctor-is-malware-mastermind/179659/",
+        "title": "DOJ Says Doctor is Malware Mastermind",
+        "desc": "According to a DOJ press release, beginning in late 2019, Gonzalez took to online cybercrime forums to market a new product he’d built. It was a ransomware builder – software that helps other cybercriminals more easily design their own, custom ransomware programs. Gonzalez called it “Thanos.”",
+        "week": "05",
+        "sort": "2022-05-18",
+        "date": "18 May 2022",
+        "accessed": "18 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "cybercrime-jugs.jpg",
+        "term": "Ransomware tools",
+        "termdef": "Malicious software that cybercriminals use to extort money from companies, nonprofits and other institutions, by encrypting those files and then demanding a ransom for the decryption keys."
+    }
+    ,
+    {
+        "url": "https://threatpost.com/380k-kubernetes-api-servers-exposed-to-public-internet/179679/",
+        "title": "380K Kubernetes API Servers Exposed to Public Internet",
+        "desc": "The Shadowserver Foundation discovered the access when it scanned the internet for Kubernetes API servers, of which there are more than 450,000, according to a blog post published this week.",
+        "week": "05",
+        "sort": "2022-05-20",
+        "date": "20 May 2022",
+        "accessed": "20 May 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "API.jpg",
+        "term": "Kubernetes",
+        "termdef": "Also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications."
+    }
 ];
 
 export const newsFeed06 = [
@@ -709,9 +709,26 @@ export const newsFeed06 = [
         "term": "Account pre-hijacking",
         "termdef": "a new class of attacks that can be used to gain access to a targeted account, and can involve federated identity and single sign-on (SSO) services, which allow users to sign up for certain online services using existing accounts registered with companies such as Microsoft, Google and Facebook."
     }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/microsoft-heres-how-to-defend-windows-against-these-new-privilege-escalation-attacks/",
+        "title": "Microsoft: Here's how to defend Windows against these new privilege escalation attacks",
+        "desc": "xxxx",
+        "week": "06",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "Liam Tung, Contributor",
+        "authlink": "https://www.zdnet.com/meet-the-team/eu/liam-tung/",
+        "imgcred": "Getty Images/iStockphoto",
+        "imgcredlink": "xxxx",
+        "img": "supportstaffistock-1078357410.webp",
+        "term": "Privilege Escalation",
+        "termdef": "Tools to escalate privileges from a low-privileged Windows domain user to a high-privileged domain user by joining unauthorized devices to Active Directory (AD), Microsoft's on-premise authentication and identity service. "
+    }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/my-instagram-account-was-hacked-and-two-factor-authentication-didnt-help/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -728,7 +745,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/google-is-adding-these-it-security-integrations-to-chrome/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -745,7 +762,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/how-to-stop-spam-messages-on-your-iphone-with-this-almost-secret-hidden-switch/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -762,7 +779,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/microsoft-credit-card-skimmers-are-switching-techniques-to-hide-their-attacks/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -779,7 +796,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/solarwinds-heres-how-were-building-everything-around-this-new-cybersecurity-strategy/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -796,7 +813,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/fronton-botnet-disinformation/179721/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -813,7 +830,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/snake-keylogger-pdfs/179703/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -830,7 +847,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/cybergang-claims-revil-is-back-executes-ddos-attacks/179734/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -847,7 +864,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/chaos-onyx-and-yashma-ransomware/179730/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -864,7 +881,7 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/fronton-botnet-disinformation/179721/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "06",
@@ -881,9 +898,94 @@ export const newsFeed06 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/these-are-the-flaws-that-let-hackers-attack-blockchain-and-defi-projects/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
+    //     "week": "06",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://threatpost.com/zoom-patches-zero-click-rce-bug/179727/",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "06",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://www.zdnet.com/article/how-to-encrypt-your-email-and-why-you-should/",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "06",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://www.zdnet.com/article/some-qct-servers-vulnerable-to-pantsdown-flaw-say-security-researchers/",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "06",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://www.zdnet.com/article/youtube-remains-in-russia-to-be-an-independent-news-source-ceo/",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "06",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://www.zdnet.com/article/data-on-ransomware-attacks-is-fragmented-and-incomplete-warns-senate-report/",
+    //     "title": "xxxx",
+    //     "desc": ""As Russia's invasion of Ukraine continues and Russia seeks to find ways around the international finance system, the need to address these shortfalls grows. Approximately 74 percent of global ransomware revenue in 2021 went to entities either likely located in Russia or controlled by the Russian government," the report notes. ",
     //     "week": "06",
     //     "sort": "2022-05-09",
     //     "date": "09 May 2022",
@@ -900,7 +1002,7 @@ export const newsFeed06 = [
 
 export const newsFeed07 = [
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/doj-says-doctor-is-malware-mastermind/179659/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",

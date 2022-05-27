@@ -95,7 +95,7 @@ function createNav(array, id) {
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
-            menu += `<div><h4 class="overlay">${element.title}</h4>`;
+            menu += `<div><h3 class="overlay">${element.title}</h3>`;
             menu += `<img src="./img/${element.img}" alt="Image for ${element.title}"></div>`;
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
