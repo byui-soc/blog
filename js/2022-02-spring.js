@@ -422,7 +422,7 @@ export const newsFeed05 = [
     {
         "url": "https://cdn2.assets-servd.host/gifted-zorilla/production/files/CISO-Guide-to-Phishing.pdf",
         "title": "CISO Guideto Phishing - How to Stop 77% of All Advanced Attacks",
-        "desc": "Phishing is how hackers steal your identity, accomplish breaking the access control and steal your data. Phishing attacks use social engineering—a predatory blend of identity deception, manipulation of trust, and deadline pressure—to push email recipients to take actions they wouldn’t do if a stranger made the request. Spear phishing criminals research and target specific employees within an organization, often in payroll and accounting. Named for the biggest “phish,” whaling attacks impersonate the target the company’s CEO or another executive.",
+        "desc": "Phishing is how hackers steal your identity, accomplish breaking the access control and steal your data.  Spear phishing criminals research and target specific employees within an organization, often in payroll and accounting. Named for the biggest “phish,” whaling attacks impersonate the target the company’s CEO or another executive.",
         "week": "05",
         "sort": "2022-05-18",
         "date": "18 May 2022",
@@ -432,8 +432,8 @@ export const newsFeed05 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "mike-britton.jpg",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "Phishing",
+        "termdef": "Phishing attacks use social engineering—a predatory blend of identity deception, manipulation of trust, and deadline pressure—to push email recipients to take actions they wouldn’t do if a stranger made the request."
     }
     ,
     {
@@ -455,8 +455,8 @@ export const newsFeed05 = [
     ,
     {
         "url": "https://www.zdnet.com/article/cyberattacks-and-misinformation-activity-against-ukraine-continues-say-security-researchers/",
-        "title": "Cyberattacks and misinformation activity against Ukraine continues say security researchers",
-        "desc": "Malware and fake news continues, Concerted information operations have proliferated, ranging from cyber-enabled information operations, including those that coincided with disruptive and destructive cyber threat activity, to campaigns leveraging coordinated and inauthentic networks of accounts to promote fabricated content and desired narratives across various social media platforms, websites, and forums... says Mandiant.",
+        "title": "Cyberattacks and misinformation activity continues say security researchers",
+        "desc": "Concerted information operations have proliferated, from cyber-enabled information operations, including destructive cyber threat activity, to campaigns leveraging coordinated and inauthentic networks of accounts to promote fabricated content and desired narratives across various social media platforms, websites, and forums...",
         "week": "05",
         "sort": "2022-05-19",
         "date": "19 May 2022",
@@ -473,7 +473,7 @@ export const newsFeed05 = [
     {
         "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/interactive-phishing-using-chatbot-like-web-applications-to-harvest-information/",
         "title": "Interactive Phishing: Using Chatbot-like Web Applications to Harvest Information",
-        "desc": "Recently, we have encountered an interesting phishing website containing an interactive component in it: a chatbot. Unlike a lot of phishing websites, this one establishes a conversation first, and bit-by-bit guides the victim to the actual phishing pages. Although the phishing method is quite unique, it still uses email as the delivery channel. A deeper inspection of the email header shows that the “From” header is missing the email address component, which is a red flag already.",
+        "desc": "Recently, we have encountered an interesting phishing website...Unlike a lot of phishing websites, this one establishes a conversation first, and ... guides the victim to the actual phishing pages. ...it still uses email as the delivery channel. A deeper inspection of the email header shows that the “From” header is missing the email address component, which is a red flag already.",
         "week": "05",
         "sort": "2022-05-19",
         "date": "19 May 2022",
@@ -485,23 +485,6 @@ export const newsFeed05 = [
         "img": "e36b4dab42f03909c3a842730fb677dd2493b9a7.png",
         "term": "xxxx",
         "termdef": "xxxx"
-    }
-    ,
-    {
-        "url": "https://tryhackme.com/room/nmap01",
-        "title": "TryHackMe | Nmap Live Host Discovery",
-        "desc": "Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan.When we want to target a network, we want to find an efficient tool to help us handle repetitive tasks and answer the following questions: Which systems are up? What services are running on these systems?",
-        "week": "05",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "a6b64823d42120e106cb7e89ceaa4817.png",
-        "term": "ARP",
-        "termdef": "Address Resolution Protocol is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address."
     }
     ,
     {
@@ -524,7 +507,7 @@ export const newsFeed05 = [
     {
         "url": "https://www.zdnet.com/article/microsoft-this-botnet-is-growing-fast-and-hunting-for-servers-with-weak-passwords/",
         "title": "This botnet is growing fast and hunting for servers with weak passwords",
-        "desc": "'Its evasion capabilities include obfuscating the malware's activities, evading rule-based detection mechanisms and hash-based malicious file lookup, as well as using anti-forensic techniques to break process tree-based analysis. We observed in recent campaigns that XorDdos hides malicious activities from analysis by overwriting sensitive files with a null byte. It also includes various persistence mechanisms to support different Linux distributions,' Microsoft notes. ",
+        "desc": "Its evasion capabilities include obfuscating the malware's activities, evading rule-based detection mechanisms and hash-based malicious file lookup, as well as using anti-forensic techniques to break process analysis. We observed that XorDdos hides malicious activities by overwriting files with a null byte. It also includes various persistence mechanisms to support different Linux distributions. ",
         "week": "05",
         "sort": "2022-05-20",
         "date": "20 May 2022",
@@ -541,7 +524,7 @@ export const newsFeed05 = [
     {
         "url": "https://www.zdnet.com/article/canada-to-ban-huawei-and-zte-and-tell-telcos-to-rip-out-5g-and-4g-equipment",
         "title": "Canada to ban Huawei and ZTE and tell telcos to rip out 5G and 4G equipment",
-        "desc": "Citing many of the same reasons that <a href='https://www.zdnet.com/article/5g-stakes-couldnt-be-higher-so-we-advised-huawei-ban-asd/'>Australia used to ban Huawei</a> in 2018, the Canadian government said the interconnectedness and interdependence of 5G networks makes exploitation much more significant. In 5G systems, sensitive functions will become increasingly decentralised and virtualised in order to reduce latency, and the number of devices they will connect will also grow exponentially.",
+        "desc": "Citing many of the same reasons that <a href='https://www.zdnet.com/article/5g-stakes-couldnt-be-higher-so-we-advised-huawei-ban-asd/'>Australia used to ban Huawei</a> in 2018. In 5G systems, sensitive functions will become increasingly decentralised and virtualised in order to reduce latency, and the number of devices they will connect will also grow exponentially.",
         "week": "05",
         "sort": "2022-05-19",
         "date": "19 May 2022",
@@ -558,7 +541,7 @@ export const newsFeed05 = [
     {
         "url": "https://threatpost.com/zero-trust-for-data/179706/",
         "title": "Zero Trust for Data Helps Enterprises Detect, Respond and Recover from Breaches",
-        "desc": "When Samsung confirmed the Lapsus$ hacking group had obtained and leaked almost 200 gigabytes of confidential data, the first question for customers was whether or not their customers’ data was a part of that statistic or if Samsung had safeguards in place to protect them. With so much at stake, an increasing number of organizations are choosing the Zero Trust Security model, which assumes that untrusted users exist on both sides of an organization’s computing perimeter.",
+        "desc": "When Samsung confirmed the hacking group had leaked almost 200 gigabytes of confidential data, the question for customers was whether or not their customers’ data was a part of that statistic. An increasing number of organizations are choosing the Zero Trust Security model, which assumes that untrusted users exist on both sides of an organization’s computing perimeter.",
         "week": "06",
         "sort": "2022-05-23",
         "date": "23 May 2022",
@@ -575,7 +558,7 @@ export const newsFeed05 = [
     {
         "url": "https://www.zdnet.com/article/how-to-use-the-windows-11-sandbox-as-a-virtual-machine/",
         "title": "How to use the Windows 11 Sandbox as a virtual machine",
-        "desc": "Available in the Pro and Enterprise flavors of Windows 10 and 11, the Sandbox is a lightweight and temporary virtual machine outfitted with the same version of Windows installed on your host PC, meaning 10 or 11. You can install apps, set up different features, and run processes without worrying about your activities conflicting with your core Windows environment.",
+        "desc": "Available in the Pro and Enterprise flavors of Windows 10 and 11, the Sandbox is a lightweight and temporary virtual machine with the same version of Windows installed on your host PC. You can install apps, set up different features, and run processes without worrying about your activities conflicting with your core Windows environment.",
         "week": "05",
         "sort": "2022-05-18",
         "date": "18 May 2022",
@@ -591,17 +574,17 @@ export const newsFeed05 = [
     ,
     {
         "url": "https://www.zdnet.com/article/fake-domains-offer-windows-11-installers-but-deliver-malware-instead/",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "Fake domains offer Windows 11 installers - but deliver malware instead",
+        "desc": "Be careful what you are downloading - these files deliver the Vidar infostealer. Security researchers have found a new collection of phishing domains offering up fake Windows 11 installers that actually deliver information-stealing malware.",
         "week": "05",
         "sort": "2022-05-09",
         "date": "09 May 2022",
         "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "author": "Charlie Osborne, Contributor",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/charlie-osborne/",
+        "imgcred": "ZDNet",
+        "imgcredlink": "https://www.zdnet.com/meet-the-team/us/charlie-osborne/",
+        "img": "charlie-osborne.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -617,8 +600,8 @@ export const newsFeed05 = [
         "author": "Associated Press",
         "authlink": "https://www.securityweek.com/authors/associated-press",
         "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "imgcredlink": "https://english.alarabiya.net/News/world/2022/05/15/Italian-police-thwart-pro-Russian-cyberattacks-during-Eurovision-contest",
+        "img": "04285f99-aa05-4e18-8ecd-4675e68af3fa_16x9_1200x676.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -713,7 +696,7 @@ export const newsFeed06 = [
     {
         "url": "https://www.zdnet.com/article/microsoft-heres-how-to-defend-windows-against-these-new-privilege-escalation-attacks/",
         "title": "Microsoft: Here's how to defend Windows against these new privilege escalation attacks",
-        "desc": "xxxx",
+        "desc": "Microsoft is warning Windows domain admins to implement mitigations against an authentication weakness related to Active Directory.",
         "week": "06",
         "sort": "2022-05-26",
         "date": "26 May 2022",
@@ -998,6 +981,40 @@ export const newsFeed06 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
+    //,
+    // {
+    //     "url": "https://www.securityweek.com/tapping-neurodiverse-candidates-can-address-cybersecurity-skills-shortage",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed07 = [
@@ -1018,6 +1035,278 @@ export const newsFeed07 = [
         // "termdef": "xxxx"
     // }
     // ,
+    // {
+    //     "url": "https://www.csoonline.com/article/3662151/linux-malware-is-on-the-rise-6-types-of-attacks-to-look-for.html",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -1071,6 +1360,176 @@ export const newsFeed08 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed09 = [
@@ -1097,6 +1556,176 @@ export const newsFeed09 = [
     //     "desc": "xxxx",
     //     "week": "09",
     //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
     //     "date": "09 June 2022",
     //     "accessed": "09 June 2022",
     //     "author": "xxxx",
@@ -1143,6 +1772,176 @@ export const newsFeed10 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed11 = [
@@ -1179,6 +1978,176 @@ export const newsFeed11 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed12 = [
@@ -1198,10 +2167,246 @@ export const newsFeed12 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed13 = [
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed14 = [
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx"
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
