@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Handlee&family=Hubballi&family=Nunito:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap'); */
 
-body {
+/* body {
   margin:0;
   padding:0;
   background:#222b2f 0 0;
@@ -8,7 +8,7 @@ body {
   font-size:16px;
   line-height:1.5;
   font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
-}
+} */
 
 #newsfeed-container {
   display: grid;

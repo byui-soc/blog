@@ -516,9 +516,9 @@ export const newsFeed05 = [
         "authlink": "https://www.zdnet.com/meet-the-team/eu/liam-tung/",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "liam-tung.webp",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "img": "centralized-botnet-example.jpg",
+        "term": "Botnet",
+        "termdef": "A network of computers infected with malware that are controlled by a bot herder. The bot herder is the person who operates the botnet infrastructure and uses the compromised computers to launch attacks designed to crash a target’s network, inject malware, harvest credentials or execute CPU-intensive tasks. Each individual device within the botnet network is called a bot."
     }
     ,
     {
@@ -607,18 +607,18 @@ export const newsFeed05 = [
     }
     ,
     {
-        "url": "https://www.securityweek.com/doj-will-no-longer-use-cfaa-charge-ethical-hackers",
+        "url": "https://www.bleepingcomputer.com/news/security/us-doj-will-no-longer-prosecute-ethical-hackers-under-cfaa/",
         "title": "DoJ Will No Longer Use CFAA to Charge Ethical Hackers",
         "desc": "The United States Department of Justice has announced that it would no longer charge ethical hackers under the controversial Computer Fraud and Abuse Act (CFAA). Ethical hacking, the DoJ explains, represents the good-faith security research where a computer is accessed only for investigating, testing, or identifying vulnerabilities, with the purpose of improving security as a whole.",
         "week": "05",
-        "sort": "2022-05-20",
-        "date": "20 May 2022",
-        "accessed": "20 May 2022",
-        "author": "Ionut Arghire",
-        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
+        "sort": "2022-05-19",
+        "date": "19 May 2022",
+        "accessed": "19 May 2022",
+        "author": "Bill Toulas",
+        "authlink": "https://www.bleepingcomputer.com/author/bill-toulas/",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "usa-lady-justice.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -635,7 +635,7 @@ export const newsFeed05 = [
         "authlink": "https://www.securityweek.com/authors/ionut-arghire",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "hsg-3-19-15-1.png",
         "term": "living-off-the-land binary (LOLBin)",
         "termdef": "Binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity."
     }
@@ -1053,7 +1053,7 @@ export const newsFeed07 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.securityweek.com/wray-fbi-blocked-planned-cyberattack-childrens-hospital",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -1070,7 +1070,7 @@ export const newsFeed07 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.securityweek.com/researchers-devise-attack-using-iot-and-it-deliver-ransomware-against-ot",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
