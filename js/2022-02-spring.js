@@ -1085,7 +1085,8 @@ export const newsFeed07 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
-    //,
+    //
+    ,
     {
         "url": "https://nationalcybersecuritynews.today/researchers-demonstrate-ransomware-for-iot-devices-that-targets-it-and-ot-networks-malware-ransomware/",
         "title": "Researchers Demonstrate Ransomware for IoT Devices That Targets IT and OT Networks",
@@ -1431,7 +1432,6 @@ export const newsFeed09 = [
         // "termdef": "xxxx"
     // }
     // ,
-    
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
@@ -1485,7 +1485,6 @@ export const newsFeed10 = [
         // "termdef": "xxxx"
     // }
     // ,
-    
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
