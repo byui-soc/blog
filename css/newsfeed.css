@@ -99,6 +99,13 @@ h3 {
   font-size: .65rem;
 }
 
+.glossary {
+  padding: 0 2%;
+  margin: 0;
+  color: #eaeaea;
+  font-size: .85rem;
+}
+
 #resources, .flipcard {
   display: flex;
 }
@@ -143,11 +150,11 @@ h3 {
 
 .flipcard-front img {
   top: 35px;
-  max-width: 100%;
-  max-height: 250px;
+  width: 280px;
+  max-height: 210px;
   margin: 0 auto;
   padding: 0;
-
+  object-fit: contain;
 }
 
 .flipcard-front div.overlay {

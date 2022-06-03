@@ -46,8 +46,8 @@ export const newsFeed03 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "Work-from-Home-WFH.jpg",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "Exploit kits",
+        "termdef": "Automated programs used by attackers to exploit known vulnerabilities in systems or applications. They can be used to secretly launch attacks while victims are browsing the web, with the goal being to download and execute some type of malware."
     },
     {
         "url": "https://www.cnet.com/tech/services-and-software/best-password-manager/",
@@ -211,6 +211,40 @@ export const newsFeed03 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
+    ,
+    {
+        "url": "https://www.cyberscoop.com/solarwinds-recorded-future-nobelium-apt29/",
+        "title": "SolarWinds hackers set up phony media outlets to trick targets",
+        "desc": "By posing as legitimate-looking entities, hackers can more easily trick victims into clicking on links that may be used in credential theft and other crimes.",
+        "week": "04",
+        "sort": "2022-05-09",
+        "date": "03 May 2022",
+        "accessed": "09 May 2022",
+        "author": "Tonya Riley",
+        "authlink": "https://www.cyberscoop.com/author/tonya-riley/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "GettyImages-1330150838.webp",
+        "term": "Typosquatting",
+        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a>which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/chrome-101-update-patches-high-severity-vulnerabilities",
+        "title": "Chrome 101 Update Patches High-Severity Vulnerabilities",
+        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-2022-1633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
+        "week": "04",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "Ionut Arghire",
+        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
+        "imgcred": "By Google - Chrome version 100 what&#039;s new, Public Domain",
+        "imgcredlink": "https://commons.wikimedia.org/w/index.php?curid=114993646",
+        "img": "Google_Chrome_icon_(February_2022).svg.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
 ];
 
 export const newsFeed04 = [
@@ -260,13 +294,13 @@ export const newsFeed04 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "BIG-IP-destroy-command.png",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "BIG-IP appliances",
+        "termdef": "BIG-IP software products are licensed modules that run on top of F5's Traffic Management Operation System® (TMOS). This custom operating system is an event driven operating system designed specifically to inspect network and application traffic and make real-time decisions based on the configurations you provide."
     }
     ,
     {
         "url": "https://dojo.pwn.college/",
-        "title": "Week 04 <br> Reverse Engineering",
+        "title": "Week 04 - Reverse Engineering",
         "desc": "CSA Meeting on Thursday, 12 May 2022 (New Time) 7PM MST  Zoom and STC Building - Room 295.<br>Like to know how stuff works?<br>(No Experience Required)<br><br><a href=''></a>",
         "week": "04",
         "sort": "2022-05-26",
@@ -274,11 +308,11 @@ export const newsFeed04 = [
         "accessed": "26 April 2022",
         "author": "xxxx",
         "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "imgcred": "dev.to",
+        "imgcredlink": "https://dev.to/shadid12/how-i-reverse-engineered-rxjs-and-learned-reactive-programming-83k",
+        "img": "xyjasc9k3fvem5jqj05a.webp",
+        "term": "Reverse Engineering",
+        "termdef": "The reproduction of another manufacturer's product following detailed examination of its construction or composition."
     }
     ,
     {
@@ -313,23 +347,6 @@ export const newsFeed04 = [
         "img": "talos.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
-    }
-    ,
-    {
-        "url": "https://www.cyberscoop.com/solarwinds-recorded-future-nobelium-apt29/",
-        "title": "SolarWinds hackers set up phony media outlets to trick targets",
-        "desc": "By posing as legitimate-looking entities, hackers can more easily trick victims into clicking on links that may be used in credential theft and other crimes.",
-        "week": "04",
-        "sort": "2022-05-09",
-        "date": "03 May 2022",
-        "accessed": "09 May 2022",
-        "author": "Tonya Riley",
-        "authlink": "https://www.cyberscoop.com/author/tonya-riley/",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "GettyImages-1330150838.webp",
-        "term": "Typosquatting",
-        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a>which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
     }
     ,
     {
@@ -379,23 +396,6 @@ export const newsFeed04 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "discord.jpg",
-        "term": "xxxx",
-        "termdef": "xxxx"
-    }
-    ,
-    {
-        "url": "https://www.securityweek.com/chrome-101-update-patches-high-severity-vulnerabilities",
-        "title": "Chrome 101 Update Patches High-Severity Vulnerabilities",
-        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-2022-1633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
-        "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "Ionut Arghire",
-        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
-        "imgcred": "By Google - Chrome version 100 what&#039;s new, Public Domain",
-        "imgcredlink": "https://commons.wikimedia.org/w/index.php?curid=114993646",
-        "img": "Google_Chrome_icon_(February_2022).svg.png",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -898,18 +898,18 @@ export const newsFeed06 = [
     }
     ,
     {
-        "url": "https://www.zdnet.com/article/some-qct-servers-vulnerable-to-pantsdown-flaw-say-security-researchers/",
-        "title": "Some QCT servers vulnerable to 'Pantsdown' flaw say security researchers",
+        "url": "https://thehackernews.com/2022/05/critical-pantsdown-bmc-vulnerability.html",
+        "title": "Critical 'Pantsdown' BMC Vulnerability Affects QCT Servers Used in Data Centers",
         "desc": "CVE-2019-6260, issued a CVSS severity score of 9.8, or critical, is a vulnerability in ASPEED Baseband Management Controller (BMC) hardware & firmware. AHB bridges, in particular, can be exploited for arbitrary read/write access, leading to information leaks, code execution, data tampering or theft, or denial-of-service (DoS) attacks.",
         "week": "06",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": " Charlie Osborne, Contributor ",
-        "authlink": "https://www.zdnet.com/meet-the-team/us/charlieosborne",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "Ravie Lakshmanan ",
+        "authlink": "https://thehackernews.com/p/authors.html",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "CHIP.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -950,17 +950,17 @@ export const newsFeed06 = [
     ,
     {
         "url": "https://www.securityweek.com/tapping-neurodiverse-candidates-can-address-cybersecurity-skills-shortage",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "Tapping Neurodiverse Candidates Can Address Cybersecurity Skills Shortage",
+        "desc": "If the cybersecurity industry wants to fill much-needed jobs, hiring managers and recruiters need to cast their nets beyond the sea of candidates who typify “fitting the mold.” The industry must pay attention to the hands-on abilities and innate skills of all applicants including neurodiverse candidates",
         "week": "07",
-        "sort": "2022-06-01",
-        "date": "09 June 2022",
-        "accessed": "09 June 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
+        "sort": "2022-05-25",
+        "date": "25 June 2022",
+        "accessed": "25 June 2022",
+        "author": "Jeff Orloff",
+        "authlink": "https://www.securityweek.com/authors/jeff-orloff",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "brain_andy_warhol_ALL_for_online_hx1ghw.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -1017,23 +1017,23 @@ export const newsFeed07 = [
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
-    ,
-    {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
-        "week": "06",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
-        "term": "xxxx",
-        "termdef": "xxxx"
-    }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "06",
+    //     "sort": "2022-05-09",
+    //     "date": "09 May 2022",
+    //     "accessed": "09 May 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+    //     "term": "xxxx",
+    //     "termdef": "xxxx"
+    // }
     // ,
     // {
     //     "url": "https://www.csoonline.com/article/3662151/linux-malware-is-on-the-rise-6-types-of-attacks-to-look-for.html",

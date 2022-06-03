@@ -23,7 +23,7 @@ function createGlossaryList(arrayList, id) {
         });
         termList.sort();
         termList.forEach((term) => {
-            div += `<p class="desc">${term}</p><br>`;
+            div += `<p class="glossary">${term}</p><br>`;
         });
         div += "</div>";
         container.innerHTML = div;
