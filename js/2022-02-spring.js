@@ -329,7 +329,7 @@ export const newsFeed04 = [
         "imgcredlink": "xxxx",
         "img": "GettyImages-1330150838.webp",
         "term": "Typosquatting",
-        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a> which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
+        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a>which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
     }
     ,
     {
@@ -636,8 +636,8 @@ export const newsFeed05 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "hsg-3-19-15-1.png",
-        "term": "living-off-the-land binary (LOLBin)",
-        "termdef": "Binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity."
+        "term": "LOL-Bin",
+        "termdef": "Living-Off-the-Land binary: Binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity."
     }
     ,
     {
@@ -709,317 +709,300 @@ export const newsFeed06 = [
         "term": "Privilege Escalation",
         "termdef": "Tools to escalate privileges from a low-privileged Windows domain user to a high-privileged domain user by joining unauthorized devices to Active Directory (AD), Microsoft's on-premise authentication and identity service. "
     }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/my-instagram-account-was-hacked-and-two-factor-authentication-didnt-help/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/google-is-adding-these-it-security-integrations-to-chrome/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/how-to-stop-spam-messages-on-your-iphone-with-this-almost-secret-hidden-switch/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/microsoft-credit-card-skimmers-are-switching-techniques-to-hide-their-attacks/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/solarwinds-heres-how-were-building-everything-around-this-new-cybersecurity-strategy/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://threatpost.com/fronton-botnet-disinformation/179721/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://threatpost.com/snake-keylogger-pdfs/179703/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://threatpost.com/cybergang-claims-revil-is-back-executes-ddos-attacks/179734/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://threatpost.com/chaos-onyx-and-yashma-ransomware/179730/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://threatpost.com/fronton-botnet-disinformation/179721/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/these-are-the-flaws-that-let-hackers-attack-blockchain-and-defi-projects/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://threatpost.com/zoom-patches-zero-click-rce-bug/179727/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/how-to-encrypt-your-email-and-why-you-should/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/some-qct-servers-vulnerable-to-pantsdown-flaw-say-security-researchers/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/youtube-remains-in-russia-to-be-an-independent-news-source-ceo/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.zdnet.com/article/data-on-ransomware-attacks-is-fragmented-and-incomplete-warns-senate-report/",
-    //     "title": "xxxx",
-    //     "desc": ""As Russia's invasion of Ukraine continues and Russia seeks to find ways around the international finance system, the need to address these shortfalls grows. Approximately 74 percent of global ransomware revenue in 2021 went to entities either likely located in Russia or controlled by the Russian government," the report notes. ",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "https://www.securityweek.com/tapping-neurodiverse-candidates-can-address-cybersecurity-skills-shortage",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/my-instagram-account-was-hacked-and-two-factor-authentication-didnt-help/",
+        "title": "My Instagram account was hacked and two-factor authentication didn't help",
+        "desc": " I thought, 'How can I be hacked by sending a PNG image?'' After all, it wasn't a reset link for my account. So I replied with the image. <br><br>Oh foolish, foolish me.",
+        "week": "06",
+        "sort": "2022-05-23",
+        "date": "23 May 2022",
+        "accessed": "23 May 2022",
+        "author": "Steven Vaughan-Nichols, Senior Contributing Editor",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/steven-j-vaughan-nichols/",
+        "imgcred": "Shutterstock via MalwareBytes",
+        "imgcredlink": "https://blog.malwarebytes.com/101/2018/09/6-sure-signs-someone-is-phishing-you-besides-email/",
+        "img": "shutterstock_749866270-900x506.jpg",
+        "term": "Two-factor authentication",
+        "termdef": "Turning on 2FA for a service changes the security requirements, forcing you to provide at least two proofs of identity when accessing a secure service for the first time on an unknown device."
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/google-is-adding-these-it-security-integrations-to-chrome/",
+        "title": "Google is adding these IT security integrations to Chrome",
+        "desc": "The new Chrome Enterprise Connectors Framework currently comprises tools in a handful of different categories: There are integrations for identity and user access, integrations for endpoint management, and integrations for security insights and reporting. ",
+        "week": "06",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "Stephanie Condon, Senior Staff Writer",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/stephanie-condon/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "chrome-icon-close-up.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/microsoft-credit-card-skimmers-are-switching-techniques-to-hide-their-attacks/",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "06",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/solarwinds-heres-how-were-building-everything-around-this-new-cybersecurity-strategy/",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "06",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/snake-keylogger-pdfs/179703/",
+        "title": "Snake Keylogger Spreads Through Malicious PDFs",
+        "desc": "The campaign—discovered by researchers at HP Wolf Security—aims to dupe victims with an attached PDF file purporting to have information about a remittance payment, according to a blog post published Friday. Instead, it loads the info-stealing malware, using some tricky evasion tactics to avoid detection.",
+        "week": "06",
+        "sort": "2022-05-23",
+        "date": "23 May 2022",
+        "accessed": "23 May 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "snake-e1591818143608.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/cybergang-claims-revil-is-back-executes-ddos-attacks/179734/",
+        "title": "Cybergang Claims REvil is Back, Executes DDoS Attacks",
+        "desc": "“The attacks so far target a site by sending a wave of HTTP/2 GET requests with some cache-busting techniques to overwhelm the website,” Akamai SIRT vulnerability researcher Larry Cashdollar wrote in the post. “The requests contain embedded demands for payment, a bitcoin (BTC) wallet, and business/political demands.”",
+        "week": "06",
+        "sort": "2022-05-26",
+        "date": "26 May 2022",
+        "accessed": "26 May 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "ddos-protection-title-e1653560961632.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/chaos-onyx-and-yashma-ransomware/179730/",
+        "title": "Link Found Connecting Chaos, Onyx and Yashma Ransomware",
+        "desc": "The Onyx ransomware group were threatening to publish said victim’s data to the internet when, in soap opera fashion, a third party entered the chat stating: “Hello… this is my very old version of ransomware… I updated many thing and it is faster decryptable… there is no limit in new version…”        Onyx was, evidently, just an outdated Chaos build. The proclaimed author of Chaos kindly offered the Onyx group their newest version of Chaos, renamed “Yashma.”",
+        "week": "06",
+        "sort": "2022-05-25",
+        "date": "25 May 2022",
+        "accessed": "25 May 2022",
+        "author": "Nate Nelson",
+        "authlink": "https://threatpost.com/author/natenelson/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "Ransomware_700_420.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/fronton-botnet-disinformation/179721/",
+        "title": "Fronton IOT Botnet Packs Disinformation Punch",
+        "desc": "After further analysis of the documents related to Fronton, the Nisos researcher assert that DDoS “is only one of the many capabilities of the system… Nisos analyzed the data and determined that Fronton is a system developed for coordinated inauthentic behavior on a massive scale,” Nisos added.",
+        "week": "06",
+        "sort": "2022-05-24",
+        "date": "24 May 2022",
+        "accessed": "24 May 2022",
+        "author": "Sagar Tiwari",
+        "authlink": "https://threatpost.com/author/sagartiwari/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "smominru-botnet-eternalblue-featured.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/these-are-the-flaws-that-let-hackers-attack-blockchain-and-defi-projects/",
+        "title": "These are the flaws that let hackers attack blockchain and DeFi projects",
+        "desc": "xxxx",
+        "week": "06",
+        "sort": "2022-05-24",
+        "date": "24 May 2022",
+        "accessed": "24 May 2022",
+        "author": " Charlie Osborne, Contributor ",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/charlieosborne",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "shutterstock-1911837382.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/zoom-patches-zero-click-rce-bug/179727/",
+        "title": "Zoom Patches ‘Zero-Click’ RCE Bug",
+        "desc": "The Google Project Zero security researcher Ivan Fratric noted in a report that an attacker can exploit a victim’s machine over a zoom chat. The bug, tracked as CVE-2022-22787, has a CVSS severity rating of 5.9. “User interaction is not required for a successful attack. The only ability an attacker needs is to be able to send messages to the victim over Zoom chat over XMPP protocol,” Ivan explained.",
+        "week": "06",
+        "sort": "2022-05-25",
+        "date": "25 May 2022",
+        "accessed": "25 May 2022",
+        "author": "Sagar Tiwari",
+        "authlink": "https://threatpost.com/author/sagartiwari/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "zoom-ios-app.jpg",
+        "term": "RCE",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/how-to-encrypt-your-email-and-why-you-should/",
+        "title": "How to encrypt your email and why you should",
+        "desc": "You might have sent some sensitive information in an innocent email, only to find some bad actor intercepted the message and was able to easily read the content of that email and extract the information. You don't want that. Even if it does require an extra bit of work on your part, being safe is much better than being sorry.",
+        "week": "06",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": " Jack Wallen, Contributing Writer",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/jack+wallen",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "encrypt1.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/some-qct-servers-vulnerable-to-pantsdown-flaw-say-security-researchers/",
+        "title": "Some QCT servers vulnerable to 'Pantsdown' flaw say security researchers",
+        "desc": "CVE-2019-6260, issued a CVSS severity score of 9.8, or critical, is a vulnerability in ASPEED Baseband Management Controller (BMC) hardware & firmware. AHB bridges, in particular, can be exploited for arbitrary read/write access, leading to information leaks, code execution, data tampering or theft, or denial-of-service (DoS) attacks.",
+        "week": "06",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": " Charlie Osborne, Contributor ",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/charlieosborne",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/youtube-remains-in-russia-to-be-an-independent-news-source-ceo/",
+        "title": "YouTube remains in Russia to be an independent news source: CEO",
+        "desc": "The CEO explained the company had updated its policies to remove Russian state media from its platform, as well as other content, in an effort to stem misinformation that sought to deny or trivialise the war in Ukraine.",
+        "week": "06",
+        "sort": "2022-05-25",
+        "date": "25 May 2022",
+        "accessed": "25 May 2022",
+        "author": "Julian Bingley ",
+        "authlink": "https://www.zdnet.com/meet-the-team/au/jbingley",
+        "imgcred": "Search Engine Journal",
+        "imgcredlink": "https://www.searchenginejournal.com/youtube-community-posts-updated-with-analytics-more-images/406709/#close",
+        "img": "youtube-community-posts-609b4efe2600b-1520x800.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/data-on-ransomware-attacks-is-fragmented-and-incomplete-warns-senate-report/",
+        "title": "Data on ransomware attacks is 'fragmented and incomplete', warns Senate report",
+        "desc": "'As Russia's invasion of Ukraine continues and Russia seeks to find ways around the international finance system, the need to address these shortfalls grows. Approximately 74 percent of global ransomware revenue in 2021 went to entities either likely located in Russia or controlled by the Russian government,' the report notes.",
+        "week": "06",
+        "sort": "2022-05-25",
+        "date": "25 May 2022",
+        "accessed": "25 May 2022",
+        "author": " Liam Tung, Contributor",
+        "authlink": "https://www.zdnet.com/meet-the-team/eu/lt-999f7",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "ransomware-attack-on-a-laptop.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/tapping-neurodiverse-candidates-can-address-cybersecurity-skills-shortage",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "xxxx",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
 ];
 
 export const newsFeed07 = [
+    {
+        "url": "https://www.zdnet.com/article/how-to-stop-spam-messages-on-your-iphone-with-this-almost-secret-hidden-switch/",
+        "title": "How to stop spam messages on your iPhone fast",
+        "desc": "When you get a message from a sender not in your address book, you won't get a notification. Instead, it will be dropped into this tab. Warning: Once 'Filter Unknown Senders' is enabled, it becomes very important to add all legitimate senders to your address book. Any message from a number not in your contacts will wind up in the Unknown Senders tab. ",
+        "week": "06",
+        "sort": "2022-06-02",
+        "date": "02 May 2022",
+        "accessed": "02 May 2022",
+        "author": " David Gewirtz, Distinguished Lecturer",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/david+gewirtz",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "filter-switch.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
     // {
-    //     "url": "https://threatpost.com/doj-says-doctor-is-malware-mastermind/179659/",
+    //     "url": "",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -1030,24 +1013,41 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
+    ,
+    {
+        "url": "xxxx",
+        "title": "xxxx",
+        "desc": "xxxx",
+        "week": "06",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
     //     "url": "https://www.csoonline.com/article/3662151/linux-malware-is-on-the-rise-6-types-of-attacks-to-look-for.html",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
+    //     "title": "Linux malware is on the rise—6 types of attacks to look for",
+    //     "desc": "In recent years, cybercriminals and nation-state actors have targeted Linux-based systems. The goal was often to infiltrate corporate and government networks or gain access to critical infrastructure, according to a recent VMware report. They leverage weak authentication, unpatched vulnerabilities, and server misconfigurations, among others.",
     //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
+    //     "sort": "2022-05-30",
+    //     "date": "30 May 2022",
+    //     "accessed": "30 May 2022",
+    //     "author": "Andrada Fiscutean, CSO",
+    //     "authlink": "https://www.csoonline.com/author/Andrada-Fiscutean/",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "2_linux-malware-scarier-100742844-large.webp",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1064,13 +1064,149 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
     //,
+    {
+        "url": "https://nationalcybersecuritynews.today/researchers-demonstrate-ransomware-for-iot-devices-that-targets-it-and-ot-networks-malware-ransomware/",
+        "title": "Researchers Demonstrate Ransomware for IoT Devices That Targets IT and OT Networks",
+        "desc": "R4IoT is a new kind of malware that brings together an IoT entry point and ransomware-related lateral movement and encryption on an IT network, causing an extended impact on both IT and OT networks. In a hypothetical scenario, this could entail compromising a machine in the corporate network to not only drop ransomware but also retrieve additional payloads from a remote server to deploy cryptocurrency miners and launch denial-of-service (DoS) attacks against OT assets.",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "malware.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/bad-news-the-cybersecurity-skills-crisis-is-about-to-get-even-worse/",
+        "title": "Bad news: The cybersecurity skills crisis is about to get even worse",
+        "desc": "As for cybersecurity workers themselves, those who plan on leaving the profession are doing so because they feel underappreciated and unable to grow in their roles. A lack of clear career path (35%), a lack of social recognition (31%) and limited support to develop their skills (25%) were cited as the top three frustrations pushing security workers to quit.",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "01 June 2022",
+        "accessed": "01 June 2022",
+        "author": "Owen Hughes, Senior Editor ",
+        "authlink": "https://www.zdnet.com/meet-the-team/uk/owenhughes",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "shutterstock-2056455242.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/chromeloader-hijacker-threats/179761/",
+        "title": "ChromeLoader Browser Hijacker Provides Gateway to Bigger Threats",
+        "desc": "ChromeLoader is a pervasive and persistent browser hijacker that eventually manifests as a browser extension, modifying victims’ Chrome settings and redirecting user traffic to advertisement websites. On Windows machines, victims become infected with the malware through ISO files that poses as a cracked video game or pirated films or TV programs, researchers said.",
+        "week": "07",
+        "sort": "2022-05-31",
+        "date": "31 May 2022",
+        "accessed": "31 May 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "Chrome_Browser.jpg",
+        "term": "Browser Hijacker",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/enemybot-malware-targets-web-servers-cms-tools-and-android-os/179765/",
+        "title": "EnemyBot Malware Targets Web Servers, CMS Tools and Android OS",
+        "desc": "“In case an Android device is connected through USB, or Android emulator running on the machine, EnemyBot will try to infect it by executing shell command,” said the researcher. “Keksec’s EnemyBot appears to be just starting to spread, however due to the authors’ rapid updates, this botnet has the potential to become a major threat for IoT devices and web servers,” the researchers added.",
+        "week": "07",
+        "sort": "2022-05-31",
+        "date": "31 May 2022",
+        "accessed": "01 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "Sagar Tiwari",
+        "imgcredlink": "https://threatpost.com/author/sagartiwari/",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://threatpost.com/zero-day-follina-bug-lays-older-microsoft-office-versions-open-to-attack/179756/",
+        "title": "Zero-Day ‘Follina’ Bug Lays Microsoft Office Open to Attack",
+        "desc": "It’s unclear if the zero-day bug has been actively leveraged by adversaries. A proof-of-concept code exists, which demonstrate that versions of Office ranging from 2003 to the current build are vulnerable to attack. Meanwhile, security researchers say  users can follow Microsoft Attack Surface Reduction measures to mitigate risk, in lieu of a patch.",
+        "week": "07",
+        "sort": "2022-05-30",
+        "date": "30 May 2022",
+        "accessed": "02 June 2022",
+        "author": "Sagar Tiwari",
+        "authlink": "https://threatpost.com/author/sagartiwari/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "office-365.jpg",
+        "term": "Zero-day vulnerability ",
+        "termdef": "A computer-software vulnerability previously unknown to those who should be interested in its mitigation, like the vendor of the target software. Until the vulnerability is mitigated, hackers can exploit it to adversely affect programs, data, additional computers or a network."
+    }
+    ,
+    {
+        "url": "https://www.wsj.com/articles/reliaquest-to-buy-digital-shadows-for-160-million-11654081200",
+        "title": "ReliaQuest to Buy Digital Shadows for $160 Million",
+        "desc": "In a note announcing the planned acquisition, ReliaQuest said the deal gives security operations teams the ability to detect and respond to threats with real-time internal and external visibility. The company expects the new product line will drive down response time, provide context around threats and allow for an end-to-end view, all while decreasing the cost of visibility. ",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "01 June 2022",
+        "accessed": "01 June 2022",
+        "author": " James Rundle",
+        "authlink": "https://www.wsj.com/news/author/james-rundle",
+        "imgcred": "In photo: Alastair Paterson, CEO of Digital Shadows. PHOTO: SIMON DAWSON/BLOOMBERG NEWS",
+        "imgcredlink": "xxxx",
+        "img": "im-554772.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/researchers-devise-attack-using-iot-and-it-deliver-ransomware-against-ot",
+        "title": "Researchers Devise Attack Using IoT and IT to Deliver Ransomware Against OT",
+        "desc": "IoT access was chosen because of the growth in IoT devices that generally receive less defensive attention than other parts of the network. Such access is likely to increase. Traversal through and across IT is known and understood, but not always seen because of the current tendency for attackers to ‘live off the land’. ",
+        "week": "07",
+        "sort": "2022-06-02",
+        "date": "01 June 2022",
+        "accessed": "02 June 2022",
+        "author": "Kevin Townsend",
+        "authlink": "https://www.securityweek.com/authors/kevin-townsend",
+        "imgcred": "Bank Info Security",
+        "imgcredlink": "https://www.bankinfosecurity.com/gao-assesses-iot-cybersecurity-other-risks-a-9926",
+        "img": "gao-assesses-iot-cybersecurity-other-risks-showcase_image-6-a-9926.jpg",
+        "term": "IoT",
+        "termdef": "The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. These devices range from ordinary household objects to sophisticated industrial tools. With more than 7 billion connected IoT devices today, experts are expecting this number to grow to 10 billion by 2020 and 22 billion by 2025."
+    }
+    ,
+    {
+        "url": "https://dev.to/zellwk/understanding-csrf-attacks-36ao",
+        "title": "Understanding CSRF Attacks",
+        "desc": "Before an attacker can launch a CSRF Attack, they need to find a consistent request they can target. They must know what the request does. This can be any request — GET, POST, PUT, or DELETE. Anything goes. Once they select the request to target, they must generate a fake request to trick the user.",
+        "week": "07",
+        "sort": "2022-06-02",
+        "date": "02 June 2022",
+        "accessed": "02 June 2022",
+        "author": "Zell Liew ",
+        "authlink": "https://dev.to/zellwk",
+        "imgcred": "Portswigger.net",
+        "imgcredlink": "https://portswigger.net/web-security/csrf",
+        "img": "cross-site request forgery.svg",
+        "term": "CSRF Attacks",
+        "termdef": "A CSRF attack is one that tricks a victim into submitting a malicious request — a request they did not intend to make — to a website where they are authenticated (logged in to)."
+    }
+    //,
     // {
-    //     "url": "https://www.securityweek.com/researchers-devise-attack-using-iot-and-it-deliver-ransomware-against-ot",
+    //     "url": "xxxx",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -1081,7 +1217,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1098,7 +1234,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1115,7 +1251,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1132,7 +1268,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1149,7 +1285,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1166,7 +1302,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1183,143 +1319,7 @@ export const newsFeed07 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1339,7 +1339,7 @@ export const newsFeed08 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1356,7 +1356,7 @@ export const newsFeed08 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1365,168 +1365,32 @@ export const newsFeed08 = [
     //     "url": "xxxx",
     //     "title": "xxxx",
     //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
     //     "date": "09 June 2022",
     //     "accessed": "09 June 2022",
     //     "author": "xxxx",
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
-    //,
+    // ,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
     //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
     //     "date": "09 June 2022",
     //     "accessed": "09 June 2022",
     //     "author": "xxxx",
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1545,7 +1409,25 @@ export const newsFeed09 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1554,7 +1436,7 @@ export const newsFeed09 = [
     //     "url": "xxxx",
     //     "title": "xxxx",
     //     "desc": "xxxx",
-    //     "week": "09",
+    //     "week": "08",
     //     "sort": "2022-06-09",
     //     "date": "09 June 2022",
     //     "accessed": "09 June 2022",
@@ -1562,177 +1444,7 @@ export const newsFeed09 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1751,7 +1463,25 @@ export const newsFeed10 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1760,7 +1490,7 @@ export const newsFeed10 = [
     //     "url": "xxxx",
     //     "title": "xxxx",
     //     "desc": "xxxx",
-    //     "week": "10",
+    //     "week": "08",
     //     "sort": "2022-06-09",
     //     "date": "09 June 2022",
     //     "accessed": "09 June 2022",
@@ -1768,177 +1498,7 @@ export const newsFeed10 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1957,7 +1517,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1974,7 +1534,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -1991,7 +1551,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2008,7 +1568,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2025,7 +1585,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2042,7 +1602,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2059,7 +1619,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2076,7 +1636,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2093,7 +1653,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2110,7 +1670,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2127,7 +1687,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2144,7 +1704,7 @@ export const newsFeed11 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2163,7 +1723,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2180,7 +1740,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2197,7 +1757,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2214,7 +1774,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2231,7 +1791,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2248,7 +1808,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2265,7 +1825,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2282,7 +1842,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2299,7 +1859,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2316,7 +1876,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2333,7 +1893,7 @@ export const newsFeed12 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2352,7 +1912,7 @@ export const newsFeed13 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2369,7 +1929,7 @@ export const newsFeed13 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2388,7 +1948,7 @@ export const newsFeed14 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
@@ -2405,7 +1965,7 @@ export const newsFeed14 = [
     //     "authlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx"
+    //     "img": "xxxx",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
