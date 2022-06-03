@@ -658,6 +658,23 @@ export const newsFeed05 = [
     }
     ,
     {
+        "url": "https://www.securityweek.com/hackers-can-pre-hijack-online-accounts-they-are-created-users",
+        "title": "Hackers Can 'Pre-Hijack' Online Accounts Before They Are Created by Users",
+        "desc": "The researchers have analyzed 75 popular services and found that at least 35 of them were vulnerable to one or more account pre-hijacking attacks. The list includes popular social media, cloud storage, video conferencing, and blogging services. Affected vendors were notified between March and September 2021, but many online services could still be vulnerable.",
+        "week": "06",
+        "sort": "2022-05-24",
+        "date": "24 May 2022",
+        "accessed": "24 May 2022",
+        "author": "Eduard Kovacs",
+        "authlink": "https://www.securityweek.com/authors/eduard-kovacs",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "account_pre_hijacking.png",
+        "term": "Account pre-hijacking",
+        "termdef": "a new class of attacks that can be used to gain access to a targeted account, and can involve federated identity and single sign-on (SSO) services, which allow users to sign up for certain online services using existing accounts registered with companies such as Microsoft, Google and Facebook."
+    }
+    ,
+    {
         "url": "https://threatpost.com/380k-kubernetes-api-servers-exposed-to-public-internet/179679/",
         "title": "380K Kubernetes API Servers Exposed to Public Internet",
         "desc": "The Shadowserver Foundation discovered the access when it scanned the internet for Kubernetes API servers, of which there are more than 450,000, according to a blog post published this week.",
@@ -672,6 +689,23 @@ export const newsFeed05 = [
         "img": "API.jpg",
         "term": "Kubernetes",
         "termdef": "Also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications."
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/my-instagram-account-was-hacked-and-two-factor-authentication-didnt-help/",
+        "title": "My Instagram account was hacked and two-factor authentication didn't help",
+        "desc": " I thought, 'How can I be hacked by sending a PNG image?'' After all, it wasn't a reset link for my account. So I replied with the image. <br><br>Oh foolish, foolish me.",
+        "week": "06",
+        "sort": "2022-05-23",
+        "date": "23 May 2022",
+        "accessed": "23 May 2022",
+        "author": "Steven Vaughan-Nichols, Senior Contributing Editor",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/steven-j-vaughan-nichols/",
+        "imgcred": "Shutterstock via MalwareBytes",
+        "imgcredlink": "https://blog.malwarebytes.com/101/2018/09/6-sure-signs-someone-is-phishing-you-besides-email/",
+        "img": "shutterstock_749866270-900x506.jpg",
+        "term": "Two-factor authentication",
+        "termdef": "Turning on 2FA for a service changes the security requirements, forcing you to provide at least two proofs of identity when accessing a secure service for the first time on an unknown device."
     }
 ];
 
@@ -711,23 +745,6 @@ export const newsFeed06 = [
     }
     ,
     {
-        "url": "https://www.zdnet.com/article/my-instagram-account-was-hacked-and-two-factor-authentication-didnt-help/",
-        "title": "My Instagram account was hacked and two-factor authentication didn't help",
-        "desc": " I thought, 'How can I be hacked by sending a PNG image?'' After all, it wasn't a reset link for my account. So I replied with the image. <br><br>Oh foolish, foolish me.",
-        "week": "06",
-        "sort": "2022-05-23",
-        "date": "23 May 2022",
-        "accessed": "23 May 2022",
-        "author": "Steven Vaughan-Nichols, Senior Contributing Editor",
-        "authlink": "https://www.zdnet.com/meet-the-team/us/steven-j-vaughan-nichols/",
-        "imgcred": "Shutterstock via MalwareBytes",
-        "imgcredlink": "https://blog.malwarebytes.com/101/2018/09/6-sure-signs-someone-is-phishing-you-besides-email/",
-        "img": "shutterstock_749866270-900x506.jpg",
-        "term": "Two-factor authentication",
-        "termdef": "Turning on 2FA for a service changes the security requirements, forcing you to provide at least two proofs of identity when accessing a secure service for the first time on an unknown device."
-    }
-    ,
-    {
         "url": "https://www.zdnet.com/article/google-is-adding-these-it-security-integrations-to-chrome/",
         "title": "Google is adding these IT security integrations to Chrome",
         "desc": "The new Chrome Enterprise Connectors Framework currently comprises tools in a handful of different categories: There are integrations for identity and user access, integrations for endpoint management, and integrations for security insights and reporting. ",
@@ -746,34 +763,34 @@ export const newsFeed06 = [
     ,
     {
         "url": "https://www.zdnet.com/article/microsoft-credit-card-skimmers-are-switching-techniques-to-hide-their-attacks/",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "Microsoft: Credit card skimmers are switching techniques to hide their attacks",
+        "desc": "Microsoft in November 2021 found two malicious image files, including one fake browser favicon, being uploaded to a Magento-hosted server. Magento is a popular e-commerce platform. The images contained embedded PHP script, which by default didn't run on the affected web server. Instead, the PHP script only runs after confirming that the web admin is not currently signed-in, in order to only target shoppers.",
         "week": "06",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
+        "sort": "2022-05-24",
+        "date": "24 May 2022",
+        "accessed": "24 May 2022",
+        "author": " Liam Tung, Contributor",
+        "authlink": "https://www.zdnet.com/meet-the-team/eu/lt-999f7",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "gettyimages-477981449-credit-card-generic.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
     ,
     {
         "url": "https://www.zdnet.com/article/solarwinds-heres-how-were-building-everything-around-this-new-cybersecurity-strategy/",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "SolarWinds: Here's how we're building everything around this new cybersecurity strategy",
+        "desc": "It was one of the largest cyber-espionage attacks of recent times: hackers compromised several United States government federal agencies as well as big tech companies, and were inside networks for months before anyone spotted them. ",
         "week": "06",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
+        "sort": "2022-05-24",
+        "date": "24 May 2022",
+        "accessed": "24 May 2022",
+        "author": " Danny Palmer, Senior Reporter",
+        "authlink": "https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "20211026-danny-rogers.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -964,23 +981,6 @@ export const newsFeed06 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    ,
-    {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
-        "week": "07",
-        "sort": "2022-06-01",
-        "date": "09 June 2022",
-        "accessed": "09 June 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
-        "term": "xxxx",
-        "termdef": "xxxx"
-    }
 ];
 
 export const newsFeed07 = [
@@ -1000,7 +1000,24 @@ export const newsFeed07 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    ,
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "07",
+    //     "sort": "2022-06-01",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+    //     "term": "xxxx",
+    //     "termdef": "xxxx"
+    // }
+    //,
     // {
     //     "url": "",
     //     "title": "xxxx",
@@ -1072,7 +1089,7 @@ export const newsFeed07 = [
     {
         "url": "https://nationalcybersecuritynews.today/researchers-demonstrate-ransomware-for-iot-devices-that-targets-it-and-ot-networks-malware-ransomware/",
         "title": "Researchers Demonstrate Ransomware for IoT Devices That Targets IT and OT Networks",
-        "desc": "R4IoT is a new kind of malware that brings together an IoT entry point and ransomware-related lateral movement and encryption on an IT network, causing an extended impact on both IT and OT networks. In a hypothetical scenario, this could entail compromising a machine in the corporate network to not only drop ransomware but also retrieve additional payloads from a remote server to deploy cryptocurrency miners and launch denial-of-service (DoS) attacks against OT assets.",
+        "desc": "R4IoT is a new kind of malware that brings together an IoT entry point and ransomware-related lateral movement and encryption on an IT network, causing an extended impact on both IT and OT networks. This could entail compromising a machine in the corporate network to not only drop ransomware but also retrieve additional payloads from a remote server to deploy cryptocurrency miners and launch denial-of-service (DoS) attacks against OT assets.",
         "week": "07",
         "sort": "2022-06-01",
         "date": "09 June 2022",
@@ -1123,7 +1140,7 @@ export const newsFeed07 = [
     {
         "url": "https://threatpost.com/enemybot-malware-targets-web-servers-cms-tools-and-android-os/179765/",
         "title": "EnemyBot Malware Targets Web Servers, CMS Tools and Android OS",
-        "desc": "“In case an Android device is connected through USB, or Android emulator running on the machine, EnemyBot will try to infect it by executing shell command,” said the researcher. “Keksec’s EnemyBot appears to be just starting to spread, however due to the authors’ rapid updates, this botnet has the potential to become a major threat for IoT devices and web servers,” the researchers added.",
+        "desc": "“In case an Android device is connected through USB, or Android emulator running on the machine, EnemyBot will try to infect it by executing shell command,” said the researcher. “Keksec’s EnemyBot appears to be just starting to spread, however due to the authors’ rapid updates, this botnet has the potential to become a major threat for IoT devices and web servers.”",
         "week": "07",
         "sort": "2022-05-31",
         "date": "31 May 2022",
@@ -1132,7 +1149,7 @@ export const newsFeed07 = [
         "authlink": "xxxx",
         "imgcred": "Sagar Tiwari",
         "imgcredlink": "https://threatpost.com/author/sagartiwari/",
-        "img": "xxxx",
+        "img": "Botnet_Necurs.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
     }
