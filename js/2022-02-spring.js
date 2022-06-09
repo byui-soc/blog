@@ -1000,26 +1000,26 @@ export const newsFeed07 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-    //     "term": "xxxx",
-    //     "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://www.securityweek.com/unpatched-vulnerability-exposes-horde-webmail-servers-attacks",
+        "title": "Unpatched Vulnerability Exposes Horde Webmail Servers to Attacks",
+        "desc": "The flaw, discovered by researchers at application security firm Sonar (formerly SonarSource), is tracked as CVE-2022-30287 and it can be exploited by getting a user to open a specially crafted email. The cybersecurity company told SecurityWeek that a Shodan search shows more than 3,000 internet-exposed instances worldwide, and there are likely many more internal instances that can still be exploited if an organization’s email server is exposed.",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "01 June 2022",
+        "accessed": "02 June 2022",
+        "author": "Eduard Kovacs",
+        "authlink": "https://www.securityweek.com/authors/eduard-kovacs",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "pingmap.webp",
+        "term": "Shodan search",
+        "termdef": "(Sentient Hyper-Optimised Data Access Network) is a search engine designed to map and gather information about internet-connected devices and systems. Shodan is sometimes referred to as a search engine for the internet of things (IoT)."
+    }
     //,
     // {
-    //     "url": "",
+    //     "url": "https://thehackernews.com/2022/06/conti-leaks-reveal-ransomware-gangs.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -1051,41 +1051,40 @@ export const newsFeed07 = [
     //     "term": "xxxx",
     //     "termdef": "xxxx"
     // }
-    // ,
-    // {
-    //     "url": "https://www.csoonline.com/article/3662151/linux-malware-is-on-the-rise-6-types-of-attacks-to-look-for.html",
-    //     "title": "Linux malware is on the rise—6 types of attacks to look for",
-    //     "desc": "In recent years, cybercriminals and nation-state actors have targeted Linux-based systems. The goal was often to infiltrate corporate and government networks or gain access to critical infrastructure, according to a recent VMware report. They leverage weak authentication, unpatched vulnerabilities, and server misconfigurations, among others.",
-    //     "week": "07",
-    //     "sort": "2022-05-30",
-    //     "date": "30 May 2022",
-    //     "accessed": "30 May 2022",
-    //     "author": "Andrada Fiscutean, CSO",
-    //     "authlink": "https://www.csoonline.com/author/Andrada-Fiscutean/",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "2_linux-malware-scarier-100742844-large.webp",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "https://www.securityweek.com/wray-fbi-blocked-planned-cyberattack-childrens-hospital",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //
+    ,
+    {
+        "url": "https://www.csoonline.com/article/3662151/linux-malware-is-on-the-rise-6-types-of-attacks-to-look-for.html",
+        "title": "Linux malware is on the rise—6 types of attacks to look for",
+        "desc": "In recent years, cybercriminals and nation-state actors have targeted Linux-based systems. The goal was often to infiltrate corporate and government networks or gain access to critical infrastructure, according to a recent VMware report. They leverage weak authentication, unpatched vulnerabilities, and server misconfigurations, among others.",
+        "week": "07",
+        "sort": "2022-05-30",
+        "date": "30 May 2022",
+        "accessed": "30 May 2022",
+        "author": "Andrada Fiscutean, CSO",
+        "authlink": "https://www.csoonline.com/author/Andrada-Fiscutean/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "2_linux-malware-scarier-100742844-large.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/wray-fbi-blocked-planned-cyberattack-childrens-hospital",
+        "title": "FBI Blocked Planned Cyberattack on Children's Hospital",
+        "desc": "xxxx",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     ,
     {
         "url": "https://nationalcybersecuritynews.today/researchers-demonstrate-ransomware-for-iot-devices-that-targets-it-and-ot-networks-malware-ransomware/",
@@ -1224,7 +1223,7 @@ export const newsFeed07 = [
     }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.securityweek.com/cyber-agency-voting-software-vulnerable-some-states",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -1241,92 +1240,7 @@ export const newsFeed07 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
+    //     "url": "https://www.zdnet.com/article/cloud-computing-security-five-things-you-are-probably-doing-wrong/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -1396,6 +1310,91 @@ export const newsFeed08 = [
         // "termdef": "xxxx"
     // }
     // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-09",
+    //     "date": "09 June 2022",
+    //     "accessed": "09 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    //,
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",
