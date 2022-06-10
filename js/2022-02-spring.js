@@ -19,7 +19,7 @@ export const newsFeed03 = [
     {
         "url": "https://www.securityweek.com/us-offers-10-million-reward-russian-intelligence-officers-behind-notpetya-cyberattacks",
         "title": "US Offers $10 Million Reward for Russian Intelligence Officers Behind NotPetya Cyberattacks",
-        "desc": "The U.S. Department of State is offering a reward of up to $10 million for information on the attackers behind the June 2017 “NotPetya” cyberattacks... Specifically, the U.S. Government is “seeking information on six officers of the Main Intelligence Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU)” for their role in the attacks that impacted U.S. critical infrastructure.",
+        "desc": "The U.S. Department of State is offering a reward of up to $10 million for information on the attackers behind the June 2017 “NotPetya” cyberattacks... the U.S. Government is “seeking information on six officers of the MID of the General Staff of the Armed Forces of the Russian Federation (GRU)” for their role in the attacks.",
         "week": "03",
         "sort": "2022-04-09",
         "date": "09 May 2022",
@@ -318,7 +318,7 @@ export const newsFeed04 = [
     {
         "url": "https://www.zdnet.com/article/how-to-delete-yourself-from-internet-search-results-and-hide-your-identity-online/",
         "title": "How to delete yourself from internet search results and hide your identity online",
-        "desc": "Here is a step-by-step guide to reducing your digital footprint online, whether you want to lock down data or vanish entirely. A misjudged tweet from years ago or an inappropriate Facebook photo can destroy future job prospects or ruin a career. A Google search that reveals an old conviction can make it more difficult to get hired...",
+        "desc": "reduc[e] your digital footprint online, whether you want to lock down data or vanish entirely. A misjudged tweet from years ago or a Facebook photo can destroy job prospects or ruin a career. A Google search that reveals an old conviction can make it more difficult to get hired...",
         "week": "04",
         "sort": "2022-05-12",
         "date": "11 May 2022",
@@ -352,7 +352,7 @@ export const newsFeed04 = [
     {
         "url": "https://www.infosecurity-magazine.com/news/government-initiative-rapid/",
         "title": "Government Initiative Promises Rapid Blocking of Scam Sites",
-        "desc": "“Cyber-criminals continuously seek to deploy devious methods to trick us into sharing personal or financial details and it’s vital we stay ahead of them,” argued NCSC deputy director for economy and society, Sarah Lyons. “This landmark partnership with internet service providers means that scams can be blocked from ever reaching our screens and reinforces the UK’s armor in protecting the public from online harms.”",
+        "desc": "“Cyber-criminals continuously seek to deploy devious methods to trick us into sharing personal or financial details and it’s vital we stay ahead of them,” argued NCSC deputy director, Sarah Lyons. “This  means that scams can be blocked from ever reaching our screens and reinforces the UK’s armor in protecting the public from online harms.”",
         "week": "04",
         "sort": "2022-05-12",
         "date": "12 May 2022",
@@ -832,7 +832,7 @@ export const newsFeed06 = [
     {
         "url": "https://threatpost.com/chaos-onyx-and-yashma-ransomware/179730/",
         "title": "Link Found Connecting Chaos, Onyx and Yashma Ransomware",
-        "desc": "The Onyx ransomware group were threatening to publish said victim’s data to the internet when, in soap opera fashion, a third party entered the chat stating: “Hello… this is my very old version of ransomware… I updated many thing and it is faster decryptable… there is no limit in new version…”        Onyx was, evidently, just an outdated Chaos build. The proclaimed author of Chaos kindly offered the Onyx group their newest version of Chaos, renamed “Yashma.”",
+        "desc": "The Onyx ransomware group were threatening to publish victim’s data to the internet when a third party entered the chat stating: “Hello… this is my very old version of ransomware… I updated many thing and it is faster decryptable… there is no limit in new version…”        Onyx was just an outdated Chaos build. The author of Chaos kindly offered the Onyx group their newest version of Chaos, renamed “Yashma.”",
         "week": "06",
         "sort": "2022-05-25",
         "date": "25 May 2022",
@@ -866,7 +866,7 @@ export const newsFeed06 = [
     {
         "url": "https://www.zdnet.com/article/these-are-the-flaws-that-let-hackers-attack-blockchain-and-defi-projects/",
         "title": "These are the flaws that let hackers attack blockchain and DeFi projects",
-        "desc": "xxxx",
+        "desc": "In May, Microsoft introduced the term 'cryware' to the standard dictionary of digital threats, including malware, infostealers, cryptojackers, and ransomware. The new term describes malware designed to harvest and steal information from non-custodial cryptocurrency wallets, otherwise known as 'hot wallets'.",
         "week": "06",
         "sort": "2022-05-24",
         "date": "24 May 2022",
@@ -876,8 +876,8 @@ export const newsFeed06 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "shutterstock-1911837382.webp",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "DeFi",
+        "termdef": "decentralized finance products and systems are an alternative to traditional banks and financial services, relying on decentralized technologies and smart contracts to operate."
     }
     ,
     {
@@ -1004,7 +1004,7 @@ export const newsFeed07 = [
     {
         "url": "https://www.securityweek.com/unpatched-vulnerability-exposes-horde-webmail-servers-attacks",
         "title": "Unpatched Vulnerability Exposes Horde Webmail Servers to Attacks",
-        "desc": "The flaw, discovered by researchers at application security firm Sonar (formerly SonarSource), is tracked as CVE-2022-30287 and it can be exploited by getting a user to open a specially crafted email. The cybersecurity company told SecurityWeek that a Shodan search shows more than 3,000 internet-exposed instances worldwide, and there are likely many more internal instances that can still be exploited if an organization’s email server is exposed.",
+        "desc": "The flaw, discovered by researchers at application security firm Sonar, is tracked as CVE-2022-30287 and it can be exploited by getting a user to open a specially crafted email. The cybersecurity company told SecurityWeek that a Shodan search shows more than 3,000 internet-exposed instances worldwide, and there are likely many more instances that can be exploited if an organization’s email server is exposed.",
         "week": "07",
         "sort": "2022-06-01",
         "date": "01 June 2022",
@@ -1070,18 +1070,18 @@ export const newsFeed07 = [
     }
     ,
     {
-        "url": "https://www.securityweek.com/wray-fbi-blocked-planned-cyberattack-childrens-hospital",
+        "url": "https://www.nbcnews.com/tech/security/fbi-blocked-planned-cyberattack-childrens-hospital-director-says-rcna31456",
         "title": "FBI Blocked Planned Cyberattack on Children's Hospital",
-        "desc": "xxxx",
+        "desc": "Martin Gottesfeld launched a cyberattack at the hospital to protest the care of a teenager at the center of a high-profile custody battle and later was sentenced to 10 years in prison. The attack against the hospital and a treatment home cost the facilities tens of thousands of dollars and disrupted operations for days.",
         "week": "07",
         "sort": "2022-06-01",
         "date": "09 June 2022",
         "accessed": "09 June 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "author": "Associated Press",
+        "authlink": "",
+        "imgcred": "Ting Shen / Bloomberg via Getty Images",
+        "imgcredlink": "https://www.nbcnews.com/tech/security/fbi-blocked-planned-cyberattack-childrens-hospital-director-says-rcna31456",
+        "img": "220601-christopher-wray-ew-1119a-98da07.webp",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -1174,15 +1174,15 @@ export const newsFeed07 = [
     {
         "url": "https://www.wsj.com/articles/reliaquest-to-buy-digital-shadows-for-160-million-11654081200",
         "title": "ReliaQuest to Buy Digital Shadows for $160 Million",
-        "desc": "In a note announcing the planned acquisition, ReliaQuest said the deal gives security operations teams the ability to detect and respond to threats with real-time internal and external visibility. The company expects the new product line will drive down response time, provide context around threats and allow for an end-to-end view, all while decreasing the cost of visibility. ",
+        "desc": "ReliaQuest said the deal gives better ability to detect and respond to threats with real-time internal and external visibility. The company expects the new product line will drive down response time, provide context around threats and allow for an end-to-end view, all while decreasing the cost of visibility.",
         "week": "07",
         "sort": "2022-06-01",
         "date": "01 June 2022",
         "accessed": "01 June 2022",
         "author": " James Rundle",
         "authlink": "https://www.wsj.com/news/author/james-rundle",
-        "imgcred": "In photo: Alastair Paterson, CEO of Digital Shadows. PHOTO: SIMON DAWSON/BLOOMBERG NEWS",
-        "imgcredlink": "xxxx",
+        "imgcred": "SIMON DAWSON/BLOOMBERG NEWS",
+        "imgcredlink": "https://www.wsj.com/articles/reliaquest-to-buy-digital-shadows-for-160-million-11654081200",
         "img": "im-554772.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
@@ -1221,111 +1221,111 @@ export const newsFeed07 = [
         "term": "CSRF Attacks",
         "termdef": "A CSRF attack is one that tricks a victim into submitting a malicious request — a request they did not intend to make — to a website where they are authenticated (logged in to)."
     }
-    //,
-    // {
-    //     "url": "https://www.securityweek.com/cyber-agency-voting-software-vulnerable-some-states",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "https://www.zdnet.com/article/cloud-computing-security-five-things-you-are-probably-doing-wrong/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-06-01",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://apnews.com/article/2022-midterm-elections-technology-georgia-election-2020-a746b253f3404dbf794349df498c9542",
+        "title": "Cyber agency: Voting software vulnerable in some states",
+        "desc": "The U.S. Cybersecurity and Infrastructure Agency, or CISA, said there is no evidence the flaws in the Dominion Voting Systems’ equipment have been exploited to alter election results. The advisory is based on testing by a prominent computer scientist and expert witness in a long-running lawsuit that is unrelated to false allegations of a stolen election pushed by former President Donald Trump after his 2020 election loss.",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "1000.jpeg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/cloud-computing-security-five-things-you-are-probably-doing-wrong/",
+        "title": "Cloud computing security: Five things you are probably doing wrong",
+        "desc": "Cloud applications and software have become a key part of everyday life for employees and businesses, but simple errors can make your cloud an easy target for hackers.",
+        "week": "07",
+        "sort": "2022-06-01",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "Danny Palmer, Senior Reporter",
+        "authlink": "https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "getty-two-technicians-in-a-server-room.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
 ];
 
 
 export const newsFeed08 = [
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    {
+        "url": "https://thehackernews.com/2022/06/us-agencies-warn-about-chinese-hackers.html",
+        "title": "U.S. Agencies Warn About Chinese Hackers Targeting Telecoms and Network Service Providers",
+        "desc": "'Cyber actors use these hop points as an obfuscation technique when interacting with victim networks,'' the agencies noted, detailing the adversary's pattern of weaponizing flaws in telecommunications organizations and network service providers.",
+        "week": "08",
+        "sort": "2022-06-08",
+        "date": "08 June 2022",
+        "accessed": "09 June 2022",
+        "author": "Ravie Lakshmanan",
+        "authlink": "https://thehackernews.com/p/authors.html",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "nsa.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.latimes.com/california/story/2022-06-07/former-cyber-security-head-at-dwp-sentenced-to-4-years",
+        "title": "‘Culture of corruption’: Former DWP cybersecurity chief gets 4 years in prison",
+        "desc": "David Wright, the former DWP general manager, was sentenced in April to six years in prison for bribery. U.S. District Judge Stanley Blumenfeld Jr. told the court Tuesday that Alexander lied and covered up his actions at the utility “with great ease.” “He was part and parcel of the culture of corruption at the DWP,” Blumenfeld said.",
+        "week": "08",
+        "sort": "2022-06-09",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "Dakota Smith",
+        "authlink": "https://www.latimes.com/people/dakota-smith",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "californiastory.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.crn.com/slide-shows/security/20-hottest-cybersecurity-products-at-rsac-2022",
+        "title": "20 Hottest Cybersecurity Products At RSAC 2022",
+        "desc": "xxxx",
+        "week": "08",
+        "sort": "2022-06-09",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/cloud-computing-heres-the-security-threat-you-should-be-most-worried-about/?ftag=TRE-03-10aaa6b&bhid=%7B%24external_id%7D&mid=%7B%24MESSAGE_ID%7D&cid=%7B%24contact_id%7D&eh=%7B%24CF_emailHash%7D",
+        "title": "Cloud computing: Here's the security threat you should be most worried about",
+        "desc": "According to a survey of 700 industry experts on security issues in the cloud industry, insufficient identity, credential, access and key management for privileged accounts is a top concern around cloud cybersecurity.  ",
+        "week": "08",
+        "sort": "2022-06-09",
+        "date": "09 June 2022",
+        "accessed": "09 June 2022",
+        "author": "Danny Palmer, Senior Reporter",
+        "authlink": "https://www.zdnet.com/meet-the-team/uk/dannypalmerzdnet",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "computerusersnetworkistock-1194430783a.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     //,
     // {
     //     "url": "xxxx",
