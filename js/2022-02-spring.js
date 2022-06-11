@@ -1326,23 +1326,23 @@ export const newsFeed08 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://news.crunchbase.com/job-market/cybersecurity-tech-layoffs-deep-instinct/",
+        "title": "Cybersecurity Company Deep Instinct Cuts Staff As Tech Layoffs Continue",
+        "desc": "Cybersecurity company Deep Instinct went through layoffs this week, according to two people familiar with the company. Deep Instinct, founded in 2015 and based in New York, uses artificial intelligence to detect and prevent malware.",
+        "week": "08",
+        "sort": "2022-06-08",
+        "date": "08 June 2022",
+        "accessed": "08 June 2022",
+        "author": "Sophia Kunthara",
+        "authlink": "https://news.crunchbase.com/news/author/sophia-kunthara/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "Layoffreal.jpeg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     //,
     // {
     //     "url": "xxxx",
