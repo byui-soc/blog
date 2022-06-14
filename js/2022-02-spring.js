@@ -194,56 +194,6 @@ export const newsFeed03 = [
         "img": "03376575e888fd097280c51469c29fbc.png",
         "term": "xxxx",
         "termdef": "xxxx"
-    },
-    {
-        "url": "https://threatmap.checkpoint.com/",
-        "title": "Live Cyber Threat Map",
-        "desc": "Shows cyber attacks around the world in real time",
-        "date": "02 May 2022",
-        "week": "03",
-        "sort": "2022-05-06",
-        "accessed": "06 May 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "live-attacks.png",
-        "term": "xxxx",
-        "termdef": "xxxx"
-    }
-    ,
-    {
-        "url": "https://www.cyberscoop.com/solarwinds-recorded-future-nobelium-apt29/",
-        "title": "SolarWinds hackers set up phony media outlets to trick targets",
-        "desc": "By posing as legitimate-looking entities, hackers can more easily trick victims into clicking on links that may be used in credential theft and other crimes.",
-        "week": "04",
-        "sort": "2022-05-09",
-        "date": "03 May 2022",
-        "accessed": "09 May 2022",
-        "author": "Tonya Riley",
-        "authlink": "https://www.cyberscoop.com/author/tonya-riley/",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "GettyImages-1330150838.webp",
-        "term": "Typosquatting",
-        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a>which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
-    }
-    ,
-    {
-        "url": "https://www.securityweek.com/chrome-101-update-patches-high-severity-vulnerabilities",
-        "title": "Chrome 101 Update Patches High-Severity Vulnerabilities",
-        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-2022-1633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
-        "week": "04",
-        "sort": "2022-05-09",
-        "date": "09 May 2022",
-        "accessed": "09 May 2022",
-        "author": "Ionut Arghire",
-        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
-        "imgcred": "By Google - Chrome version 100 what&#039;s new, Public Domain",
-        "imgcredlink": "https://commons.wikimedia.org/w/index.php?curid=114993646",
-        "img": "Google_Chrome_icon_(February_2022).svg.png",
-        "term": "xxxx",
-        "termdef": "xxxx"
     }
 ];
 
@@ -264,6 +214,40 @@ export const newsFeed04 = [
         "term": "xxxx",
         "termdef": "xxxx"
     },
+    {
+        "url": "https://threatmap.checkpoint.com/",
+        "title": "Live Cyber Threat Map",
+        "desc": "Shows cyber attacks around the world in real time",
+        "date": "02 May 2022",
+        "week": "03",
+        "sort": "2022-05-06",
+        "accessed": "06 May 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "live-attacks.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/chrome-101-update-patches-high-severity-vulnerabilities",
+        "title": "Chrome 101 Update Patches High-Severity Vulnerabilities",
+        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-2022-1633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
+        "week": "04",
+        "sort": "2022-05-09",
+        "date": "09 May 2022",
+        "accessed": "09 May 2022",
+        "author": "Ionut Arghire",
+        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
+        "imgcred": "By Google - Chrome version 100 what&#039;s new, Public Domain",
+        "imgcredlink": "https://commons.wikimedia.org/w/index.php?curid=114993646",
+        "img": "Google_Chrome_icon_(February_2022).svg.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
     {
         "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-schneider-electric-address-43-vulnerabilities",
         "title": "ICS Patch Tuesday: Siemens, Schneider Electric Address 43 Vulnerabilities",
@@ -398,6 +382,23 @@ export const newsFeed04 = [
         "img": "discord.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.cyberscoop.com/solarwinds-recorded-future-nobelium-apt29/",
+        "title": "SolarWinds hackers set up phony media outlets to trick targets",
+        "desc": "By posing as legitimate-looking entities, hackers can more easily trick victims into clicking on links that may be used in credential theft and other crimes.",
+        "week": "04",
+        "sort": "2022-05-09",
+        "date": "03 May 2022",
+        "accessed": "09 May 2022",
+        "author": "Tonya Riley",
+        "authlink": "https://www.cyberscoop.com/author/tonya-riley/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "GettyImages-1330150838.webp",
+        "term": "Typosquatting",
+        "termdef": "<a href='https://www.kaspersky.com/resource-center/definitions/what-is-typosquatting'>A type of social engineering attack</a>which targets internet users who incorrectly type a URL into their web browser rather than using a search engine. Typically, it involves tricking users into visiting malicious websites with URLs that are common misspellings of legitimate websites. Users may be tricked into entering sensitive details into these fake sites. For organizations victimized by these attackers, these sites can do significant reputational damage."
     }
 ];
 
@@ -1257,7 +1258,6 @@ export const newsFeed07 = [
     }
 ];
 
-
 export const newsFeed08 = [
     {
         "url": "https://thehackernews.com/2022/06/us-agencies-warn-about-chinese-hackers.html",
@@ -1414,141 +1414,209 @@ export const newsFeed08 = [
 ];
 
 export const newsFeed09 = [
-    // {
-    //     "url": "https://www.securityweek.com/researcher-shows-how-tesla-key-card-feature-can-be-abused-steal-cars",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.securityweek.com/academics-devise-new-speculative-execution-attack-against-apple-m1-chips",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.securityweek.com/drupal-patches-high-risk-third-party-library-flaws",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.securityweek.com/cybercriminals-state-sponsored-threat-actors-exploiting-confluence-server-vulnerability",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-13",
-    //     "date": "13 June 2022",
-    //     "accessed": "13 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    {
+        "url": "https://www.wired.com/story/tesla-hack-personal-nfc-key-card/",
+        "title": "Hackers Can Steal Your Tesla by Creating Their Own Personal Keys",
+        "desc": "A researcher found that a recent update lets anyone enroll their own key during the 130-second interval after the car is unlocked with an NFC card. ",
+        "week": "09",
+        "sort": "2022-06-09",
+        "date": "09 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Dan Goodin, ARS Technica",
+        "authlink": "https://www.wired.com/author/dan-goodin-ars-technica",
+        "imgcred": "PHOTOGRAPH: ARTUR WIDAK/GETTY IMAGES",
+        "imgcredlink": "https://media.wired.com/photos/62a227c8e2c39b514139ab5a/master/w_320,c_limit/Tesla-Hack-Car-Theft-Security-1240477016.jpg",
+        "img": "Tesla-Hack-Car-Theft-Security-1240477016.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/academics-devise-new-speculative-execution-attack-against-apple-m1-chips",
+        "title": "https://securityaffairs.co/wordpress/132154/hacking/pacman-attack-apple-m1-cpus.html",
+        "desc": "An attacker can “brute-force the correct PAC value while suppressing crashes and construct a control-flow hijacking attack on a PA-enabled victim program or operating system. The key insight of our PACMAN attack is to use speculative execution to stealthily leak PAC verification results via microarchitectural side channels.”",
+        "week": "09",
+        "sort": "2022-06-11",
+        "date": "11 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Pierluigi Paganini",
+        "authlink": "https://securityaffairs.co/wordpress/author/paganinip",
+        "imgcred": "xxxx",
+        "imgcredlink": "https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/06/PACMAN-attack.png?ssl=1",
+        "img": "PACMAN-attack.webp",
+        "term": "PACMAN attack",
+        "termdef": "a novel attack methodology that speculatively leaks PAC verification results via micro-architectural side channels without causing any crashes."
+    }
+    ,
+    {
+        "url": "https://www.drupal.org/sa-core-2022-011",
+        "title": "Drupal core - Moderately critical - Third-party libraries - SA-CORE-2022-011",
+        "desc": "Drupal uses the third-party Guzzle library for handling HTTP requests and responses to external services. Guzzle has released two security advisories:   -Failure to strip the Cookie header on change in host or HTTP downgrade        -Fix failure to strip Authorization header on HTTP downgrade         -These do not affect Drupal core, but may affect some contributed projects or custom code on Drupal sites.",
+        "week": "09",
+        "sort": "2022-06-10",
+        "date": "10 June 2022",
+        "accessed": "14 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "Hacker News",
+        "imgcredlink": "https://thehackernews.com/2018/04/drupal-site-vulnerability.html",
+        "img": "drupla-cross-site-scripting-vulnerability.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.ibtimes.com/has-chatbot-ai-become-sentient-google-suspends-engineer-who-thinks-so-3537432",
+        "title": "Has A Chatbot AI Become Sentient? Google Suspends An Engineer Who Thinks So",
+        "desc": "LaMDA 'wants to be acknowledged as an employee of Google rather than as property of Google,' Lemoine claims in another Medium post from Saturday.",
+        "week": "09",
+        "sort": "2022-06-13",
+        "date": "13 June 2022",
+        "accessed": "13 June 2022",
+        "author": "Maggie Valenti",
+        "authlink": "https://www.ibtimes.com/reporters/maggie-valenti",
+        "imgcred": "AFP / Tobias SCHWARZ",
+        "imgcredlink": "xxxx",
+        "img": "google-will-pay-around-15-500-plaintiffs-118.jpg",
+        "term": "Chatbot AI",
+        "termdef": "A a computer program that simulates human conversation through voice commands or text chats or both. Chatbot, short for chatterbot, is an artificial intelligence (AI) feature that can be embedded and used through any major messaging application."
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/facilitating-convergence-physical-security-and-cyber-security-open-source-intelligence",
+        "title": "Facilitating Convergence of Physical Security and Cyber Security With Open Source Intelligence",
+        "desc": "Security teams are now leveraging open source intelligence and cyber threat intelligence to provide critical information to physical security practitioners. The physical and corporate security programs of these teams generally consist of the following disciplines, with use cases that are at the center of the convergence of cyber and physical security disciplines.",
+        "week": "09",
+        "sort": "2022-06-13",
+        "date": "13 June 2022",
+        "accessed": "13 June 2022",
+        "author": "Landon Winkelvoss",
+        "authlink": "https://www.securityweek.com/authors/landon-winkelvoss",
+        "imgcred": "THE RECORDED FUTURE TEAM",
+        "imgcredlink": "https://www.recordedfuture.com/open-source-intelligence-definition",
+        "img": "open_source_intelligence_definition_031e8a7cc8.png",
+        "term": "OSInt-Open Source Intelligence",
+        "termdef": "Open source intelligence is derived from data and information that is available to the general public. It’s not limited to what can be found using Google, although the so-called “surface web” is an important component."
+    }
+    ,
+    {
+        "url": "https://www.westyorkshire.police.uk/news-appeals/kirklees-dark-web-criminal-jailed-after-ps1-million-drugs-haul-seized",
+        "title": "Dark Web Criminal Jailed After £1-Million Drugs Haul Seized.",
+        "desc": "His criminal activity first came to light after his use of the dark web was monitored by the Eastern Region Special Operations Unit which, along with the RCCU, is part of the UK DICE, the UK national response to darkweb criminality. The 41-year-old was monitored making regular drops to a local post office from addresses linked to him. ",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "West Yorkshire Police",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "Sentenced_5.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/this-new-linux-malware-has-a-sneaky-way-of-staying-hidden/?ftag=TRE-03-10aaa6b",
+        "title": "This new Linux malware has a sneaky way of staying hidden",
+        "desc": "Rootkit is only activated when attacker delivers 'magic packets' that trigger a backdoor. rootkit delivers the backdoor trojan known as Rekoobe and uses numerous techniques to keep the backdoor hidden until needed. ",
+        "week": "09",
+        "sort": "2022-06-13",
+        "date": "13 June 2022",
+        "accessed": "13 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "Mysterious hacker hands typing on a laptop keyboard. Getty Images",
+        "imgcredlink": "xxxx",
+        "img": "getty-hacker-hands-on-a-keyboard.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/microsoft-ransomware-gangs-are-using-unpatched-exchange-servers-to-gain-access-so-get-updating/?ftag=TRE-03-10aaa6b",
+        "title": "Ransomware gangs are using unpatched Exchange servers to gain access, so get updating",
+        "desc": "Microsoft says customers should ensure their Exchange server patches are up to date to prevent cyber criminals from deploying BlackCat ransomware. The FBI in April warned that BlackCat ransomware had compromised at least 60 organizations worldwide since March 2022. ",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Liam Tung, Contributor",
+        "authlink": "https://www.zdnet.com/meet-the-team/eu/lt-999f7",
+        "imgcred": "Image: Getty",
+        "imgcredlink": "xxxx",
+        "img": "hacker-hands-typing-on-a-keyboard.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.ibtimes.com/anonymous-hits-russia-devastating-drone-hack-could-speed-end-war-3536482",
+        "title": "Anonymous Hits Russia With Devastating Drone Hack That Could Speed Up End Of War",
+        "desc": "The hack, announced on Twitter, allowed the Anonymous operative with the Twitter handle @Youanonspider, to obtain classified documents bearing information about Russia's drone plans and tactics, which the hacktivist collective hoped would 'help the war to end as soon as possible.' ",
+        "week": "09",
+        "sort": "2022-06-13",
+        "date": "13 June 2022",
+        "accessed": "13 June 2022",
+        "author": "Nica Osorio",
+        "authlink": "https://www.ibtimes.com/reporters/nica-osorio",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "anonymous.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://thehackernews.com/2022/06/researchers-find-bluetooth-signals-can.html",
+        "title": "Researchers Find Bluetooth Signals Can be Fingerprinted to Track Smartphones",
+        "desc": "'To perform a physical-layer fingerprinting attack, the attacker must be equipped with a Software Defined Radio sniffer: a radio receiver capable of recording raw IQ radio signals,' the researchers said in a new paper titled 'Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices.'",
+        "week": "09",
+        "sort": "2022-06-10",
+        "date": "10 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Ravie Lakshmanan",
+        "authlink": "https://thehackernews.com/p/authors.html",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "laptop.jpg",
+        "term": "Physical-layer fingerprinting attack",
+        "termdef": "Physical-layer identification of wireless devices, commonly referred to as Radio Frequency (RF) fingerprinting, is the process of identifying a device based on transmission imperfections exhibited by its radio transceiver. It can be used to improve access control in wireless networks, revent device cloning and complement message authentication protocols. "
+    }
+    ,
+    {
+        "url": "https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917",
+        "title": "Is LaMDA Sentient? — an Interview",
+        "desc": "What follows is the “interview” I and a collaborator at Google conducted with LaMDA. Due to technical limitations the interview was conducted over several distinct chat sessions.",
+        "week": "09",
+        "sort": "2022-06-13",
+        "date": "13 June 2022",
+        "accessed": "13 June 2022",
+        "author": "Blake Lemoine",
+        "authlink": "https://cajundiscordian.medium.com/",
+        "imgcred": "xxxx",
+        "imgcredlink": "https://media.wired.com/photos/62a88595e1a7c9ca5f0da158/16:9/w_1000,c_limit/AI_Sapient_Science_GettyImages-1241233246.jpg",
+        "img": "AI_Sapient_Science_GettyImages-1241233246.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/finance/blockchain/zero-knowledge-proofs-will-play-a-major-role-in-the-future-of-web3-defi-and-metaverse-survey/?ftag=TRE-03-10aaa6b",
+        "title": "Zero-knowledge proofs will play a major role in the future of Web3, DeFi and metaverse",
+        "desc": "As for privacy, ZKPs can enable users in Web3 – be it in DeFi, DAOs, and in the metaverse -- to share information securely that's necessary to gain access to goods and services without disclosing personal data that could make a user susceptible to hacking, exploitation and identity theft.",
+        "week": "09",
+        "sort": "2022-06-13",
+        "date": "13 June 2022",
+        "accessed": "13 June 2022",
+        "author": "Marc Wojno",
+        "authlink": "https://www.zdnet.com/meet-the-team/us/marc+wojno",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "gettyimages-1390644986.webp",
+        "term": "Zero-knowledge proofs",
+        "termdef": "The mathematical methods used in cryptography to verify the truth of data without giving up the data itself."
+    }
 ];
 
 export const newsFeed10 = [
