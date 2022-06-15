@@ -1653,6 +1653,40 @@ export const newsFeed09 = [
     }
     // ,
     // {
+    //     "url": "https://www.securityweek.com/adobe-plugs-46-security-flaws-patch-tuesday",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "09",
+    //     "sort": "2022-06-14",
+    //     "date": "14 June 2022",
+    //     "accessed": "14 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "https://www.securityweek.com/koverse-launches-zero-trust-data-platform",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "09",
+    //     "sort": "2022-06-14",
+    //     "date": "14 June 2022",
+    //     "accessed": "14 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
     //     "url": "xxxx",
     //     "title": "xxxx",
     //     "desc": "xxxx",
