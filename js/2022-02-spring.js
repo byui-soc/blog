@@ -1617,6 +1617,91 @@ export const newsFeed09 = [
         "term": "Zero-knowledge proofs",
         "termdef": "The mathematical methods used in cryptography to verify the truth of data without giving up the data itself."
     }
+    ,
+    {
+        "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-30190",
+        "title": "Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability",
+        "desc": "A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.        Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Shared by Dunamis",
+        "authlink": "xxxx",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/chinese-cyberespionage-group-starts-using-new-pingpull-malware",
+        "title": "Chinese Cyberespionage Group Starts Using New 'PingPull' Malware",
+        "desc": "Written in Visual C++, PingPull establishes a reverse shell on the compromised system and allows attackers to run commands to enumerate storage volumes, list folder contents, read and write files, manipulate files, create directories, and run commands.",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Ionut Arghire",
+        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "xxxx",
+        "term": "RAT (Remote Access Trojan)",
+        "termdef": "Malware designed to allow an attacker to remotely control an infected computer. Once the RAT is running on a compromised system, the attacker can send commands to it and receive data back in response."
+    }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "09",
+    //     "sort": "2022-06-14",
+    //     "date": "14 June 2022",
+    //     "accessed": "14 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "09",
+    //     "sort": "2022-06-14",
+    //     "date": "14 June 2022",
+    //     "accessed": "14 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "09",
+    //     "sort": "2022-06-14",
+    //     "date": "14 June 2022",
+    //     "accessed": "14 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "xxxx",
+        // "termdef": "xxxx"
+    // }
 ];
 
 export const newsFeed10 = [

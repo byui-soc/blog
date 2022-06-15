@@ -105,7 +105,7 @@ function createNav(array, id) {
               //console.log(element.title);
               menu += `<p class='desc imgcred'>${imgcred}</p>`;
             }
-            menu += `<p class="desc descrip">${element.desc}<a href="${element.url}">Go to webpage</a></p>`;
+            menu += `<p class="desc descrip">${element.desc}<a href="${element.url}" target="_blank">Go to webpage</a></p>`;
             menu += `</div> </div> </div> `;
       })
       menu += "</div>";
