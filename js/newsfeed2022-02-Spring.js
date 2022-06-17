@@ -89,7 +89,7 @@ function createNav(array, id) {
           if ( (typeof(element.imgcred) === "undefined") || (element.imgcred === "xxxx") ) {
             var imgcred = "";
           } else {
-            var imgcred = `Flipside image credit: <a href='${element.imgcredlink}'>${element.imgcred}</a>`;
+            var imgcred = `Image credit: <a href='${element.imgcredlink}'>${element.imgcred}</a>`;
           }
             // TODO: save as variable for adding to index.html page as parameter? (${element.tech})
             menu += `<div class="flipcard">`;
