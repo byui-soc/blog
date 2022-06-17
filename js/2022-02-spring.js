@@ -894,8 +894,8 @@ export const newsFeed06 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "zoom-ios-app.jpg",
-        "term": "RCE",
-        "termdef": "xxxx"
+        "term": "RCE (Remote Code Execution)",
+        "termdef": "Allows an attacker to remotely execute malicious code on a computer. The impact of an RCE vulnerability can range from malware execution to an attacker gaining full control over a compromised machine."
     }
     ,
     {
@@ -1485,7 +1485,7 @@ export const newsFeed09 = [
     {
         "url": "https://www.securityweek.com/facilitating-convergence-physical-security-and-cyber-security-open-source-intelligence",
         "title": "Facilitating Convergence of Physical Security and Cyber Security With Open Source Intelligence",
-        "desc": "Security teams are now leveraging open source intelligence and cyber threat intelligence to provide critical information to physical security practitioners. The physical and corporate security programs of these teams generally consist of the following disciplines, with use cases that are at the center of the convergence of cyber and physical security disciplines.",
+        "desc": "Security teams are now leveraging open source intelligence and cyber threat intelligence to provide critical information to physical security practitioners.",
         "week": "09",
         "sort": "2022-06-13",
         "date": "13 June 2022",
@@ -1651,57 +1651,57 @@ export const newsFeed09 = [
         "term": "RAT (Remote Access Trojan)",
         "termdef": "Malware designed to allow an attacker to remotely control an infected computer. Once the RAT is running on a compromised system, the attacker can send commands to it and receive data back in response."
     }
-    // ,
-    // {
-    //     "url": "https://www.securityweek.com/adobe-plugs-46-security-flaws-patch-tuesday",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-14",
-    //     "date": "14 June 2022",
-    //     "accessed": "14 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://www.securityweek.com/koverse-launches-zero-trust-data-platform",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-14",
-    //     "date": "14 June 2022",
-    //     "accessed": "14 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-14",
-    //     "date": "14 June 2022",
-    //     "accessed": "14 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://www.securityweek.com/adobe-plugs-46-security-flaws-patch-tuesday",
+        "title": "Adobe Plugs 46 Security Flaws on Patch Tuesday",
+        "desc": "As part of its scheduled Patch Tuesday release for June, Adobe warned of 'critical' code execution flaws that expose both Windows and macOS users to malicious hacker attacks. The most serious of the documented flaws affect Adobe Animate, Adobe Bridge, Adobe Illustrator, Adobe InCopy and Adobe InDesign.",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Ryan Naraine",
+        "authlink": "https://www.securityweek.com/authors/ryan-naraine",
+        "imgcred": "This is the new logo for Adobe Inc., updated and released in May 2020.",
+        "imgcredlink": "https://commons.wikimedia.org/wiki/File:Adobe_Corporate_Logo.png",
+        "img": "800px-Adobe_Corporate_Logo.png",
+        "term": "Out-of-bounds Write",
+        "termdef": "The software writes data past the end, or before the beginning, of the intended buffer. Typically, this can result in corruption of data, a crash, or code execution. The software may modify an index or perform pointer arithmetic that references a memory location that is outside of the boundaries of the buffer. A subsequent write operation then produces undefined or unexpected results."
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/koverse-launches-zero-trust-data-platform",
+        "title": "Koverse Launches Zero Trust Data Platform",
+        "desc": "”We’ve separated the functionality into different microservices that are all containerized,” said Aaron Cordova, CTO and cofounder at SAIC-owned Koverse; “and we have a new cloud-centric and flexible method of deployment.”",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Kevin Townsend",
+        "authlink": "https://www.securityweek.com/authors/kevin-townsend",
+        "imgcred": "image from Koverse website",
+        "imgcredlink": "https://www.koverse.com/resources/how-koverse-makes-analytics-production-ready/",
+        "img": "koverse-analytics-1.png",
+        "term": "Attribute-based access control (ABAC)",
+        "termdef": "An authorization model that evaluates attributes (or characteristics), rather than roles, to determine access. The purpose of ABAC is to protect objects such as data, network devices, and IT resources from unauthorized users and actions—those that don’t have “approved” characteristics as defined by an organization’s security policies."
+    }
+    ,
+    {
+        "url": "https://www.zdnet.com/article/the-unrelenting-threat-of-ransomware-is-driving-cybersecurity-workers-to-quit/",
+        "title": "The unrelenting threat of ransomware is pushing cybersecurity workers to quit",
+        "desc": "xxxx",
+        "week": "09",
+        "sort": "2022-06-14",
+        "date": "14 June 2022",
+        "accessed": "14 June 2022",
+        "author": "Owen Hughes, Senior Editor",
+        "authlink": "https://www.zdnet.com/meet-the-team/uk/owenhughes/",
+        "imgcred": "Getty Images",
+        "imgcredlink": "xxxx",
+        "img": "digital-burnout-right-to-disconnect.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
     //     "url": "xxxx",
