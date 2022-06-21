@@ -174,7 +174,7 @@ export const learning = [
     {
         "url": "https://tryhackme.com/room/burpsuiterepeater",
         "title": "Burp Suite: Repeater",
-        "desc": "Learn how to use Repeater to duplicate requests in Burp Suite. Whilst we can craft requests by hand, it would be much more common to simply capture a request in the Proxy, then send that through to Repeater for editing/resending. With a request captured in the proxy, we can send to repeater either by right-clicking on the request and choosing 'Send to Repeater' or by pressing Ctrl + R. Switching back to Repeater, we can see that our request is now available:",
+        "desc": "Learn how to use Repeater to duplicate requests in Burp Suite. Whilst we can craft requests by hand, it would be much more common to simply capture a request in the Proxy, then send that through to Repeater for editing/resending. With a request captured in the proxy, we can send to repeater either by right-clicking on the request and choosing 'Send to Repeater' or Ctrl + R. Switching back to Repeater, we can see that our request is now available.",
         "week": "xxxx",
         "sort": "2022-05-11",
         "date": "11 May 2022",
