@@ -1774,7 +1774,7 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.wtvr.com/news/local-news/cybersecurity-analyst-on-13k-fuel-stolen-virginia-beach-gas-station",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
@@ -1791,7 +1791,7 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://deals.thehackernews.com/sales/palo-alto-networks-cybersecurity-fundamentals-pccsa",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
@@ -1808,7 +1808,7 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/06/google-researchers-detail-5-year-old.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
@@ -1825,7 +1825,7 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.reviewgeek.com/121229/microsofts-new-cybersecurity-tool-arrives-on-all-platforms/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
@@ -1842,7 +1842,7 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/acebook-messenger-scam/179977/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
@@ -1859,11 +1859,28 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/hackers-india-government/179968/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
     //     "sort": "2022-06-21",
+    //     "date": "21 June 2022",
+    //     "accessed": "21 June 2022",
+    //     "author": "xxxx",
+    //     "authlink": "xxxx",
+    //     "imgcred": "xxxx",
+    //     "imgcredlink": "xxxx",
+    //     "img": "xxxx",
+        // "term": "hacktivist",
+        // "termdef": "Derived from combining the words ‘Hack’ and ‘Activism’, hacktivism is the act of hacking, or breaking into a computer system, for politically or socially motivated purposes. The individual who performs an act of hacktivism is said to be a hacktivist. The hacktivist who does such acts, such as defacing an organization’s website or leaking that organization’s information, aims to send a message through their activities and gain visibility for a cause they are promoting."
+    // }
+    // ,
+    // {
+    //     "url": "xxxx",
+    //     "title": "xxxx",
+    //     "desc": "xxxx",
+    //     "week": "08",
+    //     "sort": "2022-06-07",
     //     "date": "21 June 2022",
     //     "accessed": "21 June 2022",
     //     "author": "xxxx",
@@ -1876,7 +1893,7 @@ export const newsFeed10 = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.cnbc.com/2022/06/07/beware-of-scams-involving-jobs-stimulus-checks-and-tax-refunds-irs-warns.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",
@@ -1888,29 +1905,12 @@ export const newsFeed10 = [
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
+        // "term": "Smishing",
+        // "termdef": "Smishing is a combination of the words short message services (SMS) and phishing. Today’s cybercriminals often carry out smishing attacks because people tend to trust text messages more than emails. It’s this mistaken trust that may have led to smishing scams increasing by more than 300% within the past two years."
     // }
     // ,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-21",
-    //     "date": "21 June 2022",
-    //     "accessed": "21 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
+    //     "url": "https://threatpost.com/travel-related-cybercrime-takes-off/179962/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "08",

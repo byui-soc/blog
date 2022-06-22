@@ -342,23 +342,23 @@ export const learning = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://www.tripwire.com/state-of-security/security-data-protection/cyber-security/reexamining-laws-of-cybersecurity/",
+        "title": "Reexamining the “5 Laws of Cybersecurity”",
+        "desc": "xxxx",
+        "week": "xxxx",
+        "sort": "2022-06-19",
+        "date": "19 June 2022",
+        "accessed": "21 June 2022",
+        "author": "TRIPWIRE GUEST AUTHORS",
+        "authlink": "https://www.tripwire.com/state-of-security/contributors/tripwire-guest-authors/",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "5-Laws-of-Cybersecurity.jpg",
+        "term": "Identity access management (IAM)",
+        "termdef": "a framework of business processes, policies and technologies that facilitates the management of electronic or digital identities. With an IAM framework in place, information technology (IT) managers can control user access to critical information within their organizations. Systems used for IAM include single sign-on systems, two-factor authentication, multifactor authentication and privileged access management. These technologies also provide the ability to securely store identity and profile data as well as data governance functions to ensure that only data that is necessary and relevant is shared."
+    }
     // ,
     // {
     //     "url": "xxxx",
