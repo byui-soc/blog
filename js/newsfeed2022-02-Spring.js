@@ -85,6 +85,12 @@ function createNav(array, id) {
             if (element.author2) {
               author += `, <a href='${element.authlink2}'>${element.author2}</a>`;
             }
+            if (element.author3) {
+              author += `, <a href='${element.authlink3}'>${element.author3}</a>`;
+            }
+            if (element.author4) {
+              author += `, <a href='${element.authlink4}'>${element.author4}</a>`;
+            }
           }
           if ( (typeof(element.imgcred) === "undefined") || (element.imgcred === "xxxx") ) {
             var imgcred = "";
@@ -96,7 +102,11 @@ function createNav(array, id) {
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
             menu += `<div><h3 class="overlay">${element.title}</h3>`;
-            menu += `<img src="./img/${element.img}" alt="Image for ${element.title}"></div>`;
+            if (element.video) {
+              // menu += `<video width="200" height="200" controls><source src="${element.video}" type="video/mp4">Your browser does not support the video tag. </video>`;
+            } else {
+              menu += `<img src="./img/${element.img}" alt="Image for ${element.title}"></div>`;
+            }
             menu += `</div>`;
             menu += `<div class="flipcard-back">`;
             menu += `<p class='desc date'>Article Date: ${element.date}${author}</p>`;
@@ -105,7 +115,7 @@ function createNav(array, id) {
               //console.log(element.title);
               menu += `<p class='desc imgcred'>${imgcred}</p>`;
             }
-            menu += `<p class="desc descrip">${element.desc}<a href="${element.url}" target="_blank">Go to webpage</a></p>`;
+            menu += `<p class="desc descrip">${element.desc}<a href="${element.url}" target="_blank"> Go to webpage </a></p>`;
             menu += `</div> </div> </div> `;
       })
       menu += "</div>";
@@ -121,7 +131,7 @@ createNav(newsFeed06,'newsfeed06');
 createNav(newsFeed07,'newsfeed07');
 createNav(newsFeed08,'newsfeed08');
 createNav(newsFeed09,'newsfeed09');
-//createNav(newsFeed10,'newsfeed10');
+createNav(newsFeed10,'newsfeed10');
 //createNav(newsFeed11,'newsfeed11');
 //createNav(newsFeed12,'newsfeed12');
 //createNav(newsFeed13,'newsfeed13');
