@@ -346,8 +346,8 @@ export const learning = [
     {
         "url": "https://www.tripwire.com/state-of-security/security-data-protection/cyber-security/reexamining-laws-of-cybersecurity/",
         "title": "Reexamining the “5 Laws of Cybersecurity”",
-        "desc": "xxxx",
-        "week": "xxxx",
+        "desc": "The first rule of cybersecurity is to treat everything as if it’s vulnerable because, of course, everything is vulnerable. Every risk management course, security certification exam, and audit mindset always emphasizes that there is no such thing as a 100% secure system.  Arguably, the entire cybersecurity field is founded on this principle.",
+        "week": "10",
         "sort": "2022-06-19",
         "date": "19 June 2022",
         "accessed": "21 June 2022",
