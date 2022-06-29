@@ -137,8 +137,8 @@ export const learning = [
     ,
     {
         "url": "https://tryhackme.com/room/owaspjuiceshop",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "title": "OWASP Juice Shop",
+        "desc": "This room uses the Juice Shop vulnerable web application to learn how to identify and exploit common web application vulnerabilities.",
         "week": "06",
         "sort": "2022-05-26",
         "date": "26 May 2022",
@@ -359,74 +359,74 @@ export const learning = [
         "term": "Identity access management (IAM)",
         "termdef": "a framework of business processes, policies and technologies that facilitates the management of electronic or digital identities. With an IAM framework in place, information technology (IT) managers can control user access to critical information within their organizations. Systems used for IAM include single sign-on systems, two-factor authentication, multifactor authentication and privileged access management. These technologies also provide the ability to securely store identity and profile data as well as data governance functions to ensure that only data that is necessary and relevant is shared."
     }
-    // ,
-    // {
-    //     "url": "https://tryhackme.com/room/metasploitintro",
-    //     "title": "Metasploit Intro room",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-28",
-    //     "date": "28 June 2022",
-    //     "accessed": "28 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "https://wazuh.com/blog/detecting-cobalt-strike-beacons-using-wazuh/",
-    //     "title": "Detecting Cobalt Strike beacons using Wazuh",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-15",
-    //     "date": "15 June 2022",
-    //     "accessed": "29 June 2022",
-    //     "author": "Chris Bassey",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "Cobalt strike",
-        // "termdef": "A red team command and control framework used for adversary emulation. Due to its functionality and flexibility, it has been widely adopted by both red teams and threat actors. Multiple threat actors such as APT29, APT32, APT 41, APT19, UNC2452, FIN6 use cracked versions of Cobalt Strike in their attacks. Cobalt Strike payloads called beacons are implanted on compromised endpoints and are controlled from a C2 server. "
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://tryhackme.com/room/metasploitintro",
+        "title": "Metasploit: Introduction - An introduction to the main components of the Metasploit Framework",
+        "desc": "An introduction to the main components of the Metasploit Framework.  The Metasploit Framework is a set of tools that allow information gathering, scanning, exploitation, exploit development, post-exploitation, and more. While the primary usage of the Metasploit Framework focuses on the penetration testing domain, it is also useful for vulnerability research and exploit development.",
+        "week": "10",
+        "sort": "2022-06-28",
+        "date": "28 June 2022",
+        "accessed": "28 June 2022",
+        "author": "tryhackme",
+        "authlink": "https://tryhackme.com/p/tryhackme",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "metasploit.png",
+        "term": "Payloads",
+        "termdef": "Scripts that will run on the target system."
+    }
+    ,
+    {
+        "url": "https://wazuh.com/blog/detecting-cobalt-strike-beacons-using-wazuh/",
+        "title": "Detecting Cobalt Strike beacons using Wazuh",
+        "desc": "Pipes are a section of memory used for interprocess communication. Pipes operate in a client-server model, the process that creates the pipe is the pipe server, and the process that connects to the pipe is the pipe client.",
+        "week": "11",
+        "sort": "2022-06-15",
+        "date": "15 June 2022",
+        "accessed": "29 June 2022",
+        "author": "Chris Bassey",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "01-3.png",
+        "term": "Cobalt strike",
+        "termdef": "A red team command and control framework used for adversary emulation. Due to its functionality and flexibility, it has been widely adopted by both red teams and threat actors. Multiple threat actors such as APT29, APT32, APT 41, APT19, UNC2452, FIN6 use cracked versions of Cobalt Strike in their attacks. Cobalt Strike payloads called beacons are implanted on compromised endpoints and are controlled from a C2 server. "
+    }
+    ,
+    {
+        "url": "https://hackaday.com/2022/06/18/notkia-building-an-open-and-linux-powered-numpad-phone/",
+        "title": "NOTKIA: BUILDING AN OPEN AND LINUX-POWERED NUMPAD PHONE",
+        "desc": "Many of us hackers have a longing for numpad-adorned mobile phones. We also have a shared understanding that, nowadays, such a phone has to be open and Linux-powered. Today’s project, Notkia, is the most promising and realistic effort at building a keypad phone that fits our requirements.",
+        "week": "10",
+        "sort": "2022-06-18",
+        "date": "18 June 2022",
+        "accessed": "25 June 2022",
+        "author": "Arsenijs Picugins",
+        "authlink": "https://hackaday.com/author/arsenijspicugins/",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "had_notkia_feat.webp",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://tryhackme.com/room/metasploitexploitation",
+        "title": "Metasploit: Exploitation - Using Metasploit for scanning, vulnerability assessment and exploitation.",
+        "desc": "Metasploit has a number of modules to scan open ports on the target system and network. You can list potential port scanning modules available using the search portscan command. The scanner/discovery/udp_sweep module will allow you to quickly identify services running over the UDP. This module will not conduct an extensive scan of all possible UDP services but does provide a quick way to identify services such as DNS or NetBIOS.",
+        "week": "xxxx",
+        "sort": "2022-06-01",
+        "date": "01 June 2022",
+        "accessed": "01 June 2022",
+        "author": "tryhackme",
+        "authlink": "https://tryhackme.com/p/tryhackme",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "metasploit.png",
+        "term": "UDP  (User Datagram Protocol)",
+        "termdef": "A communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. It speeds up communications by not formally establishing a connection before data is transferred. This allows data to be transferred very quickly, but it can also cause packets to become lost in transit — and create opportunities for exploitation in the form of DDoS attacks."
+    }
     // ,
     // {
     //     "url": "xxxx",
