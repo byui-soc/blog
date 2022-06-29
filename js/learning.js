@@ -361,13 +361,13 @@ export const learning = [
     }
     // ,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
+    //     "url": "https://tryhackme.com/room/metasploitintro",
+    //     "title": "Metasploit Intro room",
     //     "desc": "xxxx",
     //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
+    //     "sort": "2022-06-28",
+    //     "date": "28 June 2022",
+    //     "accessed": "28 June 2022",
     //     "author": "xxxx",
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
@@ -378,20 +378,20 @@ export const learning = [
     // }
     // ,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
+    //     "url": "https://wazuh.com/blog/detecting-cobalt-strike-beacons-using-wazuh/",
+    //     "title": "Detecting Cobalt Strike beacons using Wazuh",
     //     "desc": "xxxx",
     //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
-    //     "author": "xxxx",
+    //     "sort": "2022-06-15",
+    //     "date": "15 June 2022",
+    //     "accessed": "29 June 2022",
+    //     "author": "Chris Bassey",
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",
     //     "imgcred": "xxxx",
     //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
+        // "term": "Cobalt strike",
+        // "termdef": "A red team command and control framework used for adversary emulation. Due to its functionality and flexibility, it has been widely adopted by both red teams and threat actors. Multiple threat actors such as APT29, APT32, APT 41, APT19, UNC2452, FIN6 use cracked versions of Cobalt Strike in their attacks. Cobalt Strike payloads called beacons are implanted on compromised endpoints and are controlled from a C2 server. "
     // }
     // ,
     // {

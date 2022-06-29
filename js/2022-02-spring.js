@@ -1090,7 +1090,7 @@ export const newsFeed07 = [
     {
         "url": "https://nationalcybersecuritynews.today/researchers-demonstrate-ransomware-for-iot-devices-that-targets-it-and-ot-networks-malware-ransomware/",
         "title": "Researchers Demonstrate Ransomware for IoT Devices That Targets IT and OT Networks",
-        "desc": "R4IoT is a new kind of malware that brings together an IoT entry point and ransomware-related lateral movement and encryption on an IT network, causing an extended impact on both IT and OT networks. This could entail compromising a machine in the corporate network to not only drop ransomware but also retrieve additional payloads from a remote server to deploy cryptocurrency miners and launch denial-of-service (DoS) attacks against OT assets.",
+        "desc": "R4IoT is a new kind of malware that brings together an IoT entry point and ransomware-related lateral movement and encryption on an IT network, causing an extended impact on both IT and OT networks. This could entail compromising a machine in the corporate network to not only drop ransomware but also retrieve additional payloads from a remote (command and control) server to deploy cryptocurrency miners and launch denial-of-service (DoS) attacks against OT assets.",
         "week": "07",
         "sort": "2022-06-01",
         "date": "09 June 2022",
@@ -1100,8 +1100,8 @@ export const newsFeed07 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "malware.webp",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": " C2 (or C&C) server",
+        "termdef": "Command-and-control servers, also called C&C or C2, are used by attackers to maintain communications with compromised systems within a target network (often Internet-connected computers of home users that then form zombie armies known as botnets)."
     }
     ,
     {
@@ -1844,7 +1844,7 @@ export const newsFeed10 = [
     {
         "url": "https://threatpost.com/acebook-messenger-scam/179977/",
         "title": "Facebook Messenger Scam Duped Millions",
-        "desc": "Purportedly done by a single individual, the crux of the phishing campaign centers around a fake Facebook login page. It might not look immediately suspicious, as it copies Facebook’s user interface closely. When a victim enters their credentials and clicks “Log In,” those credentials are sent to the attacker’s server. Then, “in a likely automated fashion,” the authors of the report explained, “the threat actor would login to that account, and send out the link to the user’s Friends via Facebook Messenger.”",
+        "desc": "Purportedly done by a single individual, the crux of the phishing campaign centers around a fake Facebook login page. It might not look immediately suspicious, as it copies Facebook’s user interface closely. When a victim logs in, those credentials are sent to the attacker’s server. “in a likely automated fashion,” the authors of the report explained, “the threat actor would login, and send out the link to the user’s Friends via Facebook Messenger.”",
         "week": "10",
         "sort": "2022-06-16",
         "date": "16 June 2022",
@@ -1894,9 +1894,9 @@ export const newsFeed10 = [
         "imgcred": "The Chinese government bidding documents analyzed by The Times outline the authorities’ surveillance ambitions. Credit...The New York Times",
         "imgcredlink": "xxxx",
         "img": "xxxx",
-        "video": "https://vp.nyt.com/video/2022/06/17/101070_1_21vi-china-takeaways-loop_wg_720p.mp4",
+        //"video": "https://vp.nyt.com/video/2022/06/17/101070_1_21vi-china-takeaways-loop_wg_720p.mp4",
         "term": "xxxx",
-        "termdef": "xxxx"   
+        "termdef": "xxxx"
     }
     ,
     {
@@ -1949,23 +1949,23 @@ export const newsFeed10 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "10",
-    //     "sort": "2022-06-21",
-    //     "date": "21 June 2022",
-    //     "accessed": "21 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://threatpost.com/fancy-bear-nuke-threat-lure/180056/",
+        "title": "Fancy Bear Uses Nuke Threat Lure to Exploit 1-Click Bug",
+        "desc": "The attacks by the Russia-linked APT are tied the Russian and Ukraine war, according to researchers at Malwarebytes Threat Intelligence. They report that Fancy Bear is pushing malicious documents weaponized with the exploit for Follina (CVE-2022-30190)",
+        "week": "10",
+        "sort": "2022-06-23",
+        "date": "23 June 2022",
+        "accessed": "25 June 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "abstract-bomb-scull-sad-cross-scull.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
     //     "url": "xxxx",
@@ -2003,22 +2003,22 @@ export const newsFeed10 = [
 ];
 
 export const newsFeed11 = [
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "11",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    {
+        "url": "https://www.tripwire.com/state-of-security/security-data-protection/cyber-security/how-to-protect-remote-workforce-from-cyberattack/",
+        "title": "How to Protect Your Remote Workforce from a Cyberattack",
+        "desc": "Earlier this year, an industry report stated that 79% of businesses remain concerned about the security risks of an increasingly remote workforce...Organizations must update their cybersecurity strategy continually to stay current.",
+        "week": "11",
+        "sort": "2022-06-26",
+        "date": "26 June 2022",
+        "accessed": "28 June 2022",
+        "author": "TRIPWIRE GUEST AUTHORS",
+        "authlink": "https://www.tripwire.com/state-of-security/contributors/tripwire-guest-authors/",
+        "imgcred": "Shared by Dunamis from the BYUI CSA",
+        "imgcredlink": "https://www.tripwire.com/state-of-security/security-data-protection/cyber-security/how-to-protect-remote-workforce-from-cyberattack/",
+        "img": "How-to-Protect-Your-Remote-Workforce-from-a-Cyberattack.jpg",
+        "term": "Cybersecurity Strategy",
+        "termdef": "A high-level plan for how your organization will secure its assets during the next three to five years. Obviously, because technology and cyber threats can both change unpredictably, you'll almost certainly have to update your strategy sooner than three years from now. A cybersecurity strategy isn't meant to be perfect; it's a strongly educated guess as to what you should do. Your strategy should evolve as your organization and the world around you evolve"
+    }
     // ,
     // {
     //     "url": "xxxx",
