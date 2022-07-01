@@ -32,9 +32,9 @@ h1, h2, h3, h4, h5, h6, .title {
 
 h3 { font-size: 1rem !important; }
 
-h5 {
-  font-size: .7rem;
-}
+h4 { font-size: .85rem !important; background: #222 !important;}
+
+h5 { font-size: .7rem; }
 
 #text, footer {
   color:#e7e5e5 !important;
@@ -44,6 +44,13 @@ h5 {
   padding: 0;
   margin: 0;
   color:magenta;
+}
+
+.overlay {
+  background: #111 !important;
+  border-radius: 10px 10px 0 0;
+  min-height: 60px;
+  color: #0f9fff;
 }
 
 a {
@@ -117,7 +124,7 @@ h3 {
 .flipcard {
   background: #222b2f;
   width: 280px;
-  height: 280px;
+  height: 325px;
   border-radius: 10px;
   perspective: 1000px;
   margin: 2% auto;
@@ -141,22 +148,23 @@ h3 {
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 10px;
+  border-radius: 10px !important;
   width: 280px;
-  height: 280px;
+  height: 325px;
 }
 
-.flipcard-front, .flipcard-front h3 {
+.flipcard-front, .flipcard-front h4 {
   background: black;
-  max-height: 300px;
+  max-height: 325px;
   margin: 0 auto;
+  border: 2px solid #222;
   border-radius: 10px 10px 0 0;
 }
 
 .flipcard-front img {
   top: 35px;
   width: 280px;
-  max-height: 215px;
+  max-height: 205px;
   margin: 0 auto;
   padding: 0;
   object-fit: contain;
@@ -172,7 +180,7 @@ h3 {
 
 .flipcard-back p {
   padding: 4%;
-  font-size: .7rem;
+  font-size: .75rem;
 }
 
 .flipcard-back {

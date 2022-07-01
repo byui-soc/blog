@@ -101,7 +101,7 @@ function createNav(array, id) {
             menu += `<div class="flipcard">`;
             menu += `<div class="flipcard-inner">`;
             menu += `<div class="flipcard-front">`;
-            menu += `<div><h3 class="overlay">${element.title}</h3>`;
+            menu += `<div><h4 class="overlay">${element.title}</h4>`;
             if (element.video) {
               // menu += `<video width="200" height="200" controls><source src="${element.video}" type="video/mp4">Your browser does not support the video tag. </video>`;
             } else {
