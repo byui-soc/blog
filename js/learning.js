@@ -429,13 +429,13 @@ export const learning = [
     }
     // ,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://cyber.org/initiatives/project-access",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "xxxx",
     //     "sort": "2022-06-01",
     //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
+    //     "accessed": "30 June 2022",
     //     "author": "xxxx",
     //     "authlink": "xxxx",
     //     "imgcredlink": "xxxx",

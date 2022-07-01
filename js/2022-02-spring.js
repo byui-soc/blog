@@ -2036,26 +2036,77 @@ export const newsFeed11 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
+    ,
+    {
+        "url": "https://arstechnica.com/information-technology/2022/06/pro-russia-threat-group-killnet-is-pummeling-lithuania-with-ddos-attacks/",
+        "title": "Pro-Russia threat group Killnet is pummeling Lithuania with DDoS attacks",
+        "desc": "“We continue to hint unequivocally to the Lithuanian authorities that they should immediately withdraw their decision to ban the transit of Russian cargo from the Kaliningrad region to Russia”. It claimed that websites for four airports were crippled. “Thanks to our attacks, they are still available only from Lithuanian IP addresses, and their speed...leaves much to be desired”",
+        "week": "11",
+        "sort": "2022-06-27",
+        "date": "27 June 2022",
+        "accessed": "29 June 2022",
+        "author": "Dan Goodin",
+        "authlink": "https://arstechnica.com/author/dan-goodin/",
+        "imgcred": "Getty Images",
+        "imgcredlink": "xxxx",
+        "img": "data-flood-ddos-800x600.jpeg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://arstechnica.com/information-technology/2022/06/police-linked-to-hacking-campaign-to-frame-indian-activists/",
+        "title": "Police linked to hacking campaign to frame Indian activists",
+        "desc": "Researchers at SentinelOne and nonprofits Citizen Lab and Amnesty International have linked evidence fabrication to a broader hacking operation that targeted hundreds of individuals over nearly a decade, using phishing emails to infect targeted computers with spyware, as well as smartphone hacking tools sold by the Israeli contractor NSO Group.",
+        "week": "11",
+        "sort": "2022-06-17",
+        "date": "17 June 2022",
+        "accessed": "29 June 2022",
+        "author": "Andy Greenberg, Wired.com",
+        "authlink": "https://arstechnica.com/author/wired-com/",
+        "imgcred": "Getty Images",
+        "imgcredlink": "https://www.gettyimages.com/detail/news-photo/bike-rally-by-police-personnel-during-we-make-pune-city-news-photo/857564300",
+        "img": "GettyImages-857564300-800x534.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://www.securityweek.com/cisa-funded-project-enables-students-disabilities-learn-cybersecurity",
+        "title": "CISA-Funded Project Enables Students With Disabilities to Learn Cybersecurity",
+        "desc": "“We are always striving to try and find opportunities for students that help shatter the misconceptions that these students and others have about their blindness and their career prospects,” Carol Jenkins, deputy director of services at the Nebraska Commission for the Blind and Visually Impaired (NCBVI), said.",
+        "week": "11",
+        "sort": "2022-06-28",
+        "date": "28 June 2022",
+        "accessed": "28 June 2022",
+        "author": "Ionut Arghire",
+        "authlink": "https://www.securityweek.com/authors/ionut-arghire",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "Web page b&w.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
+    ,
+    {
+        "url": "https://apnews.com/article/russia-ukraine-technology-norway-government-and-politics-b837c155fde5d9cb4215b77dff9a94f0",
+        "title": "Cyberattack hits Norway, pro-Russian hacker group fingered",
+        "desc": "Norwegian Prime Minister Jonas Gahr Støre said that to his knowledge the attack “has not caused any significant damage.” The distributed-denial-of-service (DDOS) attack targeted a secure national data network forcing the temporary suspension of online services for several hours, the Norwegian National Security Authority said.",
+        "week": "11",
+        "sort": "2022-06-28",
+        "date": "28 June 2022",
+        "accessed": "28 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcred": "The Cyber Wire",
+        "imgcredlink": "https://thecyberwire.com/images/social-media/2022/06/cw-podcast-063022.jpg",
+        "img": "cw-podcast-063022.jpg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     //,
     // {
-    //     "url": "https://arstechnica.com/information-technology/2022/06/pro-russia-threat-group-killnet-is-pummeling-lithuania-with-ddos-attacks/",
-    //     "title": "Pro-Russia threat group Killnet is pummeling Lithuania with DDoS attacks",
-    //     "desc": "xxxx",
-    //     "week": "11",
-    //     "sort": "2022-06-27",
-    //     "date": "27 June 2022",
-    //     "accessed": "29 June 2022",
-    //     "author": "Dan Goodin",
-    //     "authlink": "https://arstechnica.com/author/dan-goodin/",
-    //     "imgcred": "Getty Images",
-    //     "imgcredlink": "xxxx",
-    //     "img": "data-flood-ddos-800x600.jpeg",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "Pro-Russia threat group Killnet is pummeling Lithuania with DDoS attacks",
+    //     "url": "https://threatpost.com/exposed-amazon-photos/180105/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "11",
@@ -2072,7 +2123,7 @@ export const newsFeed11 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.bleepingcomputer.com/news/security/google-workspace-now-alerts-of-critical-changes-to-admin-accounts/",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "11",
@@ -2089,58 +2140,7 @@ export const newsFeed11 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "11",
-    //     "sort": "2022-06-28",
-    //     "date": "28 June 2022",
-    //     "accessed": "28 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "11",
-    //     "sort": "2022-06-28",
-    //     "date": "28 June 2022",
-    //     "accessed": "28 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "11",
-    //     "sort": "2022-06-28",
-    //     "date": "28 June 2022",
-    //     "accessed": "28 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
+    //     "url": "https://gizmodo.com/horizon-bridge-100-million-crypto-bitcoin-north-korea-1849129106",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "11",
