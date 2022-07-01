@@ -3,17 +3,21 @@
 body {
   margin:0;
   padding:0;
-  background:#222b2f 0 0;
+  background:#222 !important;
   color:#eaeaea;
   font-size:16px;
   line-height:1.5;
   font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 }
 
+main, header {
+  background: #222;
+}
+
 #newsfeed-container {
   display: grid;
   grid-template-columns: 1fr;
-  background: #222b2f;
+  background: #222;
   color: #caa851;
 }
 
@@ -21,14 +25,19 @@ h1, h2, h3, h4, h5, h6, .title {
   color: #caa851;
   text-align: center;
   font-weight:normal;
+  background:#222;
   letter-spacing:-0.03em;
   text-shadow:0 1px 1px rgba(249, 236, 236, 0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
 }
 
-h3 { font-size: .8rem; }
+h3 { font-size: 1rem !important; }
 
 h5 {
   font-size: .7rem;
+}
+
+#text, footer {
+  color:#e7e5e5 !important;
 }
 
 .standout {
@@ -137,10 +146,11 @@ h3 {
   height: 280px;
 }
 
-.flipcard-front {
+.flipcard-front, .flipcard-front h3 {
   background: black;
   max-height: 300px;
   margin: 0 auto;
+  border-radius: 10px 10px 0 0;
 }
 
 .flipcard-front img {

@@ -427,23 +427,23 @@ export const learning = [
         "term": "UDP  (User Datagram Protocol)",
         "termdef": "A communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. It speeds up communications by not formally establishing a connection before data is transferred. This allows data to be transferred very quickly, but it can also cause packets to become lost in transit — and create opportunities for exploitation in the form of DDoS attacks."
     }
-    // ,
-    // {
-    //     "url": "https://cyber.org/initiatives/project-access",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "30 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://cyber.org/initiatives/project-access",
+        "title": "Cyber.org - The Academic Initiative of the Cyber Innovation Center",
+        "desc": "While the nation faces a growing need to fill a gap in cyber-workforce shortages, there is a greater need for the nation to address the lack of diversity seen in cyber professions. Project Access aims to support programming options of local and state agencies by offering cyber education opportunities for blind and visually impaired students through immersive experiences that are fully compatible with assistive technology such as screen readers or magnification software. ",
+        "week": "11",
+        "sort": "2022-06-01",
+        "date": "01 June 2022",
+        "accessed": "30 June 2022",
+        "author": "xxxx",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "xxxx",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
     //     "url": "xxxx",
