@@ -72,7 +72,7 @@ a:hover {
   text-align: center;
 }
 
-a.btn {
+a.btn, li a.btn {
   align-items: center;
   text-decoration: none;
   border-radius: 50px;
@@ -194,6 +194,10 @@ h3 {
   width:90%;
   max-width:1000px;
   margin:0 auto
+}
+
+li a .btn {
+  color: #006eb6 !important;
 }
 
 section {
