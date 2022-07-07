@@ -2210,7 +2210,7 @@ export const newsFeed11 = [
 
 export const newsFeed12 = [
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/07/hackers-abusing-brc4-red-team.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "12",
@@ -2227,7 +2227,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/06/google-blocks-dozens-of-malicious.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -2244,7 +2244,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/07/nist-announces-first-four-quantum.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -2261,7 +2261,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/07/openssl-releases-patch-for-high.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -2278,7 +2278,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/07/hive-ransomware-upgrades-to-rust-for.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -2295,7 +2295,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/07/researchers-uncover-malicious-npm.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -2312,7 +2312,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://thehackernews.com/2022/07/pro-china-group-uses-dragonbridge.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
@@ -2329,7 +2329,7 @@ export const newsFeed12 = [
     // }
     //,
     // {
-    //     "url": "xxxx",
+    //     "url": "https://www.cnn.com/2022/07/05/china/china-billion-people-data-leak-intl-hnk/index.html",
     //     "title": "xxxx",
     //     "desc": "xxxx",
     //     "week": "07",
