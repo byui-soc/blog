@@ -6,26 +6,43 @@ import { learning } from "./learning.js";
 // Menu Functions
 import { isElement, writeById, createLink, getFilename, urlExists, getBase, createLMNT, appendNestLMNT, appendLMNT } from './utilities.js';
 
-export const glossaryList = [{"cardlist" : newsFeed03}, {"cardlist":newsFeed04}, { "cardlist":newsFeed05}, {"cardlist":newsFeed06}, { "cardlist" : learning}];
+export const glossaryList = [{"cardlist" : newsFeed03}, {"cardlist":newsFeed04}, { "cardlist":newsFeed05}, {"cardlist":newsFeed06}, {"cardlist":newsFeed07}, {"cardlist":newsFeed08}, {"cardlist":newsFeed09}, {"cardlist":newsFeed10}, {"cardlist":newsFeed11}, {"cardlist":newsFeed12}, { "cardlist" : learning}];
 
 function createGlossaryList(arrayList, id) {
     if (isElement(id)) {
         const container = document.getElementById(id);
         let div = `<div id="glossary">`;
         let termList = [];
+        arrayList.sort();
         arrayList.forEach((el) => {
             el.cardlist.forEach((card) => {
                 if (card.term !== "xxxx") {
                     //console.log("card.term: " + card.term + " card.termdef: " + card.termdef);
-                    termList.push(`${card.term}: ${card.termdef}`);
+                    //termList.push(`${card.term}: ${card.termdef}`);
+                    div += `<div class="flipcard">`;
+                    div += `<div class="flipcard-inner">`;
+                    div += `<div class="flipcard-front">`;
+                    div += `<h2 class="overlay">${card.term}</h2>`;
+                    //div += `<p class="glossary">${term}</p><br>`;
+                    div += `<div class="flipcard-back">`;
+                    div += `<p class='desc date'> ${card.termdef}</p>`;
+                    div += "</div></div></div></div>";
                 }
             });
+            div += "</div>";
         });
-        termList.sort();
-        termList.forEach((term) => {
-            div += `<p class="glossary">${term}</p><br>`;
-        });
-        div += "</div>";
+        //termList.sort();
+        // termList.forEach((term) => {
+        //     div += `<div class="flipcard">`;
+        //     div += `<div class="flipcard-inner">`;
+        //     div += `<div class="flipcard-front">`;
+        //     div += `<div><h2 class="overlay">${card.term}</h2>`;
+        //     div += `<p class="glossary">${term}</p><br>`;
+        //     div += `</div>`;
+        //     div += `<div class="flipcard-back">`;
+        //     div += `<p class='desc date'> ${card.termdef}</p>`;
+        //     div += "</div></div></div>";
+       // });
         container.innerHTML = div;
         return;
     }

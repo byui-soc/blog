@@ -440,27 +440,27 @@ export const learning = [
         "authlink": "xxxx",
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
-        "img": "xxxx",
+        "img": "Web page b&w.png",
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://tryhackme.com/resources/blog/guide-to-king-of-the-hill",
+        "title": "A Guide To King of the Hill",
+        "desc": "A detailed description of what is King of the Hill, how to play it and more importantly, How NOT to play it. You should not use autopwns (Or Any sort of script that automatically hack/harden the box) as that really will defy the purpose of the game. Scripted autopwns which root a box from start to finish are banned from public games. Go wild in private games with your friends.",
+        "week": "12",
+        "sort": "2022-07-07",
+        "date": "29 October 2020",
+        "accessed": "07 July 2022",
+        "author": "MrHolmes",
+        "authlink": "xxxx",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "Stars-and-Mountain-Silhouette-Wide-Presentation.jpg",
+        "term": "Chattr (chattr)",
+        "termdef": "Changes the file attributes on a Linux file system. See:<a href='https://man7.org/linux/man-pages/man1/chattr.1.html'>chattr(1) — Linux manual page</a>"
+    }
     // ,
     // {
     //     "url": "xxxx",
