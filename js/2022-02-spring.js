@@ -1018,40 +1018,6 @@ export const newsFeed07 = [
         "term": "Shodan search",
         "termdef": "(Sentient Hyper-Optimised Data Access Network) is a search engine designed to map and gather information about internet-connected devices and systems. Shodan is sometimes referred to as a search engine for the internet of things (IoT)."
     }
-    //,
-    // {
-    //     "url": "https://thehackernews.com/2022/06/conti-leaks-reveal-ransomware-gangs.html",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "07",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "06",
-    //     "sort": "2022-05-09",
-    //     "date": "09 May 2022",
-    //     "accessed": "09 May 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-    //     "term": "xxxx",
-    //     "termdef": "xxxx"
-    // }
     ,
     {
         "url": "https://www.csoonline.com/article/3662151/linux-malware-is-on-the-rise-6-types-of-attacks-to-look-for.html",
@@ -1360,57 +1326,6 @@ export const newsFeed08 = [
         "term": "CVE",
         "termdef": "xxxx"
     }
-    //,
-    // {
-    //     "url": "https://thehackernews.com/2022/06/even-most-advanced-threats-rely-on.html",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "08",
-    //     "sort": "2022-06-09",
-    //     "date": "09 June 2022",
-    //     "accessed": "09 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
 ];
 
 export const newsFeed09 = [
