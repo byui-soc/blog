@@ -474,8 +474,8 @@ export const learning = [
         "authlink": "xxxx",
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
-        "img": "xxxx",
-        "term": "circle1.png",
+        "img": "circle1.png",
+        "term": "xxxx",
         "termdef": "xxxx"
     }
     ,

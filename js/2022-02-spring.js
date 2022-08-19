@@ -1,4 +1,4 @@
-export const newsFeed03 = [
+export const spring202203 = [
     {
         "url": "https://threatpost.com/dns-bug-millions-routers-iot-risk/179478/",
         "title": "Unpatched DNS Bug Puts Millions of Routers, IoT Devices at Risk",
@@ -197,7 +197,7 @@ export const newsFeed03 = [
     }
 ];
 
-export const newsFeed04 = [
+export const spring202204 = [
     {
         "url": "https://www.securityweek.com/africa-grapples-way-forward-cybercrime",
         "title": "Africa Grapples With Way Forward on Cybercrime",
@@ -234,7 +234,7 @@ export const newsFeed04 = [
     {
         "url": "https://www.securityweek.com/chrome-101-update-patches-high-severity-vulnerabilities",
         "title": "Chrome 101 Update Patches High-Severity Vulnerabilities",
-        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-2022-1633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
+        "desc": "Based on severity ratings and the currently listed bug bounties, the most important of these flaws is CVE-20221633, a high-severity use-after-free in Sharesheet that was reported by Khalil Zhani, who was awarded a $5,000 reward for the find.",
         "week": "04",
         "sort": "2022-05-09",
         "date": "09 May 2022",
@@ -402,7 +402,7 @@ export const newsFeed04 = [
     }
 ];
 
-export const newsFeed05 = [
+export const spring202205 = [
     {
         "url": "https://threatpost.com/apts-overwhelmingly-share-known-vulnerabilities-rather-than-attack-o-days/179657/",
         "title": "APTs Overwhelmingly Share Known Vulnerabilities Rather Than Attack O-Days",
@@ -710,7 +710,7 @@ export const newsFeed05 = [
     }
 ];
 
-export const newsFeed06 = [
+export const spring202206 = [
     {
         "url": "https://www.securityweek.com/hackers-can-pre-hijack-online-accounts-they-are-created-users",
         "title": "Hackers Can 'Pre-Hijack' Online Accounts Before They Are Created by Users",
@@ -984,7 +984,7 @@ export const newsFeed06 = [
     }
 ];
 
-export const newsFeed07 = [
+export const spring202207 = [
     {
         "url": "https://www.zdnet.com/article/how-to-stop-spam-messages-on-your-iphone-with-this-almost-secret-hidden-switch/",
         "title": "How to stop spam messages on your iPhone fast",
@@ -1224,7 +1224,7 @@ export const newsFeed07 = [
     }
 ];
 
-export const newsFeed08 = [
+export const spring202208 = [
     {
         "url": "https://thehackernews.com/2022/06/us-agencies-warn-about-chinese-hackers.html",
         "title": "U.S. Agencies Warn About Chinese Hackers Targeting Telecoms and Network Service Providers",
@@ -1328,7 +1328,7 @@ export const newsFeed08 = [
     }
 ];
 
-export const newsFeed09 = [
+export const spring202209 = [
     {
         "url": "https://www.wired.com/story/tesla-hack-personal-nfc-key-card/",
         "title": "Hackers Can Steal Your Tesla by Creating Their Own Personal Keys",
@@ -1653,7 +1653,7 @@ export const newsFeed09 = [
     // }
 ];
 
-export const newsFeed10 = [
+export const spring202210 = [
     {
         "url": "https://www.nytimes.com/2022/06/17/technology/paige-thompson-capital-one-hack.html",
         "title": "Ex-Amazon Worker Convicted in Capital One Hacking",
@@ -1704,23 +1704,6 @@ export const newsFeed10 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "10",
-    //     "sort": "2022-06-21",
-    //     "date": "21 June 2022",
-    //     "accessed": "21 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-    //     "term": "xxxx",
-    //     "termdef": "xxxx"
-    // }
     ,
     {
         "url": "https://thehackernews.com/2022/06/google-researchers-detail-5-year-old.html",
@@ -1881,43 +1864,9 @@ export const newsFeed10 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "10",
-    //     "sort": "2022-06-21",
-    //     "date": "21 June 2022",
-    //     "accessed": "21 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "10",
-    //     "sort": "2022-06-21",
-    //     "date": "21 June 2022",
-    //     "accessed": "21 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
 ];
 
-export const newsFeed11 = [
+export const spring202211 = [
     {
         "url": "https://www.tripwire.com/state-of-security/security-data-protection/cyber-security/how-to-protect-remote-workforce-from-cyberattack/",
         "title": "How to Protect Your Remote Workforce from a Cyberattack",
@@ -2104,26 +2053,9 @@ export const newsFeed11 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    //,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "11",
-    //     "sort": "2022-06-28",
-    //     "date": "28 June 2022",
-    //     "accessed": "28 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
 ];
 
-export const newsFeed12 = [
+export const spring202212 = [
     {
         "url": "https://thehackernews.com/2022/07/hackers-abusing-brc4-red-team.html",
         "title": "Hackers Abusing BRc4 Red Team Penetration Tool in Attacks to Evade Detection",
@@ -2296,23 +2228,23 @@ export const newsFeed12 = [
     //,
     // {
     //     "url": "https://threatpost.com/healthcare-maui-ransomware/180154/",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
+    //     "title": "U.S. Healthcare Orgs Targeted with Maui Ransomware",
+    //     "desc": "Threat actors from North Korea have been using Maui ransomware since at least May 2021 to target organizations in the healthcare and public health sector, according to a joint advisory issued Wednesday by the Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA) and the Department of the Treasury (Treasury).",
     //     "week": "12",
-    //     "sort": "2022-07-09",
-    //     "date": "09 July 2022",
-    //     "accessed": "09 July 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
+    //     "sort": "2022-07-08",
+    //     "date": "08 July 2022",
+    //     "accessed": "10 July 2022",
+    //     "author": "Elizabeth Montalbano",
+    //     "authlink": "https://threatpost.com/author/elizabethmontalbano/",
     //     "imgcred": "xxxx",
     //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
+    //     "img": "ransomware7-e1636129059903.jpeg",
         // "term": "xxxx",
         // "termdef": "xxxx"
     // }
 ];
 
-export const newsFeed13 = [
+export const spring202213 = [
     // {
     //     "url": "https://threatpost.com/hbillion-records/180125/",
     //     "title": "xxxx",
@@ -2518,7 +2450,7 @@ export const newsFeed13 = [
     // }
 ];
 
-export const newsFeed14 = [
+export const spring202214 = [
     // {
     //     "url": "xxxx",
     //     "title": "xxxx",

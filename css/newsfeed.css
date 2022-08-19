@@ -3,7 +3,7 @@
 body {
   margin:0;
   padding:0;
-  background:#222 !important;
+  background:#222;
   color:#eaeaea;
   font-size:16px;
   line-height:1.5;
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, .title {
   font-weight:normal;
   background:#222;
   letter-spacing:-0.03em;
-  text-shadow:0 1px 1px rgba(249, 236, 236, 0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+  text-shadow:0 1px 1px rgba(201, 199, 199, 0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
 }
 
 h3 { font-size: 1rem !important; }
@@ -83,7 +83,7 @@ a.btn, li a.btn {
   font-size: medium;
 }
 
-.btn:hover {
+li a.btn:hover {
   border: 3px solid #006EB6;
   color: #006EB6;
   background: #eaeaea;
