@@ -22,7 +22,7 @@ function createGlossaryList(arrayList, id) {
                     div += `<div class="flipcard">`;
                     div += `<div class="flipcard-inner">`;
                     div += `<div class="flipcard-front">`;
-                    div += `<h2 class="overlay">${card.term}</h2>`;
+                    //div += `<h2 class="overlay">${card.term}</h2>`;
                     //div += `<p class="glossary">${term}</p><br>`;
                     div += `<div class="flipcard-back">`;
                     div += `<p class='desc date'> ${card.termdef}</p>`;
