@@ -1,22 +1,24 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&family=Handlee&family=Hubballi&family=Nunito:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap'); */
 
 body {
-  margin:0;
-  padding:0;
-  background:#222;
-  color:#eaeaea;
-  font-size:16px;
-  line-height:1.5;
-  font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
-}
-
-main, header {
+  margin: auto;
+  padding: 0;
   background: #222;
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 }
 
-#newsfeed-container {
+main, header, main div.text {
+  background: #222;
+  margin: 2% auto;
+}
+
+#newsfeed-container, .container {
   display: grid;
   grid-template-columns: 1fr;
+  margin: 2% auto;
   background: #222;
   color: #caa851;
 }
@@ -30,6 +32,11 @@ h1, h2, h3, h4, h5, h6, .title {
   text-shadow:0 1px 1px rgba(201, 199, 199, 0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
 }
 
+#terms { display: flex; flex-direction: row; }
+#terms li { white-space: nowrap; margin: 2% auto; list-style-type: none; font-size: .8rem; }
+#terms li a.btn { padding: 5%; }
+#terms li::before { content: none; }
+
 h3 { font-size: 1rem !important; }
 
 h4 { font-size: .85rem !important; background: #222 !important;}
@@ -38,6 +45,17 @@ h5 { font-size: .7rem; }
 
 #text, footer {
   color:#e7e5e5 !important;
+  background: black;
+  padding: 1%;
+}
+
+#weeks {
+  display: flex;
+  flex-direction: row;
+}
+
+#weeks a.btn {
+  margin: 1%; 
 }
 
 .standout {
@@ -70,9 +88,11 @@ a:hover {
 .center {
   align-content: center;
   text-align: center;
+  margin: auto;
 }
 
 a.btn, li a.btn {
+  margin: 5% 0;
   align-items: center;
   text-decoration: none;
   border-radius: 50px;
@@ -105,7 +125,7 @@ h3 {
 
 .desc {
   padding: 0 2%;
-  margin: 0;
+  margin: auto 0;
   color: #eaeaea;
   font-size: .65rem;
 }
@@ -121,14 +141,16 @@ h3 {
   display: flex;
 }
 
+.flex { display: flex; flex-direction: row ;}
+
 .flipcard {
   background: #222b2f;
   width: 280px;
   height: 325px;
   border-radius: 10px;
   perspective: 1000px;
-  margin: 2% auto;
   padding: 0;
+  margin: 2% auto;
 }
 
 .flipcard-inner {
@@ -138,6 +160,7 @@ h3 {
   transition: transform 0.5s;
   transform-style: preserve-3d;
   border-radius: 10px;
+  margin: 2% auto;
 }
 
 .flipcard:hover .flipcard-inner {
@@ -173,12 +196,13 @@ h3 {
 .flipcard-front div.overlay {
   position: absolute;
   color: chartreuse;
+  font-weight: bold;
   font-size: 1.1rem;
   text-align: center;
   max-width: 100%;
 }
 
-.flipcard-back p {
+.flipcard-back p, .flipcard-back ul li.term {
   padding: 4%;
   font-size: .75rem;
 }
@@ -191,9 +215,10 @@ h3 {
 }
 
 .container {
-  width:90%;
-  max-width:1000px;
-  margin:0 auto
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  max-width: 1800px;
 }
 
 li a .btn {
@@ -201,7 +226,6 @@ li a .btn {
 }
 
 section {
-  display:block;
   margin:0 0 20px 0
 }
 
@@ -233,7 +257,7 @@ color: #666
 
 @media screen and (min-width: 690px) {
 
-    #newsfeed-container {
+    #newsfeed-container, .container {
       grid-template-columns: 1fr 1fr;
     }
 
@@ -252,14 +276,26 @@ color: #666
       margin-left: 0
   }
 
-  #newsfeed-container {
+  #newsfeed-container, .container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
 }
+
 
 @media screen and (min-width: 1250px) {
 
-  #newsfeed-container {
+  #newsfeed-container, .container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2% auto;
+  }
+
+}
+
+
+@media screen and (min-width: 1500px) {
+
+  #newsfeed-container, .container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }

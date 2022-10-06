@@ -329,8 +329,8 @@ export const spring202204 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "talos.jpg",
-        "term": "xxxx",
-        "termdef": "xxxx"
+        "term": "spear-phishing",
+        "termdef": "The fraudulent practice of sending emails ostensibly from a known or trusted sender in order to induce targeted individuals to reveal confidential information."
     }
     ,
     {
@@ -656,23 +656,6 @@ export const spring202205 = [
         "img": "cybercrime-jugs.jpg",
         "term": "Ransomware tools",
         "termdef": "Malicious software that cybercriminals use to extort money from companies, nonprofits and other institutions, by encrypting those files and then demanding a ransom for the decryption keys."
-    }
-    ,
-    {
-        "url": "https://www.securityweek.com/hackers-can-pre-hijack-online-accounts-they-are-created-users",
-        "title": "Hackers Can 'Pre-Hijack' Online Accounts Before They Are Created by Users",
-        "desc": "The researchers have analyzed 75 popular services and found that at least 35 of them were vulnerable to one or more account pre-hijacking attacks. The list includes popular social media, cloud storage, video conferencing, and blogging services. Affected vendors were notified between March and September 2021, but many online services could still be vulnerable.",
-        "week": "06",
-        "sort": "2022-05-24",
-        "date": "24 May 2022",
-        "accessed": "24 May 2022",
-        "author": "Eduard Kovacs",
-        "authlink": "https://www.securityweek.com/authors/eduard-kovacs",
-        "imgcred": "xxxx",
-        "imgcredlink": "xxxx",
-        "img": "account_pre_hijacking.png",
-        "term": "Account pre-hijacking",
-        "termdef": "a new class of attacks that can be used to gain access to a targeted account, and can involve federated identity and single sign-on (SSO) services, which allow users to sign up for certain online services using existing accounts registered with companies such as Microsoft, Google and Facebook."
     }
     ,
     {
@@ -1617,40 +1600,6 @@ export const spring202209 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-14",
-    //     "date": "14 June 2022",
-    //     "accessed": "14 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "09",
-    //     "sort": "2022-06-14",
-    //     "date": "14 June 2022",
-    //     "accessed": "14 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
 ];
 
 export const spring202210 = [
@@ -1769,7 +1718,7 @@ export const spring202210 = [
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
         "img": "Cerberus-e1655301432153.jpg",
-        "term": "hacktivist",
+        "term": "Hacktivist",
         "termdef": "Derived from combining the words ‘Hack’ and ‘Activism’, hacktivism is the act of hacking, or breaking into a computer system, for politically or socially motivated purposes. The individual who performs an act of hacktivism is said to be a hacktivist. The hacktivist who does such acts, such as defacing an organization’s website or leaking that organization’s information, aims to send a message through their activities and gain visibility for a cause they are promoting."
     }
     ,
@@ -2075,34 +2024,34 @@ export const spring202212 = [
     ,
     {
         "url": "https://thehackernews.com/2022/06/google-blocks-dozens-of-malicious.html",
-        "title": "xxxx",
+        "title": "Google Blocks Dozens of Malicious Domains Operated by Hack-for-Hire Groups testimage",
         "desc": "xxxx",
         "week": "12",
-        "sort": "2022-06-01",
-        "date": "09 June 2022",
-        "accessed": "09 June 2022",
-        "author": "xxxx",
+        "sort": "2022-06-30",
+        "date": "30 June 2022",
+        "accessed": "30 June 2022",
+        "author": "https://thehackernews.com/p/authors.html",
         "authlink": "xxxx",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEh8m9yPyQTROHzU6yaOfRCvvE1ttZtSWBt7zSs32eXcUBO-f2bI4BWxc5kijrdg3PkPXX-auqTUQK3SOMjcMTJFPZMoFCrVmdJgIbi-lkxlxA6KHu-Yp4t_olUhadq8pdCBhv5tYwFXop_2xUh7z_Te7GLeysZgBDfFf6DCXnLWU1rgtMVzLlHy2IXB/s728-e100/hacker.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
     }
     ,
     {
         "url": "https://thehackernews.com/2022/07/nist-announces-first-four-quantum.html",
-        "title": "xxxx",
+        "title": "NIST Announces First Four Quantum-Resistant Cryptographic Algorithms",
         "desc": "xxxx",
         "week": "12",
-        "sort": "2022-06-01",
-        "date": "09 June 2022",
-        "accessed": "09 June 2022",
-        "author": "xxxx",
-        "authlink": "xxxx",
+        "sort": "2022-07-06",
+        "date": "06 July 2022",
+        "accessed": "06 July 2022",
+        "author": "Ravie Lakshmanan",
+        "authlink": "https://thehackernews.com/p/authors.html",
         "imgcred": "xxxx",
         "imgcredlink": "xxxx",
-        "img": "xxxx",
+        "img": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEi6HFJuu9ztkCdlTidks356McpzwBpNMc3krcAuBrxJqlF7xgK6VnhvJShH8L3QSL-PBOcFDi4y1QrggnSAcFsdr4eD3dqVLGqNR4CGhyH3nf_AEwXeTiCocuVKNK10hjAQM5_6t44QSvMV_DusSu-YbQr_b4LVkHkSrnS4QkwaMTV1erSU0q5clLLS/s728-e1000/encryption.jpg",
         "term": "xxxx",
         "termdef": "xxxx"
     }
@@ -2225,23 +2174,23 @@ export const spring202212 = [
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    //,
-    // {
-    //     "url": "https://threatpost.com/healthcare-maui-ransomware/180154/",
-    //     "title": "U.S. Healthcare Orgs Targeted with Maui Ransomware",
-    //     "desc": "Threat actors from North Korea have been using Maui ransomware since at least May 2021 to target organizations in the healthcare and public health sector, according to a joint advisory issued Wednesday by the Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA) and the Department of the Treasury (Treasury).",
-    //     "week": "12",
-    //     "sort": "2022-07-08",
-    //     "date": "08 July 2022",
-    //     "accessed": "10 July 2022",
-    //     "author": "Elizabeth Montalbano",
-    //     "authlink": "https://threatpost.com/author/elizabethmontalbano/",
-    //     "imgcred": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "img": "ransomware7-e1636129059903.jpeg",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://threatpost.com/healthcare-maui-ransomware/180154/",
+        "title": "U.S. Healthcare Orgs Targeted with Maui Ransomware",
+        "desc": "Threat actors from North Korea have been using Maui ransomware since at least May 2021 to target organizations in the healthcare and public health sector, according to a joint advisory issued Wednesday by the Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA) and the Department of the Treasury (Treasury).",
+        "week": "12",
+        "sort": "2022-07-08",
+        "date": "08 July 2022",
+        "accessed": "10 July 2022",
+        "author": "Elizabeth Montalbano",
+        "authlink": "https://threatpost.com/author/elizabethmontalbano/",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "ransomware7-e1636129059903.jpeg",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
 ];
 
 export const spring202213 = [

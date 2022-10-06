@@ -174,7 +174,7 @@ export const learning = [
     {
         "url": "https://tryhackme.com/room/burpsuiterepeater",
         "title": "Burp Suite: Repeater",
-        "desc": "Learn how to use Repeater to duplicate requests in Burp Suite. Whilst we can craft requests by hand, it would be much more common to simply capture a request in the Proxy, then send that through to Repeater for editing/resending. With a request captured in the proxy, we can send to repeater either by right-clicking on the request and choosing 'Send to Repeater' or Ctrl + R. Switching back to Repeater, we can see that our request is now available.",
+        "desc": "Learn how to use Repeater to duplicate requests in Burp Suite. Whilst we can craft requests by hand, it would be much more common to simply capture a request in the Proxy, then send that through to Repeater for editing/resending. ",
         "week": "xxxx",
         "sort": "2022-05-11",
         "date": "11 May 2022",
@@ -480,14 +480,14 @@ export const learning = [
     }
     ,
     {
-        "url": "xxxx",
-        "title": "xxxx",
-        "desc": "xxxx",
+        "url": "https://www.nytimes.com/2021/03/28/style/tools-protect-your-digital-privacy.html",
+        "title": "Tools to Protect Your Digital Privacy",
+        "desc": "Everything you do online — from browsing to shopping to using social networks — is tracked, typically as behavioral or advertising data. But browser extensions are simple, generally free add-ons that you can use to slow down or break this type of data collection, without completely ruining your experience of using the internet.",
         "week": "xxxx",
         "sort": "2022-06-01",
         "date": "01 June 2022",
         "accessed": "01 June 2022",
-        "author": "Francis Timilehin Jeremiah",
+        "author": "xxxx",
         "authlink": "xxxx",
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
@@ -499,7 +499,7 @@ export const learning = [
     {
         "url": "https://wazuh.com/blog/monitoring-commonly-abused-windows-utilities/",
         "title": "Monitoring commonly abused Windows utilities",
-        "desc": "xxxx",
+        "desc": "This blog post covers how Wazuh can be used to detect when some native Windows utilities are executed on an endpoint. We will attempt to detect when Nltest, BCDedit, Vssadmin, Attrib, and Schtasks are executed in the Windows Command Prompt(cmd). ",
         "week": "xxxx",
         "sort": "2022-06-08",
         "date": "08 June 2022",
@@ -508,27 +508,44 @@ export const learning = [
         "authlink": "xxxx",
         "imgcredlink": "xxxx",
         "imgcred": "xxxx",
-        "img": "xxxx",
+        "img": "https://wazuh.com/uploads/2022/06/Circle.png",
         "term": "xxxx",
         "termdef": "xxxx"
     }
-    // ,
-    // {
-    //     "url": "xxxx",
-    //     "title": "xxxx",
-    //     "desc": "xxxx",
-    //     "week": "xxxx",
-    //     "sort": "2022-06-01",
-    //     "date": "01 June 2022",
-    //     "accessed": "01 June 2022",
-    //     "author": "xxxx",
-    //     "authlink": "xxxx",
-    //     "imgcredlink": "xxxx",
-    //     "imgcred": "xxxx",
-    //     "img": "xxxx",
-        // "term": "xxxx",
-        // "termdef": "xxxx"
-    // }
+    ,
+    {
+        "url": "https://wazuh.com/blog/detecting-and-removing-whispergate-malware/",
+        "title": "Detecting and removing WhisperGate malware",
+        "desc": "WhisperGate is a destructive file-wiper malware that is being used in a campaign targeting Ukrainian organizations. The malware targets Windows devices, corrupts the Master Boot Record (MBR), and the hard disk of the victim endpoint. It is designed to look like ransomware but doesn’t present a ransom recovery mechanism, which renders the device inoperable.",
+        "week": "01",
+        "sort": "2022-07-29",
+        "date": "29 July 2022",
+        "accessed": "29 July 2022",
+        "author": "John Olatunde",
+        "authlink": "https://wazuh.com/?s=John+Olatunde&filter=blog",
+        "imgcred": "xxxx",
+        "imgcredlink": "xxxx",
+        "img": "https://wazuh.com/uploads/2022/07/Detecting-and-removing-WhisperGate-malware-header.png",
+        "term": "WhisperGate",
+        "termdef": "A destructive file-wiper malware that is being used in a campaign targeting Ukrainian organizations. The malware targets Windows devices, corrupts the Master Boot Record (MBR), and the hard disk of the victim endpoint. It is designed to look like ransomware but doesn’t present a ransom recovery mechanism, which renders the device inoperable."
+    }
+    ,
+    {
+        "url": "https://www.freecodecamp.org/news/enhance-nmap-with-python/",
+        "title": "How to Enhance Nmap with Python",
+        "desc": "We will cover the following to illustrate how you can enhance Nmap with Python: <ul><li>Write a small script that can scan all the hosts on the local network, making sure it runs with the proper privileges.</li><li>Enhance Nmap by correlating services with security advisories.</li><li>Convert our scripts into a web-service. Will add basic security (authorization and encryption).</li></ul>",
+        "week": "xxxx",
+        "sort": "2022-02-08",
+        "date": "01 June 2022",
+        "accessed": "01 June 2022",
+        "author": "Jose Vicente Nunez",
+        "authlink": "https://www.freecodecamp.org/news/author/jose-vicente-nunez/",
+        "imgcredlink": "xxxx",
+        "imgcred": "xxxx",
+        "img": "https://www.freecodecamp.org/news/content/images/size/w2000/2022/02/home_nmap.png",
+        "term": "xxxx",
+        "termdef": "xxxx"
+    }
     // ,
     // {
     //     "url": "xxxx",
